@@ -294,45 +294,43 @@
 					</td>	
 					<td>
 						<button class="btn-social hidden-phone" style="margin-bottom:4px;min-width:90px" onClick="openURL('https://twitter.com/SherwoodPkMall')">
-	<table role="presentation" width="100%">
-		<tr>
-			<td width="44px">
-
-					<div>
- 					<img alt="Icon_twitter" src="/system/icon_images/94/original/icon_twitter.png?1406915839" />
-					</div>
-			</td>
-			<td align="left" style="padding-top:3px">
-				<div class="visible-desktop">Follow on Twitter</div>
-				<div class="visible-tablet">Follow</div>
-			</td>
-		</tr>
-	</table>
-</button>
-<button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('https://twitter.com/SherwoodPkMall')">
-	<div><img alt="Icon_twitter_grey" src="/assets/icon_twitter_grey-6877157923dcd7a386bfcb1b35518c95.png" /></div>
-</button>
+                        	<table role="presentation" width="100%">
+                        		<tr>
+                        			<td width="44px">
+                    					<div>
+                         					<img alt="Icon_twitter" src="/system/icon_images/94/original/icon_twitter.png?1406915839" />
+                    					</div>
+                        			</td>
+                        			<td align="left" style="padding-top:3px">
+                        				<div class="visible-desktop">Follow on Twitter</div>
+                        				<div class="visible-tablet">Follow</div>
+                        			</td>
+                        		</tr>
+                        	</table>
+                        </button>
+                        <button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('https://twitter.com/SherwoodPkMall')">
+                        	<div><img alt="Icon_twitter_grey" src="/assets/icon_twitter_grey-6877157923dcd7a386bfcb1b35518c95.png" /></div>
+                        </button>
 					</td>	
 					<td>
 						<button class="btn-social hidden-phone" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
-	<table role="presentation" width="100%">
-		<tr>
-			<td width="44px">
-
-					<div>
- 					<img alt="Pinterest" src="/system/icon_images/95/original/pinterest.png?1406915839" />
-					</div>
-			</td>
-			<td align="left" style="padding-top:3px">
-				<div class="visible-desktop">Follow on Pinterest</div>
-				<div class="visible-tablet">Pinterest</div>
-			</td>
-		</tr>
-	</table>
-</button>
-<button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
-	<div><img alt="Icon_pinterest_grey" src="/assets/icon_pinterest_grey-33fda0c1208c6fd0ade1c5605da2f045.png" /></div>
-</button>
+                        	<table role="presentation" width="100%">
+                        		<tr>
+                        			<td width="44px">
+                    					<div>
+                         					<img alt="Pinterest" src="/system/icon_images/95/original/pinterest.png?1406915839" />
+                    					</div>
+                        			</td>
+                        			<td align="left" style="padding-top:3px">
+                        				<div class="visible-desktop">Follow on Pinterest</div>
+                        				<div class="visible-tablet">Pinterest</div>
+                        			</td>
+                        		</tr>
+                        	</table>
+                        </button>
+                        <button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
+                        	<div><img alt="Icon_pinterest_grey" src="/assets/icon_pinterest_grey-33fda0c1208c6fd0ade1c5605da2f045.png" /></div>
+                        </button>
 					</td>	
 					<td>
 						<button class="btn-social hidden-phone" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
