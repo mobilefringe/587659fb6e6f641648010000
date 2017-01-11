@@ -570,6 +570,7 @@ button{
 
 .dropdown {
     position: relative;
+    display: block;
 }
 .btn-nav {
     margin: 0px;
