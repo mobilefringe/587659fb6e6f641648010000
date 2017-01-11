@@ -210,54 +210,52 @@
                                         <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('https://twitter.com/SherwoodPkMall')">
                                         	<div><img alt="Icon_twitter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484161773000/icon_twitter.png" /></div>
                                         </button>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<button class="btn-social hidden-phone" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
-	<table role="presentation" width="100%">
-		<tr>
-			<td width="44px">
-
-					<div>
- 					<img alt="Pinterest" src="/system/icon_images/95/original/pinterest.png?1406915839" />
-					</div>
-			</td>
-			<td align="left" style="padding-top:3px">
-				<div class="visible-desktop">Follow on Pinterest</div>
-				<div class="visible-tablet">Pinterest</div>
-			</td>
-		</tr>
-	</table>
-</button>
-<button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
-	<div><img alt="Icon_pinterest_grey" src="/assets/icon_pinterest_grey-33fda0c1208c6fd0ade1c5605da2f045.png" /></div>
-</button>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<button class="btn-social hidden-phone" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
-	<table role="presentation" width="100%">
-		<tr>
-			<td width="44px">
-
-					<div>
- 					<img alt="Icon_instagram" src="/system/icon_images/190/original/icon_instagram.png?1406919036" />
-					</div>
-			</td>
-			<td align="left" style="padding-top:3px">
-				<div class="visible-desktop">Follow on Instagram</div>
-				<div class="visible-tablet">Instagram</div>
-			</td>
-		</tr>
-	</table>
-</button>
-<button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
-	<div><img alt="Icon_instagram_grey" src="/assets/icon_instagram_grey-2c11530f3f228ef1fc15bae10cd0292d.png" /></div>
-</button>
-							</td>
-						</tr>
+							        </td>
+						        </tr>
+						        <tr>
+        							<td>
+        								<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
+                                        	<table role="presentation" width="100%">
+                                        		<tr>
+                                        			<td width="44px">
+                                        				<div>
+                                         					<img alt="Pinterest" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484161822000/icon_pinterest.png" />
+                                        				</div>
+                                        			</td>
+                                        			<td align="left" style="padding-top:3px">
+                                        				<div class="visible-desktop">Follow on Pinterest</div>
+                                        				<div class="visible-tablet">Pinterest</div>
+                                        			</td>
+                                        		</tr>
+                                        	</table>
+                                        </button>
+                                        <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
+                                        	<div><img alt="Icon_pinterest_grey" src="/assets/icon_pinterest_grey-33fda0c1208c6fd0ade1c5605da2f045.png" /></div>
+                                        </button>
+							        </td>
+						        </tr>
+        						<tr>
+        							<td>
+        								<button class="btn-social hidden-phone" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
+                                        	<table role="presentation" width="100%">
+                                        		<tr>
+                                        			<td width="44px">
+                                        				<div>
+                                         					<img alt="Icon_instagram" src="/system/icon_images/190/original/icon_instagram.png?1406919036" />
+                                        				</div>
+                                        			</td>
+                                        			<td align="left" style="padding-top:3px">
+                                        				<div class="visible-desktop">Follow on Instagram</div>
+                                        				<div class="visible-tablet">Instagram</div>
+                                        			</td>
+                                        		</tr>
+                                        	</table>
+                                        </button>
+                                        <button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
+                                        	<div><img alt="Icon_instagram_grey" src="/assets/icon_instagram_grey-2c11530f3f228ef1fc15bae10cd0292d.png" /></div>
+                                        </button>
+							        </td>
+						        </tr>
 						<tr>
 							<td>
 								<button class="btn-social hidden-phone" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
