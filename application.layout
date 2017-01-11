@@ -108,17 +108,18 @@
     	<!--Top Nav Dynamic-->
     	<div class="top_nav hidden-xs custom_dropdown">
     	    <div class="container-fluid trim_screen">  
-    	        <div class="row-fluid"> 
-    	            <ul>
-    	                <li class="dropdown col-md-2">  
+    	        <div class="row-fluid">  
+                    <li class="col-md-2 dropdown">  
     	          	    <button class="btn-nav" data-toggle="dropdown">Stores</button> 
     	             	<ul class="dropdown-menu bottom" style="left:0%">
     	             	    <div class="arrow" style="left:38%"></div>
     	                    <li><a href='/stores' target='_self'><span>Store Directory</span></a></li>
     	                </ul>  
     	            </li>
-                    <li class="col-md-2 btn-nav"><div><a href='/pages/sherwood-gift-cards' target='_self'><span>Gift Cards</span></a></div></li>
-                    <li class="dropdown col-md-2">  
+                    <li class="col-md-2 btn-nav">
+                        <div><a href='/pages/sherwood-gift-cards' target='_self'><span>Gift Cards</span></a></div>
+                    </li>
+                    <li class="col-md-2 dropdown">  
     	          	    <button class="btn-nav" data-toggle="dropdown">What&#x27;s On</button> 
     	             	<ul class="dropdown-menu bottom" style="left:-25%">
     	             		<div class="arrow" style=""></div>
@@ -128,7 +129,7 @@
     	            </li>
                     <li class="col-md-2 btn-nav"><div><a href='/guest_services' target='_self'><span>Our Services</span></a></div></li>
                     <li class="col-md-2 btn-nav"><div><a href='/jobs' target='_self'><span>Jobs</span></a></div></li>
-                    <li class="dropdown col-md-2">  
+                    <li class="col-md-2 dropdown">  
     	          	    <button class="btn-nav" data-toggle="dropdown">About Us</button> 
 	             	    <ul class="dropdown-menu bottom" style="left:-50%">
 	             	        <div class="arrow" style="left:65%"></div>
@@ -137,9 +138,7 @@
                             <li><a href='/about#contact' target='_self'><span>Contact Us</span></a></li>
                             <li><a href='http://www.primarisreit.com/' target='_blank'><span>About Primaris</span></a></li>
 	                    </ul>  
-    	            </li>    
-    	            </ul>
-                    
+    	            </li>
     	        </div>  
     	    </div>  
     	</div>
