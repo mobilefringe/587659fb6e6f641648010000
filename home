@@ -201,8 +201,8 @@
                                         				</div>
                                         			</td>
                                         			<td align="left" style="padding-top:3px">
-                                        				<div class="visible-desktop">Follow on Twitter</div>
-                                        				<div class="visible-tablet">Follow</div>
+                                        				<div class="visible-lg-block">Follow on Twitter</div>
+                                        				<div class="visible-md-block">Follow</div>
                                         			</td>
                                 		        </tr>
                                 	        </table>
@@ -223,8 +223,8 @@
                                         				</div>
                                         			</td>
                                         			<td align="left" style="padding-top:3px">
-                                        				<div class="visible-desktop">Follow on Pinterest</div>
-                                        				<div class="visible-tablet">Pinterest</div>
+                                        				<div class="visible-lg-block">Follow on Pinterest</div>
+                                        				<div class="visible-md-block">Pinterest</div>
                                         			</td>
                                         		</tr>
                                         	</table>
@@ -245,8 +245,8 @@
                                         				</div>
                                         			</td>
                                         			<td align="left" style="padding-top:3px">
-                                        				<div class="visible-desktop">Follow on Instagram</div>
-                                        				<div class="visible-tablet">Instagram</div>
+                                        				<div class="visible-lg-block">Follow on Instagram</div>
+                                        				<div class="visible-md-block">Instagram</div>
                                         			</td>
                                         		</tr>
                                         	</table>
@@ -267,8 +267,8 @@
                                         				</div>
                                         			</td>
                                         			<td align="left" style="padding-top:3px">
-                                        				<div class="visible-desktop">Sign-up to Newsletter</div>
-                                        				<div class="visible-tablet">Sign-up</div>
+                                        				<div class="visible-lg-block">Sign-up to Newsletter</div>
+                                        				<div class="visible-md-block">Sign-up</div>
                                         			</td>
                                         		</tr>
                                         	</table>
