@@ -143,8 +143,10 @@
     	    </div>  
     	</div>
     </header>
-    <section>
-        {{yield}}
+    <section class="content_area">
+        <div class="trim_screen">
+            {{yield}}    
+        </div>
     </section>
     <footer>
         <!--Bottom Nav Dynamic-->
