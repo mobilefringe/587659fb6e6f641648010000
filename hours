@@ -231,7 +231,7 @@
 	
 		<div class="row-fluid visible-md" >
 			<div class="thumbnails">
-				<div class="span4">
+				<div class="col-md-4">
 					<a href='http://sherwood.primariscms.com/pages/sherwood-gift-cards'>
                         <div class="thumbnail">
                             <img alt="Websitegraphics-giftcards" src="/system/feature_images/37/original/WebsiteGraphics-GiftCards.png?1479238173" />
@@ -243,7 +243,7 @@
                         </div>
                     </a>
 				</div>
-				<div class="span4">
+				<div class="col-md-4">
 					<a href='http://www.sherwoodparkmall.com/promotions'>
                         <div class="thumbnail">
                             <img alt="Websitegraphics-salespromo" src="/system/feature_images/38/original/WebsiteGraphics-SalesPromo.png?1480624958" />
@@ -255,7 +255,7 @@
                         </div>
                     </a>
 				</div>
-				<div class="span4">
+				<div class="col-md-4">
 					<a href='http://www.sherwoodparkmall.com/events'>
                         <div class="thumbnail">
                             <img alt="Websitegraphics-events" src="/system/feature_images/39/original/WebsiteGraphics-Events.png?1479238197" />
