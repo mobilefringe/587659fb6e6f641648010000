@@ -256,35 +256,33 @@
                                         </button>
 							        </td>
 						        </tr>
-						<tr>
-							<td>
-								<button class="btn-social hidden-phone" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
-	<table role="presentation" width="100%">
-		<tr>
-			<td width="44px">
-
-					<div>
- 					<img alt="Icon_newsletter_grey-565bbf204dc3a25395e7a906d8041153_copy" src="/system/icon_images/98/original/icon_newsletter_grey-565bbf204dc3a25395e7a906d8041153_copy.png?1454601034" />
-					</div>
-			</td>
-			<td align="left" style="padding-top:3px">
-				<div class="visible-desktop">Sign-up to Newsletter</div>
-				<div class="visible-tablet">Sign-up</div>
-			</td>
-		</tr>
-	</table>
-</button>
-<button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
-	<div><img alt="Icon_newsletter_grey" src="/assets/icon_newsletter_grey-565bbf204dc3a25395e7a906d8041153.png" /></div>
-</button>
-							</td>
-						</tr>
-
-					</table>
-					</div>
-				</li>
-            </ul>
-</div>
+        						<tr>
+        							<td>
+        								<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
+                                        	<table role="presentation" width="100%">
+                                        		<tr>
+                                        			<td width="44px">
+                                        				<div>
+                                         					<img alt="Icon_newsletter_grey-565bbf204dc3a25395e7a906d8041153_copy" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484161869000/icon_newsletter.png" />
+                                        				</div>
+                                        			</td>
+                                        			<td align="left" style="padding-top:3px">
+                                        				<div class="visible-desktop">Sign-up to Newsletter</div>
+                                        				<div class="visible-tablet">Sign-up</div>
+                                        			</td>
+                                        		</tr>
+                                        	</table>
+                                        </button>
+                                        <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
+                                        	<div><img alt="Icon_newsletter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484161869000/icon_newsletter.png" /></div>
+                                        </button>
+							        </td>
+						        </tr>
+					        </table>
+					    </div>
+				    </li>
+                </ul>
+            </div>
             
             
             
