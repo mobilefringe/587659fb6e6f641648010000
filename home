@@ -39,7 +39,7 @@
                             </ul>  
                         </div>
                     </td>
-            		<td class='hidden-phone' style='padding-left:6px;padding-top:24px;padding-bottom:24px'>
+            		<td class='hidden-xs' style='padding-left:6px;padding-top:24px;padding-bottom:24px'>
             			<button class="btn-3" style="margin-bottom:4px">
             			<table role="presentation">
             				<tr>
