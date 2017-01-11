@@ -116,8 +116,8 @@
     	                    <li><a href='/stores' target='_self'><span>Store Directory</span></a></li>
     	                </ul>  
     	            </li>
-                    <li class="col-md-2 btn-nav">
-                        <div><a href='/pages/sherwood-gift-cards' target='_self'><span>Gift Cards</span></a></div>
+                    <li class="col-md-2 ">
+                        <div class="btn-nav"><a href='/pages/sherwood-gift-cards' target='_self'><span>Gift Cards</span></a></div>
                     </li>
                     <li class="col-md-2 dropdown">  
     	          	    <button class="btn-nav" data-toggle="dropdown">What&#x27;s On</button> 
