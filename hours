@@ -161,70 +161,67 @@
 						<tr>
 							<td>
 								<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
-	<table role="presentation" width="100%">
-		<tr>
-			<td width="44px">
-
-					<div>
- 					<img alt="Pinterest" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169222000/icon_pinterest_grey.png"/>
-					</div>
-			</td>
-			<td align="left" style="padding-top:3px">
-				<div class="visible-desktop">Follow on Pinterest</div>
-				<div class="visible-tablet">Pinterest</div>
-			</td>
-		</tr>
-	</table>
-</button>
-<button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
-	<div><img alt="Icon_pinterest_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169222000/icon_pinterest_grey.png"/></div>
-</button>
+                                	<table role="presentation" width="100%">
+                                		<tr>
+                                			<td width="44px">
+                                				<div>
+                                 					<img alt="Pinterest" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169222000/icon_pinterest_grey.png"/>
+                                				</div>
+                                			</td>
+                                			<td align="left" style="padding-top:3px">
+                                				<div class="visible-desktop">Follow on Pinterest</div>
+                                				<div class="visible-tablet">Pinterest</div>
+                                			</td>
+                                		</tr>
+                                	</table>
+                                </button>
+                                <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
+                                	<div><img alt="Icon_pinterest_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169222000/icon_pinterest_grey.png"/></div>
+                                </button>
 							</td>
 						</tr>
 						<tr>
 							<td>
-								<button class="btn-social hidden-phone" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
-	<table role="presentation" width="100%">
-		<tr>
-			<td width="44px">
-
-					<div>
- 					<img alt="Icon_instagram" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169275000/icon_instagram_grey.png"/>
-					</div>
-			</td>
-			<td align="left" style="padding-top:3px">
-				<div class="visible-desktop">Follow on Instagram</div>
-				<div class="visible-tablet">Instagram</div>
-			</td>
-		</tr>
-	</table>
-</button>
-<button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
-	<div><img alt="Icon_instagram_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169275000/icon_instagram_grey.png"/></div>
-</button>
+								<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
+                                	<table role="presentation" width="100%">
+                                		<tr>
+                                			<td width="44px">
+                            					<div>
+                                 					<img alt="Icon_instagram" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169275000/icon_instagram_grey.png"/>
+                            					</div>
+                                			</td>
+                                			<td align="left" style="padding-top:3px">
+                                				<div class="visible-desktop">Follow on Instagram</div>
+                                				<div class="visible-tablet">Instagram</div>
+                                			</td>
+                                		</tr>
+                                	</table>
+                                </button>
+                                <button class="btn-social visible-xs" style="margin-bottom:4px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
+                                	<div><img alt="Icon_instagram_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169275000/icon_instagram_grey.png"/></div>
+                                </button>
 							</td>
 						</tr>
 						<tr>
 							<td>
-								<button class="btn-social hidden-phone" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
-	<table role="presentation" width="100%">
-		<tr>
-			<td width="44px">
-
-					<div>
- 					<img alt="Icon_newsletter" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png" />
-					</div>
-			</td>
-			<td align="left" style="padding-top:3px">
-				<div class="visible-desktop">Sign-up to Newsletter</div>
-				<div class="visible-tablet">Sign-up</div>
-			</td>
-		</tr>
-	</table>
-</button>
-<button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
-	<div><img alt="Icon_newsletter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png" /></div>
-</button>
+								<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
+                                	<table role="presentation" width="100%">
+                                		<tr>
+                                			<td width="44px">
+                            					<div>
+                                 					<img alt="Icon_newsletter" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png" />
+                            					</div>
+                                			</td>
+                                			<td align="left" style="padding-top:3px">
+                                				<div class="visible-desktop">Sign-up to Newsletter</div>
+                                				<div class="visible-tablet">Sign-up</div>
+                                			</td>
+                                		</tr>
+                                	</table>
+                                </button>
+                                <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
+                                	<div><img alt="Icon_newsletter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png" /></div>
+                                </button>
 							</td>
 						</tr>
 					</table>
