@@ -384,7 +384,7 @@
 </div>
 <div class="hours_bottom_nav hidden-phone">
 	<div class="container-fluid trim_screen">
-		<div class="row-fluid  " >
+		<div class="row-fluid">
 			<div class="col-md-4">
 				<table role="presentation" width='100%'>
 					<tr>
