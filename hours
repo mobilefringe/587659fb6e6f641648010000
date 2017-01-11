@@ -1,0 +1,410 @@
+<div class="container-fluid">
+    <div class="row-fluid" id="special">
+		<div class="span9 content_space">
+		<h1>Centre Hours</h1>
+    	<h2>Regular Hours</h2>
+    	<div class="rounded-corners">
+    				<div class="drop-down-row">
+    			<table width="100%" border="0">
+    				<tr>
+    					<td align="left" style="font-weight:bold">Sunday</td>
+    					<td align="right">12:00pm -  5:00pm</td>
+    				</tr>
+    			</table>
+    			</div>
+    				<div class="drop-down-row">
+    			<table width="100%" border="0">
+    				<tr>
+    					<td align="left" style="font-weight:bold">Monday</td>
+    					<td align="right"> 9:30am -  9:00pm</td>
+    				</tr>
+    			</table>
+    			</div>
+    				<div class="drop-down-row">
+    			<table width="100%" border="0">
+    				<tr>
+    					<td align="left" style="font-weight:bold">Tuesday</td>
+    					<td align="right"> 9:30am -  9:00pm</td>
+    				</tr>
+    			</table>
+    			</div>
+    				<div class="drop-down-row-today">
+    			<table width="100%" border="0">
+    				<tr>
+    					<td align="left" style="font-weight:bold">Wednesday</td>
+    					<td align="right"> 9:30am -  9:00pm</td>
+    				</tr>
+    			</table>
+    			</div>
+    				<div class="drop-down-row">
+    			<table width="100%" border="0">
+    				<tr>
+    					<td align="left" style="font-weight:bold">Thursday</td>
+    					<td align="right"> 9:30am -  9:00pm</td>
+    				</tr>
+    			</table>
+    			</div>
+    				<div class="drop-down-row">
+    			<table width="100%" border="0">
+    				<tr>
+    					<td align="left" style="font-weight:bold">Friday</td>
+    					<td align="right"> 9:30am -  9:00pm</td>
+    				</tr>
+    			</table>
+    			</div>
+    				<div class="drop-down-row">
+    			<table width="100%" border="0">
+    				<tr>
+    					<td align="left" style="font-weight:bold">Saturday</td>
+    					<td align="right"> 9:30am -  5:30pm</td>
+    				</tr>
+    			</table>
+    			</div>
+    	</div>
+<div class="line_break">&nbsp;</div>
+
+
+
+	
+	<div class="row-fluid">
+		<h2 class="span9">Holiday Hours &amp; Closures</h2>
+	</div>
+	
+<div class="rounded-corners">
+		<div class="drop-down-row">
+			<table width="100%">
+				<tr>
+					<td align="left">
+					<table>
+						<tr>
+							<td style="font-weight:bold">
+							New Years Day
+							</td>
+						</tr>
+						<tr>
+							<td>
+							Jan 01
+							</td>
+						</tr>
+					</table>    
+					</td>
+					<td align="right">
+						Closed
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="drop-down-row">
+			<table width="100%">
+				<tr>
+					<td align="left">
+					<table>
+						<tr>
+							<td style="font-weight:bold">
+							Family Day
+							</td>
+						</tr>
+						<tr>
+							<td>
+							Feb 20
+							</td>
+						</tr>
+					</table>    
+					</td>
+					<td align="right">
+						12:00pm -  5:00pm
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="drop-down-row">
+			<table width="100%">
+				<tr>
+					<td align="left">
+					<table>
+						<tr>
+							<td style="font-weight:bold">
+							Good Friday
+							</td>
+						</tr>
+						<tr>
+							<td>
+							Apr 14
+							</td>
+						</tr>
+					</table>    
+					</td>
+					<td align="right">
+						12:00pm -  5:00pm
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="drop-down-row">
+			<table width="100%">
+				<tr>
+					<td align="left">
+					<table>
+						<tr>
+							<td style="font-weight:bold">
+							Easter Sunday
+							</td>
+						</tr>
+						<tr>
+							<td>
+							Apr 16
+							</td>
+						</tr>
+					</table>    
+					</td>
+					<td align="right">
+						Closed
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="drop-down-row">
+			<table width="100%">
+				<tr>
+					<td align="left">
+					<table>
+						<tr>
+							<td style="font-weight:bold">
+							Victoria Day
+							</td>
+						</tr>
+						<tr>
+							<td>
+							May 22
+							</td>
+						</tr>
+					</table>    
+					</td>
+					<td align="right">
+						12:00pm -  5:00pm
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="drop-down-row">
+			<table width="100%">
+				<tr>
+					<td align="left">
+					<table>
+						<tr>
+							<td style="font-weight:bold">
+							Canada Day
+							</td>
+						</tr>
+						<tr>
+							<td>
+							Jul 01
+							</td>
+						</tr>
+					</table>    
+					</td>
+					<td align="right">
+						12:00pm -  5:00pm
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="drop-down-row">
+			<table width="100%">
+				<tr>
+					<td align="left">
+					<table>
+						<tr>
+							<td style="font-weight:bold">
+							Heritage Day
+							</td>
+						</tr>
+						<tr>
+							<td>
+							Aug 07
+							</td>
+						</tr>
+					</table>    
+					</td>
+					<td align="right">
+						12:00pm -  5:00pm
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="drop-down-row">
+			<table width="100%">
+				<tr>
+					<td align="left">
+					<table>
+						<tr>
+							<td style="font-weight:bold">
+							Labour Day
+							</td>
+						</tr>
+						<tr>
+							<td>
+							Sep 04
+							</td>
+						</tr>
+					</table>    
+					</td>
+					<td align="right">
+						12:00pm -  5:00pm
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="drop-down-row">
+			<table width="100%">
+				<tr>
+					<td align="left">
+					<table>
+						<tr>
+							<td style="font-weight:bold">
+							Thanks Giving Day
+							</td>
+						</tr>
+						<tr>
+							<td>
+							Oct 09
+							</td>
+						</tr>
+					</table>    
+					</td>
+					<td align="right">
+						12:00pm -  5:00pm
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="drop-down-row">
+			<table width="100%">
+				<tr>
+					<td align="left">
+					<table>
+						<tr>
+							<td style="font-weight:bold">
+							Remembrance Day
+							</td>
+						</tr>
+						<tr>
+							<td>
+							Nov 11
+							</td>
+						</tr>
+					</table>    
+					</td>
+					<td align="right">
+						12:00pm -  5:00pm
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="drop-down-row">
+			<table width="100%">
+				<tr>
+					<td align="left">
+					<table>
+						<tr>
+							<td style="font-weight:bold">
+							Christmas Eve
+							</td>
+						</tr>
+						<tr>
+							<td>
+							Dec 24
+							</td>
+						</tr>
+					</table>    
+					</td>
+					<td align="right">
+						12:00pm -  5:00pm
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="drop-down-row">
+			<table width="100%">
+				<tr>
+					<td align="left">
+					<table>
+						<tr>
+							<td style="font-weight:bold">
+							Christmas Day
+							</td>
+						</tr>
+						<tr>
+							<td>
+							Dec 25
+							</td>
+						</tr>
+					</table>    
+					</td>
+					<td align="right">
+						Closed
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="drop-down-row">
+			<table width="100%">
+				<tr>
+					<td align="left">
+					<table>
+						<tr>
+							<td style="font-weight:bold">
+							Boxing Day
+							</td>
+						</tr>
+						<tr>
+							<td>
+							Dec 26
+							</td>
+						</tr>
+					</table>    
+					</td>
+					<td align="right">
+						 9:30am -  6:00pm
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+		<div class="drop-down-row">
+			<table width="100%">
+				<tr>
+					<td align="left">
+					<table>
+						<tr>
+							<td style="font-weight:bold">
+							New Years Eve 
+							</td>
+						</tr>
+						<tr>
+							<td>
+							Dec 31
+							</td>
+						</tr>
+					</table>    
+					</td>
+					<td align="right">
+						12:00pm -  5:00pm
+					</td>
+				</tr>
+			</table>
+		</div>
+		
+</div>
