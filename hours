@@ -382,3 +382,93 @@
 	    
     </div>
 </div>
+<div class="hours_bottom_nav hidden-phone">
+	<div class="container-fluid trim_screen">
+		<div class="row-fluid  " >
+			<div class="col-md-4">
+				<table role="presentation" width='100%'>
+					<tr>
+						<td align="left" height="22px">
+							<div class="hours_day"><a href="/hours">Sunday</a></div>
+						</td>
+						<td align="left" height="22px">
+							<div class="hours_hour"><a href="/hours">12:00pm -  5:00pm</a></div>
+						</td>
+					</tr>
+					<tr>
+						<td align="left" height="22px">
+							<div class="hours_day"><a href="/hours">Monday</a></div>
+						</td>
+						<td align="left" height="22px">
+							<div class="hours_hour"><a href="/hours"> 9:30am -  9:00pm</a></div>
+						</td>
+					</tr>
+					<tr>
+						<td align="left" height="22px">
+							<div class="hours_day"><a href="/hours">Tuesday</a></div>
+						</td>
+						<td align="left" height="22px">
+							<div class="hours_hour"><a href="/hours"> 9:30am -  9:00pm</a></div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md-4">
+				<table role="presentation" width='100%'>
+					<tr>
+						<td align="left" height="22px">
+							<div class="hours_day"><a href="/hours">Wednesday</a></div>
+						</td>
+						<td align="left" height="22px">
+							<div class="hours_hour"><a href="/hours"> 9:30am -  9:00pm</a></div>
+						</td>
+					</tr>
+					<tr>
+						<td align="left" height="22px">
+							<div class="hours_day"><a href="/hours">Thursday</a></div>
+						</td>
+						<td align="left" height="22px">
+							<div class="hours_hour"><a href="/hours"> 9:30am -  9:00pm</a></div>
+						</td>
+					</tr>
+					<tr>
+						<td align="left" height="22px">
+							<div class="hours_day"><a href="/hours">Friday</a></div>
+						</td>
+						<td align="left" height="22px">
+							<div class="hours_hour"><a href="/hours"> 9:30am -  9:00pm</a></div>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="col-md-4">
+				<table role="presentation" width='100%'>
+					<tr>
+						<td align="left" height="22px">
+							<div class="hours_day"><a href="/hours">Saturday</a></div>
+						</td>
+						<td align="left" height="22px">
+							<div class="hours_hour"><a href="/hours"> 9:30am -  5:30pm</a></div>
+						</td>
+					</tr>
+					<tr>
+						<td align="left" height="22px">
+							<div class="hours_day"><a href="/hours">New Years Day</a></div>
+						</td>
+						<td align="left" height="22px">
+							<div class="hours_hour"><a href="/hours">Closed</a></div>
+						</td>
+					</tr>
+					<tr>
+						<td align="left" height="22px">
+							<div class="hours_day" style="font-style:italic;font-weight:normal"><a href="/hours">View all hours</a></div>
+						</td>
+						<td align="left" height="22px">
+							
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+</div>
