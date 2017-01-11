@@ -7,6 +7,7 @@ body{
     padding-right: 0px;
 }
 li {
+    list-style_type: none;
 	font-size: 11pt;
 	font-weight:normal;
 }
