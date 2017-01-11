@@ -116,7 +116,7 @@
 					<tr>
 						<td>
 							<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
-	                            <div role="presentation" width="100%">
+	                            
 		                            
                             			
                             			
@@ -128,7 +128,7 @@
                             				<div class="visible-tablet">Like</div>
                             			</div>
                             	
-                            	</div>
+                            
                             </button>
                             <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
                             	<div><img alt="Icon_facebook_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169250000/icon_facebook_grey.png"/></div>
