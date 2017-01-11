@@ -145,11 +145,13 @@
     	    </div>  
     	</div>
     </header>
+    
     <section class="content_area">
         <div class="trim_screen">
             {{yield}}    
         </div>
     </section>
+    
     <footer>
         <!--Bottom Nav Dynamic-->
     	<div class="bottom_nav hidden-phone">
