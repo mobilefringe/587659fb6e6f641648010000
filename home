@@ -230,7 +230,7 @@
                                         	</table>
                                         </button>
                                         <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
-                                        	<div><img alt="Icon_pinterest_grey" src="/assets/icon_pinterest_grey-33fda0c1208c6fd0ade1c5605da2f045.png" /></div>
+                                        	<div><img alt="Icon_pinterest_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484161822000/icon_pinterest.png" /></div>
                                         </button>
 							        </td>
 						        </tr>
