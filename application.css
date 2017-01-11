@@ -542,19 +542,15 @@ button{
 #zoom_container_store{
 	height: 468px;
 }
-
 .coordinates{
 	color:#4E4E4E;
 	font-size: 12px;
 }
-
 .light_border{
 	border: 1px;
 	border-style: solid;
 	border-color: #CDCDCD;
 }
-
-
 .pin{
 	display: none;
 	position:absolute;
@@ -564,13 +560,8 @@ button{
 	left:100px;
 	top:40px;
 }
-
-
-
-
 .dropdown {
     position: relative;
-    display: block;
 }
 .btn-nav {
     margin: 0px;
