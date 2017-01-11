@@ -36,74 +36,110 @@
 
 <body>
     <header>
+        <!--Header -->
         <div class="header">
-		<div class="container-fluid trim_screen">
-			<div class="row-fluid">
-				<div class="header_logo pull-left" >
-    				<a href="/"><img alt="Property Logo" src="/system/logo_images/13/original/sherwoodpark-logo.png?1406915700"/></a>
-				</div>
-
-				<div class="navbar navbar-inverse hidden-xs">
-					<form class="navbar-search pull-right" action="/search_results/show">
-						<label for="search_bar" style="display:none;">Search Site</label>
-						<input id="search_bar" name="q" type="text" class="search-query input-block-level" placeholder="Search Site">
-					</form>
-				</div>
-				
-		      	<li class="dropdown custom_dropdown visible-xs-block">
-		      	    <button type="button" data-toggle="dropdown" class="btn-prime pull-right" style="height:38px;width:50px;"><img alt="Icon_3bars" src="/assets/icon_3bars-7db4ffe0fb2f271fe99a2fce05f7a8c1.png" /></button>
-                    <ul class="dropdown-menu bottom pull-right" style="width:100%;left:0%;margin-top:55px">
-    			  		<div class="arrow" style="left:93%"></div>
-    						<div style="height:40px">
-    							<form class="" style="margin-left:5px;margin-right:5px;margin-top:5px;" action="/search_results/show">
-    								<label for="mobile_search_bar" style="display:none;">Search Site</label>
-    								<input id="mobile_search_bar" name="q" type="text" class="search-query input-block-level" placeholder = "Search Site">
-    							</form>
-    						</div>
-			            	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
-			            		<a href='' target='_self'>Stores</a>
-			  				</div>
-						    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-	            			    <a href='/stores' target='_self'>Store Directory</a>
-	  						</div>
-							<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
-			            		<a href='/pages/sherwood-gift-cards' target='_self'>Gift Cards</a>
-			  				</div>
-			            	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
-			            		<a href='/events' target='_self'>What&#x27;s On</a>
-			  				</div>
-						    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-	            			    <a href='/events' target='_self'>What&#x27;s On</a>
-	  						</div>
-						    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-	            			    <a href='/promotions' target='_self'>Promotions</a>
-	  						</div>
-							<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
-			            		<a href='/guest_services' target='_self'>Our Services</a>
-			  				</div>
-							<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
-			            		<a href='/jobs' target='_self'>Jobs</a>
-			  				</div>
-			            	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
-			            		<a href='' target='_self'>About Us</a>
-			  				</div>
-						    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-	            			    <a href='/about' target='_self'>Parking &amp; Directions</a>
-	  						</div>
-						    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-	            			    <a href='/hours' target='_self'>Centre Hours</a>
-	  						</div>
-						    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-	            			    <a href='/about#contact' target='_self'>Contact Us</a>
-	  						</div>
-						    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
-	            			    <a href='http://www.primarisreit.com/' target='_blank'>About Primaris</a>
-	  						</div>
-                        </ul>  
-    		        </li>
-    			</div>
-    		</div>
-    	</div>	
+    		<div class="container-fluid trim_screen">
+    			<div class="row-fluid">
+    				<div class="header_logo pull-left" >
+        				<a href="/"><img alt="Property Logo" src="/system/logo_images/13/original/sherwoodpark-logo.png?1406915700"/></a>
+    				</div>
+    
+    				<div class="navbar navbar-inverse hidden-xs">
+    					<form class="navbar-search pull-right" action="/search_results/show">
+    						<label for="search_bar" style="display:none;">Search Site</label>
+    						<input id="search_bar" name="q" type="text" class="search-query input-block-level" placeholder="Search Site">
+    					</form>
+    				</div>
+    				
+    		      	<li class="dropdown custom_dropdown visible-xs-block">
+    		      	    <button type="button" data-toggle="dropdown" class="btn-prime pull-right" style="height:38px;width:50px;"><img alt="Icon_3bars" src="/assets/icon_3bars-7db4ffe0fb2f271fe99a2fce05f7a8c1.png" /></button>
+                        <ul class="dropdown-menu bottom pull-right" style="width:100%;left:0%;margin-top:55px">
+        			  		<div class="arrow" style="left:93%"></div>
+        						<div style="height:40px">
+        							<form class="" style="margin-left:5px;margin-right:5px;margin-top:5px;" action="/search_results/show">
+        								<label for="mobile_search_bar" style="display:none;">Search Site</label>
+        								<input id="mobile_search_bar" name="q" type="text" class="search-query input-block-level" placeholder = "Search Site">
+        							</form>
+        						</div>
+    			            	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+    			            		<a href='' target='_self'>Stores</a>
+    			  				</div>
+    						    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+    	            			    <a href='/stores' target='_self'>Store Directory</a>
+    	  						</div>
+    							<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+    			            		<a href='/pages/sherwood-gift-cards' target='_self'>Gift Cards</a>
+    			  				</div>
+    			            	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+    			            		<a href='/events' target='_self'>What&#x27;s On</a>
+    			  				</div>
+    						    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+    	            			    <a href='/events' target='_self'>What&#x27;s On</a>
+    	  						</div>
+    						    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+    	            			    <a href='/promotions' target='_self'>Promotions</a>
+    	  						</div>
+    							<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+    			            		<a href='/guest_services' target='_self'>Our Services</a>
+    			  				</div>
+    							<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+    			            		<a href='/jobs' target='_self'>Jobs</a>
+    			  				</div>
+    			            	<div class="mobile_menu_header" style="margin-left:5px;margin-right:5px;">
+    			            		<a href='' target='_self'>About Us</a>
+    			  				</div>
+    						    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+    	            			    <a href='/about' target='_self'>Parking &amp; Directions</a>
+    	  						</div>
+    						    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+    	            			    <a href='/hours' target='_self'>Centre Hours</a>
+    	  						</div>
+    						    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+    	            			    <a href='/about#contact' target='_self'>Contact Us</a>
+    	  						</div>
+    						    <div class="mobile_menu_item" style="margin-left:5px;margin-right:5px;">
+    	            			    <a href='http://www.primarisreit.com/' target='_blank'>About Primaris</a>
+    	  						</div>
+                            </ul>  
+        		        </li>
+        			</div>
+        		</div>
+        	</div>
+    	<!--Top Nav Dynamic-->
+    	<div class="top_nav hidden-phone custom_dropdown">
+    	    <div class="container-fluid trim_screen">  
+    	        <div class="row-fluid">  
+                    <li class="dropdown span2">  
+    	          	    <button class="btn-nav" data-toggle="dropdown">Stores</button> 
+    	             	<ul class="dropdown-menu bottom" style="left:0%">
+    	             	    <div class="arrow" style="left:38%"></div>
+    	                    <li><a href='/stores' target='_self'><span>Store Directory</span></a></li>
+    	                </ul>  
+    	            </li>
+                    <li class="span2 btn-nav"><div><a href='/pages/sherwood-gift-cards' target='_self'><span>Gift Cards</span></a></div></li>
+                    <li class="dropdown span2">  
+    	          	    <button class="btn-nav" data-toggle="dropdown">What&#x27;s On</button> 
+    	             	<ul class="dropdown-menu bottom" style="left:-25%">
+    	             		<div class="arrow" style=""></div>
+    	                    <li><a href='/events' target='_self'><span>What&#x27;s On</span></a></li>
+    	                    <li><a href='/promotions' target='_self'><span>Promotions</span></a></li>
+    	                </ul>  
+    	            </li>
+                    <li class="span2 btn-nav"><div><a href='/guest_services' target='_self'><span>Our Services</span></a></div></li>
+                    <li class="span2 btn-nav"><div><a href='/jobs' target='_self'><span>Jobs</span></a></div></li>
+                    <li class="dropdown span2">  
+    	          	    <button class="btn-nav" data-toggle="dropdown">About Us</button> 
+	             	    <ul class="dropdown-menu bottom" style="left:-50%">
+	             	        <div class="arrow" style="left:65%"></div>
+                            <li><a href='/about' target='_self'><span>Parking &amp; Directions</span></a></li>
+                            <li><a href='/hours' target='_self'><span>Centre Hours</span></a></li>
+                            <li><a href='/about#contact' target='_self'><span>Contact Us</span></a></li>
+                            <li><a href='http://www.primarisreit.com/' target='_blank'><span>About Primaris</span></a></li>
+	                    </ul>  
+    	            </li>
+    	        </div>  
+    	    </div>  
+    	</div>
     </header>
     <section id="content">
         <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
