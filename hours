@@ -116,19 +116,19 @@
 					<tr>
 						<td>
 							<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
-	                            
-		                            
-                            			
-                            			
+	                            <table role="presentation" width="100%">
+		                            <tr>
+                            			<td width="44px">
+                            				<div>
                              					<img alt="Icon_facebook" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169250000/icon_facebook_grey.png"/>
-                            				
-                            		
-                            			<div align="left" style="padding-top:3px">
+                            				</div>
+                            			</td>
+                            			<td align="left" style="padding-top:3px">
                             				<div class="visible-desktop">Like on Facebook</div>
                             				<div class="visible-tablet">Like</div>
-                            			</div>
-                            	
-                            
+                            			</td>
+                            		</tr>
+                            	</table>
                             </button>
                             <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
                             	<div><img alt="Icon_facebook_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169250000/icon_facebook_grey.png"/></div>
