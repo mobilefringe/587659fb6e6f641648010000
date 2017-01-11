@@ -1,7 +1,6 @@
-<div class="container_fluid">
+<div class="container-fluid">
     <div class="row-fluid">
 		<div class="col-md-12">
-		
 		    <table role="presentation" width='100%' border='0px'>
             	<tr>
             		<td valign='middle' width='50%'>
@@ -123,9 +122,9 @@
         	    </table>
             </div>
             
-            <div class="row-fluid visible-desktop">
-                <div class="thumbnails">
-					<div class="col-md-3">
+            <div class="row-fluid visible-desktop" >
+                <ul class="thumbnails">
+					<li class="col-md-3">
 						<a href='http://sherwood.primariscms.com/pages/sherwood-gift-cards'>
                             <div class="thumbnail">
 	                            <img alt="Websitegraphics-giftcards" src="//www.sherwoodparkmall.com/system/feature_images/37/original/WebsiteGraphics-GiftCards.png?1479238173" />
@@ -136,8 +135,8 @@
                                 </div>
                             </div>
                         </a>
-					</div>
-					<div class="col-md-3">
+					</li>
+					<li class="col-md-3">
 						<a href='http://www.sherwoodparkmall.com/promotions'>
                             <div class="thumbnail">
                                 <img alt="Websitegraphics-salespromo" src="//www.sherwoodparkmall.com/system/feature_images/38/original/WebsiteGraphics-SalesPromo.png?1480624958" />
@@ -148,8 +147,8 @@
                                 </div>
                             </div>
                         </a>
-					</div>
-					<div class="col-md-3">
+					</li>
+					<li class="col-md-3">
 						<a href='http://www.sherwoodparkmall.com/events'>
                             <div class="thumbnail">
                         	    <img alt="Websitegraphics-events" src="//www.sherwoodparkmall.com/system/feature_images/39/original/WebsiteGraphics-Events.png?1479238197" />
@@ -160,8 +159,8 @@
                                 </div>
                             </div>
                         </a>
-					</div>
-    				<div class="col-md-3">
+					</li>
+    				<li class="col-md-3">
     				    <div>
     					    <table role="presentation" width="100%">
         						<tr>
@@ -281,22 +280,23 @@
 						        </tr>
 					        </table>
 					    </div>
-				    </div>
-				    
-				    
-                </div>
+				    </li>
+                </ul>
             </div>
             
             
             
-        </div>
+            
+            
+            
+            
+            
     </div>
 </div>
 <script>
     $(document).ready(function(e){
         // init(e);
-        // loadMallDataCached(renderPage);
-        renderPage();
+        loadMallDataCached(renderPage);
     })
     
     function renderPage(){
