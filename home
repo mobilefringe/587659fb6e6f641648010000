@@ -123,7 +123,7 @@
             </div>
             
             <div class="row-fluid visible-desktop" >
-                <ul class="thumbnails">
+                <div class="thumbnails">
 					<li class="col-md-3">
 						<a href='http://sherwood.primariscms.com/pages/sherwood-gift-cards'>
                             <div class="thumbnail">
@@ -281,7 +281,7 @@
 					        </table>
 					    </div>
 				    </li>
-                </ul>
+                </div>
             </div>
             
             
