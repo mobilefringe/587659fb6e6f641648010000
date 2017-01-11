@@ -43,7 +43,7 @@
     				<a href="/"><img alt="Property Logo" src="/system/logo_images/13/original/sherwoodpark-logo.png?1406915700"/></a>
 				</div>
 
-				<div class="navbar navbar-inverse hidden-phone">
+				<div class="navbar navbar-inverse hidden-xs">
 					<form class="navbar-search pull-right" action="/search_results/show">
 						<label for="search_bar" style="display:none;">Search Site</label>
 						<input id="search_bar" name="q" type="text" class="search-query input-block-level" placeholder="Search Site">
