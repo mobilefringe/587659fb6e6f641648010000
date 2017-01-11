@@ -567,23 +567,24 @@ button{
 
 
 
-
-
+.dropdown {
+    position: relative;
+}
 .btn-nav {
-  text-align:center;
-  margin:0px;
-  padding-left:10px;
-  padding-right:10px;
-  width:100%;
-  height:48px;
-  border:none;
-  background-image:url('top_nav_background.png');
-  background-repeat:repeat-x;
-  background-size:100% 100%;
-  background-color: #000000;
-  color:#FFFFFF;
-  font-size: 11pt;
-  font-weight:bold;
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    height: 48px;
+    background-image: url('top_nav_background.png');
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    font-size: 11pt;
+    font-weight: bold;
+    text-align: center;
 }
 
 
@@ -596,9 +597,7 @@ button{
 	background-repeat:repeat-x;
 	outline-style:none;
 }
-.dropdown {
-    position: relative;
-}
+
 .custom_dropdown .dropdown-menu{
 	margin-top:11px;
 	background-color:#79151C;
