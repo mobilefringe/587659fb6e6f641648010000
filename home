@@ -6,7 +6,7 @@
             		<td valign='middle' width='50%'>
             			<div class="welcome_message">Welcome to Sherwood Park Mall</div>
             		</td>
-            		<td class='hidden-phone' style='padding-right:6px;padding-top:24px;padding-bottom:24px' >
+            		<td class='hidden-xs' style='padding-right:6px;padding-top:24px;padding-bottom:24px' >
                 		<div class="dropdown custom_dropdown">
                             <button class="btn-3" data-toggle="dropdown" style="margin-bottom:4px">
                         	    <table role="presentation" width="100%">
