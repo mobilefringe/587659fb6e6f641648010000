@@ -327,11 +327,11 @@ button{
 }
 
 .top_nav{
-	border-top:solid;
+	border-top: solid;
 	border-top-color: #808080; 
 	border-top-width: 1px;
-	height:48px;
-	background-repeat:repeat-x;
+	height: 48px;
+	background-repeat: repeat-x;
 	background-color: transparent;
 }
 
@@ -596,7 +596,9 @@ button{
 	background-repeat:repeat-x;
 	outline-style:none;
 }
-
+.dropdown {
+    position: relative;
+}
 .custom_dropdown .dropdown-menu{
 	margin-top:11px;
 	background-color:#79151C;
