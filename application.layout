@@ -186,7 +186,7 @@
     			</div>
     		</div>
     	</div>
-    	<div class="footer visible-phone">
+    	<div class="footer visible-xs-block">
     		<div class="container-fluid trim_screen">
     			<div class="row-fluid">
     			  	<div class="span12"><nobr><a href="http://www.primarisreit.com" target="_blank">Primaris</a></nobr></div>
