@@ -115,7 +115,7 @@
 					</tr>
 					<tr>
 						<td>
-							<button class="btn-social hidden-phone" style="margin-bottom:4px;min-width:90px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
+							<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
 	                            <table role="presentation" width="100%">
 		                            <tr>
                             			<td width="44px">
@@ -130,14 +130,14 @@
                             		</tr>
                             	</table>
                             </button>
-                            <button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
+                            <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
                             	<div><img alt="Icon_facebook_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169250000/icon_facebook_grey.png"/></div>
                             </button>
 						</td>
 					</tr>
 					<tr>
 						<td>
-							<button class="btn-social hidden-phone" style="margin-bottom:4px;min-width:90px" onClick="openURL('https://twitter.com/SherwoodPkMall')">
+							<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('https://twitter.com/SherwoodPkMall')">
                             	<table role="presentation" width="100%">
                             		<tr>
                             			<td width="44px">
@@ -153,14 +153,14 @@
                             		</tr>
                             	</table>
                             </button>
-                            <button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('https://twitter.com/SherwoodPkMall')">
+                            <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('https://twitter.com/SherwoodPkMall')">
                             	<div><img alt="Icon_twitter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169234000/icon_twitter_grey.png" /></div>
                             </button>
 						</td>
 						</tr>
 						<tr>
 							<td>
-								<button class="btn-social hidden-phone" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
+								<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
 	<table role="presentation" width="100%">
 		<tr>
 			<td width="44px">
@@ -176,7 +176,7 @@
 		</tr>
 	</table>
 </button>
-<button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
+<button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
 	<div><img alt="Icon_pinterest_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169222000/icon_pinterest_grey.png"/></div>
 </button>
 							</td>
