@@ -334,51 +334,49 @@
 					</td>	
 					<td>
 						<button class="btn-social hidden-phone" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
-	<table role="presentation" width="100%">
-		<tr>
-			<td width="44px">
-
-					<div>
- 					<img alt="Icon_instagram" src="/system/icon_images/190/original/icon_instagram.png?1406919036" />
-					</div>
-			</td>
-			<td align="left" style="padding-top:3px">
-				<div class="visible-desktop">Follow on Instagram</div>
-				<div class="visible-tablet">Instagram</div>
-			</td>
-		</tr>
-	</table>
-</button>
-<button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
-	<div><img alt="Icon_instagram_grey" src="/assets/icon_instagram_grey-2c11530f3f228ef1fc15bae10cd0292d.png" /></div>
-</button>
+                        	<table role="presentation" width="100%">
+                        		<tr>
+                        			<td width="44px">
+                    					<div>
+                         					<img alt="Icon_instagram" src="/system/icon_images/190/original/icon_instagram.png?1406919036" />
+                    					</div>
+                        			</td>
+                        			<td align="left" style="padding-top:3px">
+                        				<div class="visible-desktop">Follow on Instagram</div>
+                        				<div class="visible-tablet">Instagram</div>
+                        			</td>
+                        		</tr>
+                        	</table>
+                        </button>
+                        <button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
+                        	<div><img alt="Icon_instagram_grey" src="/assets/icon_instagram_grey-2c11530f3f228ef1fc15bae10cd0292d.png" /></div>
+                        </button>
 					</td>	
 					<td>
 						<button class="btn-social hidden-phone" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
-	<table role="presentation" width="100%">
-		<tr>
-			<td width="44px">
-
-					<div>
- 					<img alt="Icon_newsletter_grey-565bbf204dc3a25395e7a906d8041153_copy" src="/system/icon_images/98/original/icon_newsletter_grey-565bbf204dc3a25395e7a906d8041153_copy.png?1454601034" />
-					</div>
-			</td>
-			<td align="left" style="padding-top:3px">
-				<div class="visible-desktop">Sign-up to Newsletter</div>
-				<div class="visible-tablet">Sign-up</div>
-			</td>
-		</tr>
-	</table>
-</button>
-<button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
-	<div><img alt="Icon_newsletter_grey" src="/assets/icon_newsletter_grey-565bbf204dc3a25395e7a906d8041153.png" /></div>
-</button>
+                        	<table role="presentation" width="100%">
+                        		<tr>
+                        			<td width="44px">
+                    					<div>
+                         					<img alt="Icon_newsletter_grey-565bbf204dc3a25395e7a906d8041153_copy" src="/system/icon_images/98/original/icon_newsletter_grey-565bbf204dc3a25395e7a906d8041153_copy.png?1454601034" />
+                    					</div>
+                        			</td>
+                        			<td align="left" style="padding-top:3px">
+                        				<div class="visible-desktop">Sign-up to Newsletter</div>
+                        				<div class="visible-tablet">Sign-up</div>
+                        			</td>
+                        		</tr>
+                        	</table>
+                        </button>
+                        <button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
+                        	<div><img alt="Icon_newsletter_grey" src="/assets/icon_newsletter_grey-565bbf204dc3a25395e7a906d8041153.png" /></div>
+                        </button>
 					</td>	
-			</tr>
-		</table>
-</div>	
+			    </tr>
+		    </table>
+        </div>	
 	</div>
-   </div>
+
 </div>
 <div>
 
