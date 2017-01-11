@@ -50,7 +50,7 @@
 					</form>
 				</div>
 				
-		      	<li class="dropdown custom_dropdown visible-phone">
+		      	<li class="dropdown custom_dropdown visible-xs-block">
 		      	    <button type="button" data-toggle="dropdown" class="btn-prime pull-right" style="height:38px;width:50px;"><img alt="Icon_3bars" src="/assets/icon_3bars-7db4ffe0fb2f271fe99a2fce05f7a8c1.png" /></button>
                     <ul class="dropdown-menu bottom pull-right" style="width:100%;left:0%;margin-top:55px">
     			  		<div class="arrow" style="left:93%"></div>
