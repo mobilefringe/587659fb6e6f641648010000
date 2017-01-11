@@ -120,7 +120,7 @@
 		                            <tr>
                             			<td width="44px">
                             				<div>
-                             					<img alt="Icon_facebook" src="/system/icon_images/93/original/icon_facebook.png?1406915839" />
+                             					<img alt="Icon_facebook" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169250000/icon_facebook_grey.png"/>
                             				</div>
                             			</td>
                             			<td align="left" style="padding-top:3px">
@@ -131,7 +131,7 @@
                             	</table>
                             </button>
                             <button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
-                            	<div><img alt="Icon_facebook_grey" src="/assets/icon_facebook_grey-9a3f17cfc0a3bd244bde42992e010224.png" /></div>
+                            	<div><img alt="Icon_facebook_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169250000/icon_facebook_grey.png"/></div>
                             </button>
 						</td>
 					</tr>
