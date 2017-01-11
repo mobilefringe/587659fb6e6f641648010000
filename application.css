@@ -1,3 +1,4 @@
+/* *** PRIMARIS CSS *** */
 body{
 	font-family: Helvetica, sans-serif;
 	font-size: 11pt;
@@ -5,13 +6,10 @@ body{
 	padding-left: 0px;
     padding-right: 0px;
 }
-
-li{
+li {
 	font-size: 11pt;
 	font-weight:normal;
-
 }
-
 h1 {
 	font-size: 28pt;
 	color:#ffffff;
@@ -19,7 +17,6 @@ h1 {
 	padding-bottom:32px;
 	margin:0px;
 }
-
 h2 {
 	color:#FFFFFF;
 	font-size: 18pt;
@@ -29,7 +26,6 @@ h2 {
 	padding-bottom: 15px;
 	line-height:25px;
 }
-
 h3 {
 	color:#79151C;
 	font-size: 12pt;
