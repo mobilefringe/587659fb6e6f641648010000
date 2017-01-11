@@ -269,7 +269,7 @@
 				</div>
             </div>
 		</div>
-    	<div class="row-fluid " >
+    	<div class="row-fluid hidden-lg" >
     		<table role="presentation" width="100%" cellpadding="4px">
     			<tr>
 					<td>
