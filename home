@@ -1,6 +1,6 @@
 <div class="container-fluid">
     <div class="row-fluid">
-		<div class="span12">
+		<div class="col-md-12">
 		    <table role="presentation" width='100%' border='0px'>
             	<tr>
             		<td valign='middle' width='50%'>
