@@ -179,10 +179,10 @@
         <div class="footer hidden-xs">
     	    <div class="container-fluid trim_screen">
     		    <div class="row-fluid">
-    			    <div class="span3"><a href="http://www.primarisreit.com" target="_blank">Primaris</a></div>
-    				<div class="span3">&copy&nbsp;2017&nbsp;Sherwood Park&nbsp;All rights reserved</div>
-    				<div class="span3"><a href="http://overdrivedesign.com" target="_blank">Designed by Overdrive Design</a></div>
-    				<div class="span3"><a href="http://www.mobilefringe.com" target="_blank">Powered by MobileFringe</a></div>
+    			    <div class="col-md-3"><a href="http://www.primarisreit.com" target="_blank">Primaris</a></div>
+    				<div class="col-md-3">&copy&nbsp;2017&nbsp;Sherwood Park&nbsp;All rights reserved</div>
+    				<div class="col-md-3"><a href="http://overdrivedesign.com" target="_blank">Designed by Overdrive Design</a></div>
+    				<div class="col-md-3"><a href="http://www.mobilefringe.com" target="_blank">Powered by MobileFringe</a></div>
     			</div>
     		</div>
     	</div>
