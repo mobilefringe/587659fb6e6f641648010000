@@ -104,22 +104,24 @@
 			            </td>
 		            </tr>
 		            <tr>
-			<td width='100%' style='padding-bottom:24px'>
-				<button class="btn-3 pull-right" align="center">
-					<table role="presentation" width="100%">
-						<tr>
-						<td width="44px">
-							<div><img alt="Icon_phone_semi_trans" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484159662000/icon_phone.png" /></div>
-						</td>
-						<td align="left" style="padding-top:3px">
-							<nobr><a href="tel:780-467-7766">780-467-7766</a></nobr>
-						</td>
-						</tr>
-					</table>
-				</button>
-			</td>
-		</tr>
-	</table>
-</div>
+        			    <td width='100%' style='padding-bottom:24px'>
+        			        <button class="btn-3 pull-right" align="center">
+        					    <table role="presentation" width="100%">
+        						    <tr>
+                						<td width="44px">
+                							<div><img alt="Icon_phone_semi_trans" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484159662000/icon_phone.png" /></div>
+                						</td>
+                						<td align="left" style="padding-top:3px">
+                							<nobr><a href="tel:780-467-7766">780-467-7766</a></nobr>
+                						</td>
+        						    </tr>
+        					    </table>
+        				    </button>
+        			    </td>
+        		    </tr>
+        	    </table>
+            </div>
+            
+            
     </div>
 </div>
