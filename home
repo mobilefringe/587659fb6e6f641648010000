@@ -185,7 +185,7 @@
     		                                    </tr>
     	                                    </table>
                                         </button>
-                                        <button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
+                                        <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
                                         	<div><img alt="Icon_facebook_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484161756000/icon_facebook.png" /></div>
                                         </button>
 							        </td>
