@@ -212,7 +212,7 @@
 			<td width="44px">
 
 					<div>
- 					<img alt="Icon_newsletter_grey-565bbf204dc3a25395e7a906d8041153_copy" src="/system/icon_images/98/original/icon_newsletter_grey-565bbf204dc3a25395e7a906d8041153_copy.png?1454601034" />
+ 					<img alt="Icon_newsletter" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png" />
 					</div>
 			</td>
 			<td align="left" style="padding-top:3px">
@@ -223,7 +223,7 @@
 	</table>
 </button>
 <button class="btn-social visible-phone" style="margin-bottom:4px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
-	<div><img alt="Icon_newsletter_grey" src="/assets/icon_newsletter_grey-565bbf204dc3a25395e7a906d8041153.png" /></div>
+	<div><img alt="Icon_newsletter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png" /></div>
 </button>
 							</td>
 						</tr>
