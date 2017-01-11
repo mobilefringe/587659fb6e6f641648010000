@@ -197,7 +197,7 @@
                                         		<tr>
                                         			<td width="44px">
                                         				<div>
-                                         					<img alt="Icon_twitter" src="/system/icon_images/94/original/icon_twitter.png?1406915839" />
+                                         					<img alt="Icon_twitter" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484161773000/icon_twitter.png" />
                                         				</div>
                                         			</td>
                                         			<td align="left" style="padding-top:3px">
@@ -208,7 +208,7 @@
                                 	        </table>
                                         </button>
                                         <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('https://twitter.com/SherwoodPkMall')">
-                                        	<div><img alt="Icon_twitter_grey" src="/assets/icon_twitter_grey-6877157923dcd7a386bfcb1b35518c95.png" /></div>
+                                        	<div><img alt="Icon_twitter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484161773000/icon_twitter.png" /></div>
                                         </button>
 							</td>
 						</tr>
