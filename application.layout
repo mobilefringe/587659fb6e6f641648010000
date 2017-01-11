@@ -176,7 +176,7 @@
     			</div>
     		</div>
     	</div>
-        <div class="footer hidden-phone">
+        <div class="footer hidden-xs">
     	    <div class="container-fluid trim_screen">
     		    <div class="row-fluid">
     			    <div class="span3"><a href="http://www.primarisreit.com" target="_blank">Primaris</a></div>
