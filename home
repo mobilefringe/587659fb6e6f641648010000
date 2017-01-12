@@ -62,7 +62,7 @@
     						    </div>
         						<div align="left" style="padding-top:3px" id="prop_phone_container">
         						    <script id="prop_phone_template" type="x-tmpl-mustache/text">
-        							    <nobr><a href="tel:{{ prop_phone }}">{{ contact_phone }}</a></nobr>
+        							    <nobr><a href="tel:{{  }}">{{ contact_phone }}</a></nobr>
         						    </script>
         						</div>
         				    </button>
