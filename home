@@ -127,41 +127,43 @@
             <div class="row-fluid visible-desktop" >
                 <div class="thumbnails">
 					<div class="col-xs-12 col-sm-4 col-md-3">
-						<a href='http://sherwood.primariscms.com/pages/sherwood-gift-cards'>
-                            <div class="thumbnail">
-	                            <img alt="Websitegraphics-giftcards" src="//www.sherwoodparkmall.com/system/feature_images/37/original/WebsiteGraphics-GiftCards.png?1479238173" />
-                                <div class="caption">
-                                    <div class="feature_item_name">Gift Cards</div>
-                                    <div class="feature_item_description">It's about what's inside that counts!  </div>
-	                                <div class="read_more">Read More</div>
+					    <script id="banner_template" type="x-tmpl-mustache/text">
+    						<a href='{{ url }}'>
+                                <div class="thumbnail">
+    	                            <img alt="Websitegraphics-giftcards" src="{{ image_url }}" />
+                                    <div class="caption">
+                                        <div class="feature_item_name">{{ name }}</div>
+                                        <div class="feature_item_description">{{ description }}</div>
+    	                                <div class="read_more">Read More</div>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </script>
 					</div>
-					<div class="col-xs-12 col-sm-4 col-md-3">
-						<a href='http://www.sherwoodparkmall.com/promotions'>
-                            <div class="thumbnail">
-                                <img alt="Websitegraphics-salespromo" src="//www.sherwoodparkmall.com/system/feature_images/38/original/WebsiteGraphics-SalesPromo.png?1480624958" />
-                                <div class="caption">
-                                    <div class="feature_item_name">Sales &amp; Promo&#x27;s </div>
-                                    <div class="feature_item_description">Sales & Promotions</div>
-                            	    <div class="read_more">Read More</div>
-                                </div>
-                            </div>
-                        </a>
-					</div>
-					<div class="col-xs-12 col-sm-4 col-md-3">
-						<a href='http://www.sherwoodparkmall.com/events'>
-                            <div class="thumbnail">
-                        	    <img alt="Websitegraphics-events" src="//www.sherwoodparkmall.com/system/feature_images/39/original/WebsiteGraphics-Events.png?1479238197" />
-                                <div class="caption">
-                                    <div class="feature_item_name">What&#x27;s On</div>
-                                    <div class="feature_item_description"></div>
-                                	<div class="read_more">Read More</div>
-                                </div>
-                            </div>
-                        </a>
-					</div>
+					<!--<div class="col-xs-12 col-sm-4 col-md-3">-->
+					<!--	<a href='http://www.sherwoodparkmall.com/promotions'>-->
+     <!--                       <div class="thumbnail">-->
+     <!--                           <img alt="Websitegraphics-salespromo" src="//www.sherwoodparkmall.com/system/feature_images/38/original/WebsiteGraphics-SalesPromo.png?1480624958" />-->
+     <!--                           <div class="caption">-->
+     <!--                               <div class="feature_item_name">Sales &amp; Promo&#x27;s </div>-->
+     <!--                               <div class="feature_item_description">Sales & Promotions</div>-->
+     <!--                       	    <div class="read_more">Read More</div>-->
+     <!--                           </div>-->
+     <!--                       </div>-->
+     <!--                   </a>-->
+					<!--</div>-->
+					<!--<div class="col-xs-12 col-sm-4 col-md-3">-->
+					<!--	<a href='http://www.sherwoodparkmall.com/events'>-->
+     <!--                       <div class="thumbnail">-->
+     <!--                   	    <img alt="Websitegraphics-events" src="//www.sherwoodparkmall.com/system/feature_images/39/original/WebsiteGraphics-Events.png?1479238197" />-->
+     <!--                           <div class="caption">-->
+     <!--                               <div class="feature_item_name">What&#x27;s On</div>-->
+     <!--                               <div class="feature_item_description"></div>-->
+     <!--                           	<div class="read_more">Read More</div>-->
+     <!--                           </div>-->
+     <!--                       </div>-->
+     <!--                   </a>-->
+					<!--</div>-->
     				<div class="col-sm-12 col-md-3">
     				    <div>
     					    <table role="presentation" width="100%">
