@@ -34,7 +34,6 @@
 
     function renderPage(){
         var promos = getPromotionsList();
-        console.log(promos);
         renderPromotions("#promo_container","#promo_template", promos);
     }
 </script>
