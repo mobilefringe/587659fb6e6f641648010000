@@ -329,7 +329,7 @@
         // init(e);
         loadMallDataCached(renderPage);
     })
-    
+    // drop-down-row-today
     function renderPage(){
         var hours = getPropertyHours();
         console.log(hours);
