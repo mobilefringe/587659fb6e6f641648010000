@@ -56,7 +56,7 @@ function renderHomeHours(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(today_hours);    
     $.each(collection, function(key, val) {
-        val.day = moment().date();
+        // val.day = moment().date();
         var d = moment();
         val.month = moment().month();
         val.weekday = moment().format("dddd");
