@@ -60,8 +60,8 @@
     							<div style="width: 44px;">
     							    <img alt="Icon_phone_semi_trans" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484159662000/icon_phone.png" />
     						    </div>
-        						<div align="left" style="padding-top:3px" id="property_phone_container">
-        						    <script id="property_phone_template" type="x-tmpl-mustache/text">
+        						<div align="left" style="padding-top:3px" id="prop_phone_container">
+        						    <script id="prop_phone_template" type="x-tmpl-mustache/text">
         							    <nobr><a href="tel:{{ prop_phone }}">{{ prop_phone }}</a></nobr>
         						    </script>
         						</div>
@@ -296,7 +296,8 @@
     function renderPage(){
         var prop_details = getPropertyDetails();
         // console.log(todays_hours);
-        renderGeneral('#home_hours_container', '#home_hours_template', todays_hours);
+        renderGeneral('#prop_phone_container', '#prop_phone_template', prop_details);
+        
         renderHomeHours();
         renderPropertyPhone();
         var hours = getPropertyHours();
