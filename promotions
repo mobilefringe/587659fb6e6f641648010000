@@ -1,6 +1,6 @@
 <div class="container-fluid">
 	<div class="row-fluid" id="special">
-		<div class="span9 content_space">  
+		<div class="col-md-9 content_space">  
 		    <h1>Promotions</h1>
             <h2>Store Sales &amp; Promotions</h2>
             <ul class="media-list">
