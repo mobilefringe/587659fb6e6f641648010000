@@ -312,11 +312,13 @@
     }
     
     function renderPropertyPhone(container, template, collection){
+        var details = getPropertyDetails();
         var item_list = [];
         var item_rendered = [];
         var template_html = $('#property_phone_template').html();
         Mustache.parse(template_html); 
-        $.each( collection , function( key, val ) {
+        $.each( phone , function( key, val ) {
+            val.prop_phone = details.contact_phone;
             var repo_rendered = Mustache.render(template_html,val);
             item_rendered.push(repo_rendered);
         });
