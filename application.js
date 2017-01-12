@@ -49,17 +49,17 @@ function renderFeatureItems(container, template, collection){
 }
 
 function renderHomeHours(container, template, collection){
-    // var today_hours = getTodaysHours();
+    var today_hours = getTodaysHours();
     var item_list = [];
     var item_rendered = [];
-    var template_html = $(template).html();
+    var template_html = $('#home_hours_template').html();
     Mustache.parse(template_html);   // optional, speeds up future uses
-    // item_list.push(today_hours);    
-    $.each(collection, function(key, val) {
-        // val.day = moment().date();
+    item_list.push(today_hours);    
+    $.each(item_list, function(key, val) {
+        val.day = moment().date();
         var d = moment();
-        // val.month = moment().month();
-        // val.weekday = moment().format("dddd");
+        val.month = moment().month();
+        val.weekday = moment().format("dddd");
         if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
             var open_time = moment(val.open_time).tz(getPropertyTimeZone());
             var close_time = moment(val.close_time).tz(getPropertyTimeZone());
@@ -71,7 +71,7 @@ function renderHomeHours(container, template, collection){
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
-    $(container).html(item_rendered.join(''));
+    $('#home_hours_container').html(item_rendered.join(''));
 }
 
 function renderHours(container, template, collection, type){
