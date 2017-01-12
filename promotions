@@ -3,8 +3,8 @@
 		<div class="col-md-9 content_space">  
 		    <h1>Promotions</h1>
             <h2>Store Sales &amp; Promotions</h2>
-            <ul class="media-list">
-                <li class="media" id="promo_container">
+            <div class="media-list">
+                <div class="media" id="promo_container">
                     <script id="promo_template" type="x-tmpl-mustache/text">
                         <a href="{{ slug }}">
                             <img alt="Promotion" class="media-image media-object pull-left" src="{{ promo_image_url_abs }}"/>
@@ -18,8 +18,8 @@
                             <p>Our Annual Winter Flyer Sale is on now, so come on in and check out our lowest prices of the Season! Visit your closest location to see what we have in store, or browse the flyers below in PDF format.</p>
                         </div>
                     </script>
-                </li>
-            </ul>
+                </div>
+            </div>
         </div>
         
         
