@@ -20,8 +20,8 @@
 
 
 
-            <div class="row-fluid body_content">        
-                <div class="col-md-12">
+            <!--<div class="row-fluid body_content">        -->
+            <!--    <div class="col-md-12">-->
                     <h1>Newsletter</h1>
                     
                     <!-- Flash Call backs -->
@@ -86,8 +86,8 @@
                         <!-- Contest form end-->
                     </div>    
                 </div>
-            </div>
-        </div>
+        <!--    </div>-->
+        <!--</div>-->
         
         
     </div>
