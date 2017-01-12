@@ -61,7 +61,7 @@
 	                <script id="banner_template" type="x-tmpl-mustache/text">
                 		<ul class="slides">
                 		    <li>
-                			    <img alt="Socialmedia-newyears2017-coverphoto" src="{{image_url}}" />
+                			    <img alt="{{name}}" src="{{image_url}}" />
                 			</li>
                 		</ul>
             		</script>
