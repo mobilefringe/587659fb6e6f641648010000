@@ -157,7 +157,7 @@
     	<div class="bottom_nav hidden-phone">
     		<div class="container-fluid trim_screen">
     		    <div class="row-fluid" align="left">
-	                <div class="col-md-2">
+	                <div class="col-sm-2">
 	              	    <table role="presentation">
     						<tr>
     							<th align="left" class="bottom_nav_header">Stores</th>
@@ -170,7 +170,7 @@
 					    </table>
 				    </div>
     				<div class="col-md-2 bottom_nav_header"><a href='/pages/sherwood-gift-cards' target='_self'>Gift Cards</a></div>
-    	                <div class="col-md-2">
+    	                <div class="col-sm-2">
                             <table role="presentation">
         						<tr>
         							<th align="left" class="bottom_nav_header">What&#x27;s On</th>
@@ -187,9 +187,9 @@
     							</tr>
     					    </table>
     					</div>
-						<div class="col-md-2 bottom_nav_header"><a href='/guest_services' target='_self'>Our Services</a></div>
-						<div class="col-md-2 bottom_nav_header"><a href='/jobs' target='_self'>Jobs</a></div>
-		                <div class="col-md-2">
+						<div class="col-sm-2 bottom_nav_header"><a href='/guest_services' target='_self'>Our Services</a></div>
+						<div class="col-sm-2 bottom_nav_header"><a href='/jobs' target='_self'>Jobs</a></div>
+		                <div class="col-sm-2">
 		              	    <table role="presentation">
 								<tr>
 									<th align="left" class="bottom_nav_header">About Us</th>
