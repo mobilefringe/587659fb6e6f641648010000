@@ -124,8 +124,8 @@
                             				</div>
                             			</td>
                             			<td align="left" style="padding-top:3px">
-                            				<div class="visible-desktop">Like on Facebook</div>
-                            				<div class="visible-tablet">Like</div>
+                            				<div class="visible-md-block">Like on Facebook</div>
+                            				<div class="visible-sm-block">Like</div>
                             			</td>
                             		</tr>
                             	</table>
