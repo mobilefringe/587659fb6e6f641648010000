@@ -22,10 +22,10 @@
 		    <div class="row">
 		    <!--<table role="presentation" width='100%' border='0px'>-->
       <!--      	<tr>-->
-            		<div class="col-md-5" valign='middle' width='50%'>
+            		<div class="col-md-6" valign='middle' width='50%'>
             			<div class="welcome_message">Welcome to Sherwood Park Mall</div>
             		</div>
-            		<div class="col-md-7 hidden-xs">
+            		<div class="col-md-6 hidden-xs">
             		    <div class="row">
                 		    <div class="col-md-6 dropdown custom_dropdown">
                                 <button class="btn-3" data-toggle="dropdown" style="margin-bottom:4px">
