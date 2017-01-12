@@ -70,22 +70,24 @@
         		<h2 class="span9">Holiday Hours &amp; Closures</h2>
         	</div>
             <div class="rounded-corners">
-        		<div class="drop-down-row">
-        			<table width="100%">
-        				<tr>
-        					<td align="left">
-        					    <table>
-        				            <tr>
-						                <td style="font-weight:bold">New Years Day</td>
-        						    </tr>
-        						    <tr>
-        							    <td>Jan 01</td>
-        						    </tr>
-        					    </table>    
-        					</td>
-        					<td align="right">Closed</td>
-        				</tr>
-        			</table>
+        		<div class="drop-down-row" id="holiday_container">
+        		    <script id="holiday_template" type="x-tmpl-mustache/text">
+            			<table width="100%">
+            				<tr>
+            					<td align="left">
+            					    <table>
+            				            <tr>
+    						                <td style="font-weight:bold">New Years Day</td>
+            						    </tr>
+            						    <tr>
+            							    <td>Jan 01</td>
+            						    </tr>
+            					    </table>    
+            					</td>
+            					<td align="right">Closed</td>
+            				</tr>
+            			</table>
+        			</script>
         		</div>
         	</div>
         </div>	
