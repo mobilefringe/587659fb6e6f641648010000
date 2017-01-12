@@ -232,16 +232,16 @@
     	<div class="footer visible-xs-block">
     		<div class="container-fluid trim_screen">
     			<div class="row-fluid">
-    			  	<div class="col-md-12"><nobr><a href="//www.primarisreit.com" target="_blank">Primaris</a></nobr></div>
+    			  	<div class="col-sm-12"><nobr><a href="//www.primarisreit.com" target="_blank">Primaris</a></nobr></div>
     			</div>
     			<div class="row-fluid">
-    				<div class="col-md-12">&copy&nbsp;2017&nbsp;Sherwood Park.&nbsp;All rights reserved</div>
+    				<div class="col-sm-12">&copy&nbsp;2017&nbsp;Sherwood Park.&nbsp;All rights reserved</div>
     			</div>
     			<div class="row-fluid">
-    				<div class="col-md-12"><nobr><a href="//overdrivedesign.com" target="_blank">Designed by Overdrive Design</a></nobr></div>
+    				<div class="col-sm-12"><nobr><a href="//overdrivedesign.com" target="_blank">Designed by Overdrive Design</a></nobr></div>
     			</div>
     			<div class="row-fluid">
-    				<div class="col-md-12"><nobr><a href="//www.mobilefringe.com" target="_blank">Powered by MobileFringe</a></nobr></div>
+    				<div class="col-sm-12"><nobr><a href="//www.mobilefringe.com" target="_blank">Powered by MobileFringe</a></nobr></div>
     			</div>
     		</div>
     	</div>
