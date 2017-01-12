@@ -2,6 +2,7 @@
     .hours_title {
         padding-bottom: 8px;
         padding-top: 8px
+        text-align: center;
     }
     .view_hours {
         padding: 5px; 
