@@ -299,7 +299,7 @@
         renderGeneral('#prop_phone_container', '#prop_phone_template', prop_details);
         
         renderHomeHours();
-        renderPropertyPhone();
+
         var hours = getPropertyHours();
         renderHours('#hours_container','#hours_template', hours, 'reg_hours');
         var banners = getBanners();
