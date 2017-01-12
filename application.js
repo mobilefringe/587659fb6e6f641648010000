@@ -145,6 +145,67 @@ function renderHours(container, template, collection, type){
     $(container).html(item_rendered.join(''));
 }
 
+function renderJobs(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    $.each( collection , function( key, val ) {
+        if(val.jobable_type == "Store"){
+            val.store_name = getStoreDetailsByID(val.jobable_id).name;
+            val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
+        }
+        else{
+            val.store_name = "Marlborough Mall";
+        }
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
+        var end = moment(val.end_date).tz(getPropertyTimeZone());
+        val.end_date = end.format("MMM D");
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM D");
+        }
+        else{
+            val.dates = start.format("MMM D") + " - " + end.format("MMM D");
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
+
+function renderJobDetails(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    item_list.push(collection);
+    $.each( item_list , function( key, val ) {
+        if (val.jobable_type == "Store") {
+            var store_details = getStoreDetailsByID(val.jobable_id);
+            val.store_detail_btn = store_details.slug;
+            val.store_name = store_details.name;
+        }
+        else{
+            val.store_name = "Marlborough Mall";
+            
+        }
+        
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
+        var end = moment(val.end_date).tz(getPropertyTimeZone());
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM D")
+        }
+        else{
+            val.dates = start.format("MMM D") + " - " + end.format("MMM D")
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
+
 function renderPromotions(container, template, collection){
     var item_list = [];
     var item_rendered = [];
