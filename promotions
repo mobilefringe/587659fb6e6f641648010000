@@ -5,8 +5,8 @@
             <h2>Store Sales &amp; Promotions</h2>
             <ul class="media-list">
                 <li class="media">
-                    <a href="/promotions/sherwood-morning-sun-health-foods-morning-sun-health-foods-get-your-savings-with-our-winter-flyer-sale">
-                        <img alt="Promotion" class="media-image media-object pull-left" src="/system/promo_images/17313/original/Morning-Health-Foods-Winter-Savings_jan.jpg?1482960315" />
+                    <a href="{{ slug }}">
+                        <img alt="Promotion" class="media-image media-object pull-left" src="{{ promo_image_url_abs }}"/>
                             
                     </a>
                     <div class="media-body">
