@@ -14,54 +14,54 @@
             			</table>
             		</div>
         		</script>
-        		<div class="drop-down-row">
-        			<table width="100%" border="0">
-        				<tr>
-        					<td align="left" style="font-weight:bold">Monday</td>
-        					<td align="right"> 9:30am -  9:00pm</td>
-        				</tr>
-        			</table>
-        		</div>
-        		<div class="drop-down-row">
-        			<table width="100%" border="0">
-        				<tr>
-        					<td align="left" style="font-weight:bold">Tuesday</td>
-        					<td align="right"> 9:30am -  9:00pm</td>
-        				</tr>
-        			</table>
-    			</div>
-    			<div class="drop-down-row-today">
-        			<table width="100%" border="0">
-        				<tr>
-        					<td align="left" style="font-weight:bold">Wednesday</td>
-        					<td align="right"> 9:30am -  9:00pm</td>
-        				</tr>
-        			</table>
-        		</div>
-        		<div class="drop-down-row">
-        			<table width="100%" border="0">
-        				<tr>
-        					<td align="left" style="font-weight:bold">Thursday</td>
-        					<td align="right"> 9:30am -  9:00pm</td>
-        				</tr>
-        			</table>
-        		</div>
-    			<div class="drop-down-row">
-        			<table width="100%" border="0">
-        				<tr>
-        					<td align="left" style="font-weight:bold">Friday</td>
-        					<td align="right"> 9:30am -  9:00pm</td>
-        				</tr>
-        			</table>
-    			</div>
-        		<div class="drop-down-row">
-        			<table width="100%" border="0">
-        				<tr>
-        					<td align="left" style="font-weight:bold">Saturday</td>
-        					<td align="right"> 9:30am -  5:30pm</td>
-        				</tr>
-        			</table>
-        		</div>
+       <!-- 		<div class="drop-down-row">-->
+       <!-- 			<table width="100%" border="0">-->
+       <!-- 				<tr>-->
+       <!-- 					<td align="left" style="font-weight:bold">Monday</td>-->
+       <!-- 					<td align="right"> 9:30am -  9:00pm</td>-->
+       <!-- 				</tr>-->
+       <!-- 			</table>-->
+       <!-- 		</div>-->
+       <!-- 		<div class="drop-down-row">-->
+       <!-- 			<table width="100%" border="0">-->
+       <!-- 				<tr>-->
+       <!-- 					<td align="left" style="font-weight:bold">Tuesday</td>-->
+       <!-- 					<td align="right"> 9:30am -  9:00pm</td>-->
+       <!-- 				</tr>-->
+       <!-- 			</table>-->
+    			<!--</div>-->
+    			<!--<div class="drop-down-row-today">-->
+       <!-- 			<table width="100%" border="0">-->
+       <!-- 				<tr>-->
+       <!-- 					<td align="left" style="font-weight:bold">Wednesday</td>-->
+       <!-- 					<td align="right"> 9:30am -  9:00pm</td>-->
+       <!-- 				</tr>-->
+       <!-- 			</table>-->
+       <!-- 		</div>-->
+       <!-- 		<div class="drop-down-row">-->
+       <!-- 			<table width="100%" border="0">-->
+       <!-- 				<tr>-->
+       <!-- 					<td align="left" style="font-weight:bold">Thursday</td>-->
+       <!-- 					<td align="right"> 9:30am -  9:00pm</td>-->
+       <!-- 				</tr>-->
+       <!-- 			</table>-->
+       <!-- 		</div>-->
+    			<!--<div class="drop-down-row">-->
+       <!-- 			<table width="100%" border="0">-->
+       <!-- 				<tr>-->
+       <!-- 					<td align="left" style="font-weight:bold">Friday</td>-->
+       <!-- 					<td align="right"> 9:30am -  9:00pm</td>-->
+       <!-- 				</tr>-->
+       <!-- 			</table>-->
+    			<!--</div>-->
+       <!-- 		<div class="drop-down-row">-->
+       <!-- 			<table width="100%" border="0">-->
+       <!-- 				<tr>-->
+       <!-- 					<td align="left" style="font-weight:bold">Saturday</td>-->
+       <!-- 					<td align="right"> 9:30am -  5:30pm</td>-->
+       <!-- 				</tr>-->
+       <!-- 			</table>-->
+       <!-- 		</div>-->
         	</div>
 
             <div class="line_break">&nbsp;</div>
