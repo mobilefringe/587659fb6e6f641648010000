@@ -13,8 +13,7 @@
         	</div>
             <div class="line_break">&nbsp;</div>
         
-        		<h2>Holiday Hours &amp; Closures</h2>
-        
+    		<h2>Holiday Hours &amp; Closures</h2>
             <div class="rounded-corners" id="holiday_container">
         		<script id="holiday_template" type="x-tmpl-mustache/text">
         		    <div class="drop-down-row" >
@@ -43,18 +42,22 @@
 	    
 	    <div class="col-md-3 ">
 			<div class="thumbnails">
-				<div class="col-sm-4 col-md-12">
-					<a href='http://sherwood.primariscms.com/pages/sherwood-gift-cards'>
-                        <div class="thumbnail">
-	                        <img alt="Websitegraphics-giftcards" src="//www.sherwoodparkmall.com/system/feature_images/37/original/WebsiteGraphics-GiftCards.png?1479238173" />
-                            <div class="caption">
-                                <div class="feature_item_name">Gift Cards</div>
-                                <div class="feature_item_description">It's about what's inside that counts!</div>
-                                <div class="read_more">Read More</div>
-                            </div>
-                        </div>
-                    </a>
-			    </div>
+				<div id="feature_container">
+                    <script id="feature_template" type="x-tmpl-mustache/text">
+					    <div class="col-xs-12 col-sm-4 col-md-3" >
+    						<a href='{{ url }}'>
+                                <div class="thumbnail">
+    	                            <img alt="Websitegraphics-giftcards" src="{{ image_url }}" />
+                                    <div class="caption">
+                                        <div class="feature_item_name">{{ name }}</div>
+                                        <div class="feature_item_description">{{ description }}</div>
+    	                                <div class="read_more">Read More</div>
+                                    </div>
+                                </div>
+                            </a>
+					    </div>
+					</script>    
+                </div>
             </div>
             <div class="col-sm-12" style="height:305px">
 				<table role="presentation" width="100%">
@@ -280,6 +283,9 @@
         var hours = getPropertyHours();
         console.log(hours);
         renderHours('#hours_container','#hours_template', hours, 'reg_hours');
-        renderHours('#holiday_container','#holiday_template', hours, 'holiday_hours');    
+        renderHours('#holiday_container','#holiday_template', hours, 'holiday_hours'); 
+        
+        var feature_items = getFeatureList();
+        renderFeatureItems('#feature_container','#feature_template', feature_items);
     }
 </script>
