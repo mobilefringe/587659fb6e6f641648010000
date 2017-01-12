@@ -198,32 +198,32 @@
 			
 			
 			
-				<table role="presentation" width='100%'>
-					<tr>
-						<td align="left" height="22px">
-							<div class="hours_day"><a href="/hours">Sunday</a></div>
-						</td>
-						<td align="left" height="22px">
-							<div class="hours_hour"><a href="/hours">12:00pm -  5:00pm</a></div>
-						</td>
-					</tr>
-					<tr>
-						<td align="left" height="22px">
-							<div class="hours_day"><a href="/hours">Monday</a></div>
-						</td>
-						<td align="left" height="22px">
-							<div class="hours_hour"><a href="/hours"> 9:30am -  9:00pm</a></div>
-						</td>
-					</tr>
-					<tr>
-						<td align="left" height="22px">
-							<div class="hours_day"><a href="/hours">Tuesday</a></div>
-						</td>
-						<td align="left" height="22px">
-							<div class="hours_hour"><a href="/hours"> 9:30am -  9:00pm</a></div>
-						</td>
-					</tr>
-				</table>
+				<!--<table role="presentation" width='100%'>-->
+				<!--	<tr>-->
+				<!--		<td align="left" height="22px">-->
+				<!--			<div class="hours_day"><a href="/hours">Sunday</a></div>-->
+				<!--		</td>-->
+				<!--		<td align="left" height="22px">-->
+				<!--			<div class="hours_hour"><a href="/hours">12:00pm -  5:00pm</a></div>-->
+				<!--		</td>-->
+				<!--	</tr>-->
+				<!--	<tr>-->
+				<!--		<td align="left" height="22px">-->
+				<!--			<div class="hours_day"><a href="/hours">Monday</a></div>-->
+				<!--		</td>-->
+				<!--		<td align="left" height="22px">-->
+				<!--			<div class="hours_hour"><a href="/hours"> 9:30am -  9:00pm</a></div>-->
+				<!--		</td>-->
+				<!--	</tr>-->
+				<!--	<tr>-->
+				<!--		<td align="left" height="22px">-->
+				<!--			<div class="hours_day"><a href="/hours">Tuesday</a></div>-->
+				<!--		</td>-->
+				<!--		<td align="left" height="22px">-->
+				<!--			<div class="hours_hour"><a href="/hours"> 9:30am -  9:00pm</a></div>-->
+				<!--		</td>-->
+				<!--	</tr>-->
+				<!--</table>-->
 			</div>
 			<!--<div class="col-sm-4">-->
 			<!--	<table role="presentation" width='100%'>-->
