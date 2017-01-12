@@ -309,7 +309,7 @@
         
         var feature_items = getFeatureList();
         console.log(feature_items);
-        // renderFeatureItems('#feature_container','#feature_template', feature_items);
+        renderFeatureItems('#feature_container','#feature_template', feature_items);
         $('.flexslider').flexslider({
             animation: "fade",
         });
