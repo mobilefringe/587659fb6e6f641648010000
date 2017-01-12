@@ -144,3 +144,38 @@ function renderHours(container, template, collection, type){
     $(container).show();
     $(container).html(item_rendered.join(''));
 }
+
+function renderPromotions(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    $.each( collection , function( key, val ) {
+        if (val.promotionable_type == "Store") {
+            var store_details = getStoreDetailsByID(val.promotionable_id);
+            val.store_detail_btn = store_details.slug ;
+            val.store_name = store_details.name;
+            val.image_url = store_details.store_front_url_abs;
+        }
+        else{
+            val.store_name = "Marlborough Mall";
+            // val.image_url = "";
+        }
+        if(val.promo_image_url_abs.indexOf('missing.png') > 0){
+            val.promo_image_url_abs  = "//www.mallmaverick.com/system/sites/logo_images/000/000/040/original/marlborough_logo.jpg?1399497653";
+        }
+        
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
+        var end = moment(val.end_date).tz(getPropertyTimeZone());
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM D")
+        }
+        else{
+            val.dates = start.format("MMM D") + " - " + end.format("MMM D")
+        }
+        
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
