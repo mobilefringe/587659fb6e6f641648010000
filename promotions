@@ -16,7 +16,7 @@
                                 <h3><a href="/promotions/ + {{ slug }}">Morning Sun Health Foods - Get your Savings with our Winter Flyer Sale</a></h3>
                                 <h4>{{ dates }}</h4>
                     
-                                <p>Our Annual Winter Flyer Sale is on now, so come on in and check out our lowest prices of the Season! Visit your closest location to see what we have in store, or browse the flyers below in PDF format.</p>
+                                <p>{{ description }}</p>
                             </div>
                         </div>
                     </script>
