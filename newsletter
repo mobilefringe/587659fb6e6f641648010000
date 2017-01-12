@@ -73,7 +73,7 @@
                 <div class="line_break">&nbsp;</div>
                 <!-- Captcha END -->
             </form>
-                <!-- Contest form end-->
+            <!-- Contest form end-->
         </div>
 
         
@@ -81,7 +81,75 @@
     </div>
 </div>
 
+<script>
+    function validateForm() {
+        if ($("#first_name_parent").val() == ""){
+            alert("Please Enter Parent's First Name");
+            $("#first_name_parent").focus();
+            return false;
+        } else if ($("#last_name_parent").val() == ""){
+            alert("Please Enter Parent's Last Name");
+            $("#last_name_parent").focus();
+            return false;
+        } else if ($("#first_name").val() == ""){
+            alert("Please Enter First Name");
+            $("#first_name").focus();
+            return false;
+        } else if ($("#last_name").val() == ""){
+            alert("Please Enter Last Name");
+            $("#last_name").focus();
+            return false;    
+        } else if ($("#email").val() == ""){
+            alert("Please Enter Email");
+            $("#email").focus();
+            return false;
+        } else if ($("#address").val() == ""){
+            alert("Please Enter Address");
+            $("#address").focus();
+            return false;
+        } else if ($("#phone").val() == ""){
+            alert("Please Enter Phone Number");
+            $("#phone").focus();
+            return false;
+        } else if ($("#postal_code").val() == ""){
+            alert("Please Enter Postal Code");
+            $("#postal_code").focus();
+            return false;
+        } else if ($("#agree_terms").prop("checked") != true){
+            alert("Please agree to the term and conditions before submitting the contest.");
+            $("#agree_terms").focus();
+            return false;
+        } else{
+            calculate_points(); 
+        }
+    }
+    function validateNewsletterForm() {
+        var str1 = $("#first_name").val();
+        var str2 = $("#last_name").val();
+        var fullname = str1+" "+str2;
+        $("#cm-name").attr('value', fullname);
 
+        if ($("#first_name").val() == ""){
+            alert("Please Enter First Name");
+            $("#first_name").focus();
+            return false;
+        } else if ($("#last_name").val() == ""){
+            alert("Please Enter Last Name");
+            $("#last_name").focus();
+            return false;
+        } else if ($("#email").val() == ""){
+            alert("Please Enter Email");
+            $("#email").focus();
+            return false;
+        } else if ($("#agree_terms").prop("checked") != true){
+            alert("Please agree to the term and conditions before submitting the form.");
+            $("#agree_terms").focus();
+            return false;
+        } else{
+            return true;
+        }
+    }
+</script>
 
 
 <script type="text/javascript">
