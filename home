@@ -251,8 +251,8 @@
                                         		</tr>
                                         	</table>
                                         </button>
-                                        <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
-                                        	<div><img alt="Icon_instagram_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484161849000/icon_instagram.png" /></div>
+                                        <button class="btn-social visible-xs-inline-block" style="margin-bottom:4px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
+                                        	<div><img alt="Icon_instagram_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169275000/icon_instagram_grey.png" /></div>
                                         </button>
 							        </td>
 						        </tr>
