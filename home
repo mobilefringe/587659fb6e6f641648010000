@@ -273,8 +273,8 @@
                                         		</tr>
                                         	</table>
                                         </button>
-                                        <button class="btn-social visible-xs-inline-block" style="margin-bottom:4px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
-                                        	<div><img alt="Icon_newsletter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png"/></div>
+                                        <button class="visible-xs-inline-block" style="margin-bottom:4px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
+                                        	<div class="btn-social"><img alt="Icon_newsletter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png"/></div>
                                         </button>
 							        </td>
 						        </tr>
