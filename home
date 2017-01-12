@@ -77,7 +77,7 @@
             		
 	           <!-- </tr>-->
             <!--</table>-->
-    
+            </div>
             <div class="row-fluid">
 	            <div class="flexslider" id="home_banner">
 	                <script id="banner_template" type="x-tmpl-mustache/text">
