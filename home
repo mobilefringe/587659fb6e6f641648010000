@@ -23,17 +23,15 @@
             		<td class='hidden-xs' style='padding-right:6px;padding-top:24px;padding-bottom:24px' >
                 		<div class="dropdown custom_dropdown">
                             <button class="btn-3" data-toggle="dropdown" style="margin-bottom:4px">
-                        	 
-                    					
-                    						<div style="width: 44px;"><img alt="Icon_hours_semi_trans" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484159625000/icon_hours.png" /></div>
-                    			
-                    					<div align="left" style="padding-top:3px">
-                    						<nobr>Open today until  9:00pm</nobr>
-                    					</div>
-                    					<div class="pull-right" style="padding-right:10px">
-                    						<span class="caret"></span>
-                    					</div>
-                        	
+        						<div style="width: 44px;">
+        						    <img alt="Icon_hours_semi_trans" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484159625000/icon_hours.png" />
+    						    </div>
+            					<div align="left" style="padding-top:3px">
+            						<nobr>Open today until  9:00pm</nobr>
+            					</div>
+            					<div class="pull-right" style="padding-right:10px">
+            						<span class="caret"></span>
+            					</div>
                             </button>
                             <ul class="dropdown-menu bottom" style="position:absolute;width:100%;left:0%;">  
                         	    <div class="arrow"></div>
