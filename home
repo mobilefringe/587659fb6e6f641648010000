@@ -316,6 +316,5 @@
         $('.flexslider').flexslider({
             animation: "fade",
         });
-        // show_content();
     }
 </script>
