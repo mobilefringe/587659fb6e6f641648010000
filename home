@@ -125,22 +125,24 @@
             </div>
             
             <div class="row-fluid visible-desktop" >
-                <div class="thumbnails" id="feature_container">
-                    <script id="feature_template" type="x-tmpl-mustache/text">
-                    
-					    <div class="col-xs-12 col-sm-4 col-md-3" >
-    						<a href='{{ url }}'>
-                                <div class="thumbnail">
-    	                            <img alt="Websitegraphics-giftcards" src="{{ image_url }}" />
-                                    <div class="caption">
-                                        <div class="feature_item_name">{{ name }}</div>
-                                        <div class="feature_item_description">{{ description }}</div>
-    	                                <div class="read_more">Read More</div>
+                <div class="thumbnails">
+                    <div id="feature_container">
+                        <script id="feature_template" type="x-tmpl-mustache/text">
+    					    <div class="col-xs-12 col-sm-4 col-md-3" >
+        						<a href='{{ url }}'>
+                                    <div class="thumbnail">
+        	                            <img alt="Websitegraphics-giftcards" src="{{ image_url }}" />
+                                        <div class="caption">
+                                            <div class="feature_item_name">{{ name }}</div>
+                                            <div class="feature_item_description">{{ description }}</div>
+        	                                <div class="read_more">Read More</div>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-					    </div>
-					</script>
+                                </a>
+    					    </div>
+    					</script>    
+                    </div>
+                    
 					<!--<div class="col-xs-12 col-sm-4 col-md-3">-->
 					<!--	<a href='http://www.sherwoodparkmall.com/promotions'>-->
      <!--                       <div class="thumbnail">-->
