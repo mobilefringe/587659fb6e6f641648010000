@@ -49,12 +49,12 @@ function renderFeatureItems(container, template, collection){
 }
 
 function renderHomeHours(container, template, todays_hours){
-    var today_hours = getTodaysHours();
+    // var today_hours = getTodaysHours();
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
-    item_list.push(today_hours);    
+    // item_list.push(today_hours);    
     $.each(todays_hours, function(key, val) {
         // val.day = moment().date();
         var d = moment();
