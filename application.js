@@ -58,7 +58,7 @@ function renderHomeHours(container, template, collection){
     $.each(collection, function(key, val) {
         // val.day = moment().date();
         var d = moment();
-        val.month = moment().month();
+        // val.month = moment().month();
         val.weekday = moment().format("dddd");
         if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
             var open_time = moment(val.open_time).tz(getPropertyTimeZone());
