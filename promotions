@@ -6,16 +6,18 @@
             <div class="media-list">
                 <div class="media" id="promo_container">
                     <script id="promo_template" type="x-tmpl-mustache/text">
-                        <a href="{{ slug }}">
-                            <img alt="Promotion" class="media-image media-object pull-left" src="{{ promo_image_url_abs }}"/>
-                                
-                        </a>
-                        <div class="media-body">
-                            <h3><a href="/stores/sherwood-morning-sun-health-foods">Morning Sun Health Foods</a></h3>
-                            <h3><a href="/promotions/sherwood-morning-sun-health-foods-morning-sun-health-foods-get-your-savings-with-our-winter-flyer-sale">Morning Sun Health Foods - Get your Savings with our Winter Flyer Sale</a></h3>
-                            <h4>Jan 01-Jan 21</h4>
-                
-                            <p>Our Annual Winter Flyer Sale is on now, so come on in and check out our lowest prices of the Season! Visit your closest location to see what we have in store, or browse the flyers below in PDF format.</p>
+                        <div class="row">
+                            <a href="{{ slug }}">
+                                <img alt="Promotion" class="media-image media-object pull-left" src="{{ promo_image_url_abs }}"/>
+                                    
+                            </a>
+                            <div class="media-body">
+                                <h3><a href="/stores/sherwood-morning-sun-health-foods">Morning Sun Health Foods</a></h3>
+                                <h3><a href="/promotions/sherwood-morning-sun-health-foods-morning-sun-health-foods-get-your-savings-with-our-winter-flyer-sale">Morning Sun Health Foods - Get your Savings with our Winter Flyer Sale</a></h3>
+                                <h4>Jan 01-Jan 21</h4>
+                    
+                                <p>Our Annual Winter Flyer Sale is on now, so come on in and check out our lowest prices of the Season! Visit your closest location to see what we have in store, or browse the flyers below in PDF format.</p>
+                            </div>
                         </div>
                     </script>
                 </div>
