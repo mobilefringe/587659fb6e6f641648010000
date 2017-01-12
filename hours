@@ -225,7 +225,7 @@
 				<!--		</td>-->
 				<!--	</tr>-->
 				<!--</table>-->
-			</div>
+		</div>
 			<!--<div class="col-sm-4">-->
 			<!--	<table role="presentation" width='100%'>-->
 			<!--		<tr>-->
@@ -282,7 +282,7 @@
 			<!--		</tr>-->
 			<!--	</table>-->
 			<!--</div>-->
-		</div>
+
 	</div>
 </div>
 <script>
