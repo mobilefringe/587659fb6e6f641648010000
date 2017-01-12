@@ -30,9 +30,9 @@
         						<div class="hour_icon">
         						    <img alt="Icon_hours_semi_trans" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484159625000/icon_hours.png" />
     						    </div>
-            					<div align="left" style="padding-top:3px">
-            					    <script id="hours_template" type="x-tmpl-mustache/text">
-            						    <nobr>Open today until  9:00pm</nobr>
+            					<div align="left" style="padding-top:3px" id="home_hours_container">
+            					    <script id="home_hours_template" type="x-tmpl-mustache/text">
+            						    <nobr>Open today until  {{ close_time }}</nobr>
             						</script>
             					</div>
             					<div class="pull-right" style="padding-right:10px">
