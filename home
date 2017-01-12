@@ -309,6 +309,7 @@
     
     function renderPage(){
         var todays_hours = getTodaysHours();
+        console.log(todays_hours);
         renderHomeHours('#home_hours_container', '#home_hours_template', todays_hours);
         
         var hours = getPropertyHours();
