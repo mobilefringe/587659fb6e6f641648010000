@@ -126,8 +126,8 @@
             
             <div class="row-fluid visible-desktop" >
                 <div class="thumbnails">
-					<div class="col-xs-12 col-sm-4 col-md-3">
-					    <script id="banner_template" type="x-tmpl-mustache/text">
+					<div class="col-xs-12 col-sm-4 col-md-3" id="feature_container">
+					    <script id="feature_template" type="x-tmpl-mustache/text">
     						<a href='{{ url }}'>
                                 <div class="thumbnail">
     	                            <img alt="Websitegraphics-giftcards" src="{{ image_url }}" />
