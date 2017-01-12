@@ -195,40 +195,17 @@
                 		</div>
             		</script>
             	</div>
+            	<div id="next_holiday_container">
+            	    <script id="next_holiday_template" type="x-tmpl-mustache/text">
+            			<div>
+        					<div class="hours_day"><a href="/hours">{{ day }}</a></div>
+        					<div class="hours_hour"><a href="/hours">{{ h }}</a></div>
+                		</div>
+            		</script>
+            	</div>
             	<div class="hours_day hours_day_link"><a href="/hours">View all hours</a></div>
             </div>
-
 		</div>
-			
-			<!--<div class="col-sm-4">-->
-			<!--	<table role="presentation" width='100%'>-->
-			<!--		<tr>-->
-			<!--			<td align="left" height="22px">-->
-			<!--				<div class="hours_day"><a href="/hours">Saturday</a></div>-->
-			<!--			</td>-->
-			<!--			<td align="left" height="22px">-->
-			<!--				<div class="hours_hour"><a href="/hours"> 9:30am -  5:30pm</a></div>-->
-			<!--			</td>-->
-			<!--		</tr>-->
-			<!--		<tr>-->
-			<!--			<td align="left" height="22px">-->
-			<!--				<div class="hours_day"><a href="/hours">New Years Day</a></div>-->
-			<!--			</td>-->
-			<!--			<td align="left" height="22px">-->
-			<!--				<div class="hours_hour"><a href="/hours">Closed</a></div>-->
-			<!--			</td>-->
-			<!--		</tr>-->
-			<!--		<tr>-->
-			<!--			<td align="left" height="22px">-->
-			<!--				<div class="hours_day" style="font-style:italic;font-weight:normal"><a href="/hours">View all hours</a></div>-->
-			<!--			</td>-->
-			<!--			<td align="left" height="22px">-->
-							
-			<!--			</td>-->
-			<!--		</tr>-->
-			<!--	</table>-->
-			<!--</div>-->
-
 	</div>
 </div>
 <script>
