@@ -106,7 +106,7 @@
                     </a>
 			    </div>
             </div>
-            <div style="height:305px">
+            <div class="col-sm-12" style="height:305px">
 				<table role="presentation" width="100%">
 					<tr>
 						<td>
