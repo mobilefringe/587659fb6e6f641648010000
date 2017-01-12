@@ -169,53 +169,53 @@
 							</tr>
 					    </table>
 				    </div>
-    				<div class="col-md-2 bottom_nav_header"><a href='/pages/sherwood-gift-cards' target='_self'>Gift Cards</a></div>
-    	                <div class="col-sm-2">
-                            <table role="presentation">
-        						<tr>
-        							<th align="left" class="bottom_nav_header">What&#x27;s On</th>
-        						</tr>
-    							<tr>
-    								<td align="left" class="bottom_nav_list">
-    									<a href='/events' target='_self'>What&#x27;s On</a>
-    								</td>
-    							</tr>
-    							<tr>
-    								<td align="left" class="bottom_nav_list">
-    									<a href='/promotions' target='_self'>Promotions</a>
-    								</td>
-    							</tr>
-    					    </table>
-    					</div>
-						<div class="col-sm-2 bottom_nav_header"><a href='/guest_services' target='_self'>Our Services</a></div>
-						<div class="col-sm-2 bottom_nav_header"><a href='/jobs' target='_self'>Jobs</a></div>
-		                <div class="col-sm-2">
-		              	    <table role="presentation">
-								<tr>
-									<th align="left" class="bottom_nav_header">About Us</th>
-								</tr>
-								<tr>
-									<td align="left" class="bottom_nav_list">
-										<a href='/about' target='_self'>Parking &amp; Directions</a>
-									</td>
-								</tr>
-								<tr>
-									<td align="left" class="bottom_nav_list">
-										<a href='/hours' target='_self'>Centre Hours</a>
-									</td>
-								</tr>
-								<tr>
-									<td align="left" class="bottom_nav_list">
-										<a href='/about#contact' target='_self'>Contact Us</a>
-									</td>
-								</tr>
-								<tr>
-									<td align="left" class="bottom_nav_list">
-										<a href='http://www.primarisreit.com/' target='_blank'>About Primaris</a>
-									</td>
-								</tr>
-							</table>
-						</div>
+    				<div class="col-sm-2 bottom_nav_header"><a href='/pages/sherwood-gift-cards' target='_self'>Gift Cards</a></div>
+	                <div class="col-sm-2">
+                        <table role="presentation">
+    						<tr>
+    							<th align="left" class="bottom_nav_header">What&#x27;s On</th>
+    						</tr>
+							<tr>
+								<td align="left" class="bottom_nav_list">
+									<a href='/events' target='_self'>What&#x27;s On</a>
+								</td>
+							</tr>
+							<tr>
+								<td align="left" class="bottom_nav_list">
+									<a href='/promotions' target='_self'>Promotions</a>
+								</td>
+							</tr>
+					    </table>
+					</div>
+					<div class="col-sm-2 bottom_nav_header"><a href='/guest_services' target='_self'>Our Services</a></div>
+					<div class="col-sm-2 bottom_nav_header"><a href='/jobs' target='_self'>Jobs</a></div>
+	                <div class="col-sm-2">
+	              	    <table role="presentation">
+							<tr>
+								<th align="left" class="bottom_nav_header">About Us</th>
+							</tr>
+							<tr>
+								<td align="left" class="bottom_nav_list">
+									<a href='/about' target='_self'>Parking &amp; Directions</a>
+								</td>
+							</tr>
+							<tr>
+								<td align="left" class="bottom_nav_list">
+									<a href='/hours' target='_self'>Centre Hours</a>
+								</td>
+							</tr>
+							<tr>
+								<td align="left" class="bottom_nav_list">
+									<a href='/about#contact' target='_self'>Contact Us</a>
+								</td>
+							</tr>
+							<tr>
+								<td align="left" class="bottom_nav_list">
+									<a href='http://www.primarisreit.com/' target='_blank'>About Primaris</a>
+								</td>
+							</tr>
+						</table>
+					</div>
     			</div>
     		</div>
     	</div>
