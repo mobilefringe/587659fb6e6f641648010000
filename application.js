@@ -179,3 +179,4 @@ function renderPromotions(container, template, collection){
         item_rendered.push(rendered);
     });
     $(container).html(item_rendered.join(''));
+}
