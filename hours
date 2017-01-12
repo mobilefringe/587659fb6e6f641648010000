@@ -30,7 +30,7 @@
     						                <td style="font-weight:bold">{{ holiday_name }}</td>
             						    </tr>
             						    <tr>
-            							    <td>Jan 01</td>
+            							    <td>{{ formatted_date }}</td>
             						    </tr>
             					    </table>    
             					</td>
