@@ -1,10 +1,8 @@
 <div class="container-fluid">
 	<div class="row-fluid" id="special">
 		<div class="col-md-9 content_space">	
-    		<h1>Gift Cards</h1>
-            <h2>Sherwood Park Mall Gift Cards</h2>
-    
-            <p>Because they&#39;re always the perfect colour and fit!</p>
+    		<h1 id="pagetitle"></h1>
+    		<div id="page_body"></div>
         </div>
     
         
@@ -24,8 +22,8 @@
         var pages_json = prefix + "/pages/" + slug + ".json"
         console.log(pages_json);
         $.getJSON(pages_json).done(function(data) {
-            $('#mm_page_title').html(data.title);
-            $('#mm_page_content').html(data.body);
+            $('#page_title').html(data.title);
+            $('#page_content').html(data.body);
         }).fail(function(jqXHR) {
             if (jqXHR.status == 404) {
                 $("#404_msg").fadeIn("fast");
