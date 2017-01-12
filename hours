@@ -1,6 +1,6 @@
 <div class="container-fluid">
     <div class="row-fluid" id="special">
-		<div class="col-md-9 content_space">
+		<div class="col-sm-9 content_space">
     		<h1>Centre Hours</h1>
         	<h2>Regular Hours</h2>
         	<div class="rounded-corners">
@@ -91,7 +91,7 @@
 	    
 	    
 	    
-	    <div class="col-md-3 feature_items">
+	    <div class="col-sm-3 feature_items">
 			<div class="thumbnails">
 				<div class="feature_item_right">
 					<a href='http://sherwood.primariscms.com/pages/sherwood-gift-cards'>
