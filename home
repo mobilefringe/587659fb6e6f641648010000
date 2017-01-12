@@ -301,8 +301,8 @@
     })
     
     function renderPage(){
-        var todays_hours = getTodaysHours();
-        renderHomeHours('#home_hours_container', '#home_hours_template', todays_hours);
+        // var todays_hours = getTodaysHours();
+        // renderHomeHours('#home_hours_container', '#home_hours_template', todays_hours);
         
         var hours = getPropertyHours();
         renderHours('#hours_container','#hours_template', hours, 'reg_hours');
