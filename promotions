@@ -13,7 +13,7 @@
                             </a>
                             <div class="media-body">
                                 <h3><a href="/stores/ + {{ store_detail_btn }}">{{ store_name }}</a></h3>
-                                <h3><a href="/promotions/ + {{ slug }}">Morning Sun Health Foods - Get your Savings with our Winter Flyer Sale</a></h3>
+                                <h3><a href="/promotions/ + {{ slug }}">{{ name }}</a></h3>
                                 <h4>{{ dates }}</h4>
                                 <p>{{ description }}</p>
                             </div>
