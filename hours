@@ -3,7 +3,7 @@
 		<div class="col-md-9 content_space">
     		<h1>Centre Hours</h1>
         	<h2>Regular Hours</h2>
-        	<div class="rounded-corners">
+        	<div class="rounded-corners" id="hours_container">
         	    <script id="hours_template" type="x-tmpl-mustache/text">
         			<div class="drop-down-row">
             			<table width="100%" border="0">
