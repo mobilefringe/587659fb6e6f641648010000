@@ -187,6 +187,17 @@
 	<div class="container-fluid trim_screen">
 		<div class="row-fluid">
 			<div class="col-sm-4">
+			    <div class="rounded-corners" id="hours_menu_container">
+            	    <script id="hours_menu_template" type="x-tmpl-mustache/text">
+            			<div class="drop-down-row">
+        					<div class="pull-left hours_day"><a href="/hours">{{ day }}</a></div>
+        					<div class="right-right hours_hour"><a href="/hours">{{ h }}</a></div>
+                		</div>
+            		</script>
+            	</div>
+			
+			
+			
 				<table role="presentation" width='100%'>
 					<tr>
 						<td align="left" height="22px">
@@ -214,62 +225,62 @@
 					</tr>
 				</table>
 			</div>
-			<div class="col-sm-4">
-				<table role="presentation" width='100%'>
-					<tr>
-						<td align="left" height="22px">
-							<div class="hours_day"><a href="/hours">Wednesday</a></div>
-						</td>
-						<td align="left" height="22px">
-							<div class="hours_hour"><a href="/hours"> 9:30am -  9:00pm</a></div>
-						</td>
-					</tr>
-					<tr>
-						<td align="left" height="22px">
-							<div class="hours_day"><a href="/hours">Thursday</a></div>
-						</td>
-						<td align="left" height="22px">
-							<div class="hours_hour"><a href="/hours"> 9:30am -  9:00pm</a></div>
-						</td>
-					</tr>
-					<tr>
-						<td align="left" height="22px">
-							<div class="hours_day"><a href="/hours">Friday</a></div>
-						</td>
-						<td align="left" height="22px">
-							<div class="hours_hour"><a href="/hours"> 9:30am -  9:00pm</a></div>
-						</td>
-					</tr>
-				</table>
-			</div>
-			<div class="col-sm-4">
-				<table role="presentation" width='100%'>
-					<tr>
-						<td align="left" height="22px">
-							<div class="hours_day"><a href="/hours">Saturday</a></div>
-						</td>
-						<td align="left" height="22px">
-							<div class="hours_hour"><a href="/hours"> 9:30am -  5:30pm</a></div>
-						</td>
-					</tr>
-					<tr>
-						<td align="left" height="22px">
-							<div class="hours_day"><a href="/hours">New Years Day</a></div>
-						</td>
-						<td align="left" height="22px">
-							<div class="hours_hour"><a href="/hours">Closed</a></div>
-						</td>
-					</tr>
-					<tr>
-						<td align="left" height="22px">
-							<div class="hours_day" style="font-style:italic;font-weight:normal"><a href="/hours">View all hours</a></div>
-						</td>
-						<td align="left" height="22px">
+			<!--<div class="col-sm-4">-->
+			<!--	<table role="presentation" width='100%'>-->
+			<!--		<tr>-->
+			<!--			<td align="left" height="22px">-->
+			<!--				<div class="hours_day"><a href="/hours">Wednesday</a></div>-->
+			<!--			</td>-->
+			<!--			<td align="left" height="22px">-->
+			<!--				<div class="hours_hour"><a href="/hours"> 9:30am -  9:00pm</a></div>-->
+			<!--			</td>-->
+			<!--		</tr>-->
+			<!--		<tr>-->
+			<!--			<td align="left" height="22px">-->
+			<!--				<div class="hours_day"><a href="/hours">Thursday</a></div>-->
+			<!--			</td>-->
+			<!--			<td align="left" height="22px">-->
+			<!--				<div class="hours_hour"><a href="/hours"> 9:30am -  9:00pm</a></div>-->
+			<!--			</td>-->
+			<!--		</tr>-->
+			<!--		<tr>-->
+			<!--			<td align="left" height="22px">-->
+			<!--				<div class="hours_day"><a href="/hours">Friday</a></div>-->
+			<!--			</td>-->
+			<!--			<td align="left" height="22px">-->
+			<!--				<div class="hours_hour"><a href="/hours"> 9:30am -  9:00pm</a></div>-->
+			<!--			</td>-->
+			<!--		</tr>-->
+			<!--	</table>-->
+			<!--</div>-->
+			<!--<div class="col-sm-4">-->
+			<!--	<table role="presentation" width='100%'>-->
+			<!--		<tr>-->
+			<!--			<td align="left" height="22px">-->
+			<!--				<div class="hours_day"><a href="/hours">Saturday</a></div>-->
+			<!--			</td>-->
+			<!--			<td align="left" height="22px">-->
+			<!--				<div class="hours_hour"><a href="/hours"> 9:30am -  5:30pm</a></div>-->
+			<!--			</td>-->
+			<!--		</tr>-->
+			<!--		<tr>-->
+			<!--			<td align="left" height="22px">-->
+			<!--				<div class="hours_day"><a href="/hours">New Years Day</a></div>-->
+			<!--			</td>-->
+			<!--			<td align="left" height="22px">-->
+			<!--				<div class="hours_hour"><a href="/hours">Closed</a></div>-->
+			<!--			</td>-->
+			<!--		</tr>-->
+			<!--		<tr>-->
+			<!--			<td align="left" height="22px">-->
+			<!--				<div class="hours_day" style="font-style:italic;font-weight:normal"><a href="/hours">View all hours</a></div>-->
+			<!--			</td>-->
+			<!--			<td align="left" height="22px">-->
 							
-						</td>
-					</tr>
-				</table>
-			</div>
+			<!--			</td>-->
+			<!--		</tr>-->
+			<!--	</table>-->
+			<!--</div>-->
 		</div>
 	</div>
 </div>
@@ -284,6 +295,7 @@
         console.log(hours);
         renderHours('#hours_container','#hours_template', hours, 'reg_hours');
         renderHours('#holiday_container','#holiday_template', hours, 'holiday_hours'); 
+        renderHours('#hours_menu_container','#hours_menu_template', hours, 'reg_hours');
         
         var feature_items = getFeatureList();
         renderFeatureItems('#feature_container','#feature_template', feature_items);
