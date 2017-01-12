@@ -311,7 +311,7 @@
         // var todays_hours = getTodaysHours();
         // console.log(todays_hours);
         // renderHomeHours('#home_hours_container', '#home_hours_template', todays_hours);
-        
+        renderHomeHours();
         var hours = getPropertyHours();
         renderHours('#hours_container','#hours_template', hours, 'reg_hours');
         var banners = getBanners();
