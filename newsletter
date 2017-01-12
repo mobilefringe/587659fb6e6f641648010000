@@ -1,4 +1,9 @@
 <style>
+    #contest_form label {
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 20px;    
+    }
     .contest_info {
         background-color: #ffffff;
         border: 1px solid #cccccc;
