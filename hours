@@ -187,7 +187,7 @@
 	<div class="container-fluid trim_screen">
 		<div class="row-fluid">
 			<div class="col-sm-4">
-			    <div class="rounded-corners" id="hours_menu_container">
+			    <div id="hours_menu_container">
             	    <script id="hours_menu_template" type="x-tmpl-mustache/text">
             			<div class="drop-down-row">
         					<div class="pull-left hours_day"><a href="/hours">{{ day }}</a></div>
