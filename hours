@@ -8,8 +8,8 @@
         			<div class="drop-down-row">
             			<table width="100%" border="0">
             				<tr>
-            					<td align="left" style="font-weight:bold">Sunday</td>
-            					<td align="right">12:00pm -  5:00pm</td>
+            					<td align="left" style="font-weight:bold">{{ day }}</td>
+            					<td align="right">{{ h }}</td>
             				</tr>
             			</table>
             		</div>
