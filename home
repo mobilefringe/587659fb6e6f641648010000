@@ -309,6 +309,6 @@
         $('.flexslider').flexslider({
             animation: "fade",
         });
-        show_content();
+        // show_content();
     }
 </script>
