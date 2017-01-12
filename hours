@@ -185,7 +185,7 @@
 </div>
 <div class="hours_bottom_nav hidden-xs">
 	<div class="container-fluid trim_screen">
-		<div class="row-fluid">
+		<div class="row">
 			<div class="footer_hours">
 			    <div id="hours_menu_container">
             	    <script id="hours_menu_template" type="x-tmpl-mustache/text">
