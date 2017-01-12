@@ -190,8 +190,8 @@
 			    <div id="hours_menu_container">
             	    <script id="hours_menu_template" type="x-tmpl-mustache/text">
             			<div>
-        					<div class="pull-left hours_day"><a href="/hours">{{ day }}</a></div>
-        					<div class="right-right hours_hour"><a href="/hours">{{ h }}</a></div>
+        					<div class="hours_day"><a href="/hours">{{ day }}</a></div>
+        					<div class="hours_hour"><a href="/hours">{{ h }}</a></div>
                 		</div>
             		</script>
             	</div>
