@@ -27,7 +27,7 @@
             					<td align="left">
             					    <table>
             				            <tr>
-    						                <td style="font-weight:bold">New Years Day</td>
+    						                <td style="font-weight:bold">{{ holiday_name }}</td>
             						    </tr>
             						    <tr>
             							    <td>Jan 01</td>
