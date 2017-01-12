@@ -294,9 +294,9 @@
     })
     
     function renderPage(){
-        // var todays_hours = getTodaysHours();
+        var prop_details = getPropertyDetails();
         // console.log(todays_hours);
-        // renderHomeHours('#home_hours_container', '#home_hours_template', todays_hours);
+        renderGeneral('#home_hours_container', '#home_hours_template', todays_hours);
         renderHomeHours();
         renderPropertyPhone();
         var hours = getPropertyHours();
@@ -311,17 +311,16 @@
         });
     }
     
-    function renderPropertyPhone(container, template, collection){
-        var details = getPropertyDetails();
+    function renderGeneral(container, template, collection){
         var item_list = [];
         var item_rendered = [];
-        var template_html = $('#property_phone_template').html();
+        var template_html = $(template).html();
         Mustache.parse(template_html); 
-        $.each( details , function( key, val ) {
-            val.prop_phone = details.contact_phone;
+        $.each( collection , function( key, val ) {
             var repo_rendered = Mustache.render(template_html,val);
             item_rendered.push(repo_rendered);
         });
-        $('#property_phone_container').html(item_rendered.join(''));
+        $(container).html(item_rendered.join(''));
     }
+    
 </script>
