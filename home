@@ -11,7 +11,7 @@
         display: inline;
     }
     .hour_icon {
-        padding-right: 5px;
+        /*padding-right: 5px;*/
         width: 44px;
     }
 </style>
