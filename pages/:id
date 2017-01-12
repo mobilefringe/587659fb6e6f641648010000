@@ -12,8 +12,8 @@
 </div>
 <script>
     $(document).ready(function(e){
-        init(e);
-        loadMallDataCached(renderPage);
+        // init(e);
+        // loadMallDataCached(renderPage);
     })
     
     function renderPage(){
