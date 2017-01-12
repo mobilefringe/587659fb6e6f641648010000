@@ -3,13 +3,42 @@
 		<div class="col-md-9 content_space">  
 		    <h1>Jobs</h1>
 	        <h2>Retailer Jobs</h2>
-	        <div class="bs-docs-example">
-                <div class="job_container">
-                    <h3><a href="/stores/sherwood-le-chateau">Le Château</a></h3>
-                    <h4><a href="/jobs/le-chateau-as-a-part-time-sales-associate--2">Le Château as a Part Time Sales Associate</a></h4>
-                </div>
+	        <div class="bs-docs-example" id="jobs_container">
+	            <script id="jobs_template" type="x-tmpl-mustache/text">
+                    <div class="job_container">
+                        
+                        <h3><a href="/stores/sherwood-le-chateau">Le Château</a></h3>
+                        <h4><a href="/jobs/le-chateau-as-a-part-time-sales-associate--2">Le Château as a Part Time Sales Associate</a></h4>
+                    </div>
+                </script>
             </div>
         </div>
 
     </div>
 </div>
+<script>
+    $(document).ready(function(e){
+        // init(e);
+        loadMallDataCached(renderPage);
+    })
+
+    function renderPage(){
+        var jobs = getJobsList().sortBy(function(o){ return o.start_date});
+        var published_jobs = [];
+        $.each( jobs , function( key, val ){
+            today = moment();
+            webDate = moment(val.show_on_web_date);
+            if (today >= webDate) {
+                published_jobs.push(val)
+            } 
+        });
+        if( published_jobs.length > 0){
+            renderJobs("#jobs_container","#jobs_template", published_jobs);
+            $('#no_jobs').hide()
+        }
+        else{
+            $('#events_header').click();
+            $('#events_header').find('i').toggleClass('fa-chevron-down fa-chevron-up');
+        }
+    }
+</script>
