@@ -62,7 +62,7 @@
     						    </div>
         						<div align="left" style="padding-top:3px" id="property_phone_container">
         						    <script id="property_phone_template" type="x-tmpl-mustache/text">
-        							    <nobr><a href="tel:780-467-7766">780-467-7766</a></nobr>
+        							    <nobr><a href="tel:{{ prop_phone }}">{{ prop_phone }}</a></nobr>
         						    </script>
         						</div>
         				    </button>
