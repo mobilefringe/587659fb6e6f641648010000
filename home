@@ -219,7 +219,7 @@
                                         		<tr>
                                         			<td width="44px">
                                         				<div>
-                                         					<img alt="Pinterest" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484161822000/icon_pinterest.png" />
+                                         					<img alt="Pinterest" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169222000/icon_pinterest_grey.png" />
                                         				</div>
                                         			</td>
                                         			<td align="left" style="padding-top:3px">
@@ -230,7 +230,7 @@
                                         	</table>
                                         </button>
                                         <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
-                                        	<div><img alt="Icon_pinterest_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484161822000/icon_pinterest.png" /></div>
+                                        	<div><img alt="Icon_pinterest_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169222000/icon_pinterest_grey.png" /></div>
                                         </button>
 							        </td>
 						        </tr>
