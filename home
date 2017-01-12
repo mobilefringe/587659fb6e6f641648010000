@@ -175,7 +175,7 @@
         		                                <tr>
                                         			<td width="44px">
                                         			    <div>
-                                         					<img alt="Icon_facebook" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484161756000/icon_facebook.png" />
+                                         					<img alt="Icon_facebook" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169250000/icon_facebook_grey.png"/>
                                         				</div>
                                         			</td>
                                         			<td align="left" style="padding-top:3px">
@@ -186,7 +186,7 @@
     	                                    </table>
                                         </button>
                                         <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
-                                        	<div><img alt="Icon_facebook_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484161756000/icon_facebook.png" /></div>
+                                        	<div><img alt="Icon_facebook_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169250000/icon_facebook_grey.png"/></div>
                                         </button>
 							        </td>
 						        </tr>
@@ -197,7 +197,7 @@
                                         		<tr>
                                         			<td width="44px">
                                         				<div>
-                                         					<img alt="Icon_twitter" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484161773000/icon_twitter.png" />
+                                         					<img alt="Icon_twitter" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169234000/icon_twitter_grey.png" />
                                         				</div>
                                         			</td>
                                         			<td align="left" style="padding-top:3px">
@@ -208,7 +208,7 @@
                                 	        </table>
                                         </button>
                                         <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('https://twitter.com/SherwoodPkMall')">
-                                        	<div><img alt="Icon_twitter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484161773000/icon_twitter.png" /></div>
+                                        	<div><img alt="Icon_twitter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169234000/icon_twitter_grey.png" /></div>
                                         </button>
 							        </td>
 						        </tr>
