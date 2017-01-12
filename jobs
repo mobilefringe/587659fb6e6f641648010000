@@ -6,7 +6,7 @@
 	        <div class="bs-docs-example" id="jobs_container">
 	            <script id="jobs_template" type="x-tmpl-mustache/text">
                     <div class="job_container">
-                        <h3><a href="/stores/sherwood-le-chateau">Le Château</a></h3>
+                        <h3><a href="/stores/sherwood-le-chateau">{{ store_name }}</a></h3>
                         <h4><a href="/jobs/le-chateau-as-a-part-time-sales-associate--2">Le Château as a Part Time Sales Associate</a></h4>
                     </div>
                 </script>
