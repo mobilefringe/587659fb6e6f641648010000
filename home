@@ -295,7 +295,7 @@
     
     function renderPage(){
         var prop_details = getPropertyDetails();
-        // console.log(todays_hours);
+        console.log(prop_details);
         renderGeneral('#prop_phone_container', '#prop_phone_template', prop_details);
         
         renderHomeHours();
