@@ -44,7 +44,7 @@
 			<div class="thumbnails">
 				<div id="feature_container">
                     <script id="feature_template" type="x-tmpl-mustache/text">
-					    <div class="col-xs-12 col-sm-4 col-md-3" >
+					    <div class="col-xs-12 col-sm-4 col-md-12" >
     						<a href='{{ url }}'>
                                 <div class="thumbnail">
     	                            <img alt="Websitegraphics-giftcards" src="{{ image_url }}" />
