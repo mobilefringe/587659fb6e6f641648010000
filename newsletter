@@ -16,78 +16,66 @@
 <div class="container-fluid">
 	<div class="row-fluid" id="special">
 		<div class="col-md-9 content_space">
-
-
-
-
-            <!--<div class="row-fluid body_content">        -->
-            <!--    <div class="col-md-12">-->
-                    <h1>Newsletter</h1>
-                    
-                    <!-- Flash Call backs -->
-                    <!-- Flash Call backs END -->           
-                        
-                    <!-- newsletter form -->    
-                        <form accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/klgtd/" onsubmit="return validateNewsletterForm()" enctype="multipart/form-data" id="contest_form" method="post">
-                            <input id="newsletter" name="contest[newsletter]" style="display:none" value="true" />
-                            <input id="property_id" name="contest[property_id]" style="display:none" value="13" />
-                            <input id="cm-name" name="cm-name" style="display:none" value="" />
-                            <div class="row-fluid">
-                                <div class="col-md-6">
-                                    <label>*First Name</label>
-                                    <input required type="text" class="contest_info" id="first_name" value="" />
-                                </div>
-                                <div class="col-md-6">
-                                    <label>*Last Name</label>
-                                    <input required type="text" class="contest_info" id="last_name" value=""/>
-                                </div>
-                            </div>
-                            <div class="row-fluid">
-                                <div class="col-md-6">
-                                    <label>*Email</label>
-                                    <input required type="text" class="contest_info" id="email" class="form_entry" name="cm-klgtd-klgtd" value=""/>
-                                </div>
-                                <div class="col-md-6">
-                                    <label>Postal Code</label>
-                                    <input type="text" class="contest_info" id="postal_code" class="form_entry" name="cm-f-ijgc" value=""/>
-                                </div>
-                            </div>
-                            <div class="row-fluid">
-                                <div class="col-md-6">    
-                                    <label>Age</label>
-                                    <input type="text" class="contest_info" id="age" name="cm-f-ijgm" value=""/>
-                                </div>
-                                <div class="col-md-6">   
-                                    <label>Gender</label>
-                                    <select id="gender" class="contest_info" name="cm-f-ijgq">
-                                        <option value="">Choose</option>
-                                        <option value="female">female</option>
-                                        <option value="male">male</option>
-                                    </select>
-                                </div>
-                            </div>
-        
-                            <!-- Captcha -->
-                            <div class="row-fluid">
-                                <div class="col-md-6">    
-                                    <div class="line_break">&nbsp;</div>
-                                    <input type="checkbox" id="agree_terms" style="width:20px;margin:-1px 0 0;"/>I agree to receive newsletters from Sherwood Park and I understand the <a href="/pages/sherwood-privacy-policy"  style="text-decoration:underline;" target="_blank">Privacy Policy</a>
-                                    </br>
-                                </div>
-                                <div class="col-md-6">    
-                                    <div class="line_break">&nbsp;</div>
-                                    <input class="btn btn-success" name="commit" type="submit" value="Submit" style="width:85%; height: 45px;" />
-                                </div>
-                            </div>
-                            
-                            <div class="line_break">&nbsp;</div>
-                            <!-- Captcha END -->
-                        </form>
-                        <!-- Contest form end-->
-                    </div>    
+            <h1>Newsletter</h1>
+  
+            <form accept-charset="UTF-8" action="http://mobilefringe.createsend.com/t/d/s/klgtd/" onsubmit="return validateNewsletterForm()" enctype="multipart/form-data" id="contest_form" method="post">
+                <input id="newsletter" name="contest[newsletter]" style="display:none" value="true" />
+                <input id="property_id" name="contest[property_id]" style="display:none" value="13" />
+                <input id="cm-name" name="cm-name" style="display:none" value="" />
+                <div class="row-fluid">
+                    <div class="col-md-6">
+                        <label>*First Name</label>
+                        <input required type="text" class="contest_info" id="first_name" value="" />
+                    </div>
+                    <div class="col-md-6">
+                        <label>*Last Name</label>
+                        <input required type="text" class="contest_info" id="last_name" value=""/>
+                    </div>
                 </div>
-        <!--    </div>-->
-        <!--</div>-->
+                <div class="row-fluid">
+                    <div class="col-md-6">
+                        <label>*Email</label>
+                        <input required type="text" class="contest_info" id="email" class="form_entry" name="cm-klgtd-klgtd" value=""/>
+                    </div>
+                    <div class="col-md-6">
+                        <label>Postal Code</label>
+                        <input type="text" class="contest_info" id="postal_code" class="form_entry" name="cm-f-ijgc" value=""/>
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <div class="col-md-6">    
+                        <label>Age</label>
+                        <input type="text" class="contest_info" id="age" name="cm-f-ijgm" value=""/>
+                    </div>
+                    <div class="col-md-6">   
+                        <label>Gender</label>
+                        <select id="gender" class="contest_info" name="cm-f-ijgq">
+                            <option value="">Choose</option>
+                            <option value="female">female</option>
+                            <option value="male">male</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Captcha -->
+                <div class="row-fluid">
+                    <div class="col-md-6">    
+                        <div class="line_break">&nbsp;</div>
+                        <input type="checkbox" id="agree_terms" style="width:20px;margin:-1px 0 0;"/>I agree to receive newsletters from Sherwood Park and I understand the <a href="/pages/sherwood-privacy-policy"  style="text-decoration:underline;" target="_blank">Privacy Policy</a>
+                        </br>
+                    </div>
+                    <div class="col-md-6">    
+                        <div class="line_break">&nbsp;</div>
+                        <input class="btn btn-success" name="commit" type="submit" value="Submit" style="width:85%; height: 45px;" />
+                    </div>
+                </div>
+                
+                <div class="line_break">&nbsp;</div>
+                <!-- Captcha END -->
+            </form>
+                <!-- Contest form end-->
+        </div>
+
         
         
     </div>
