@@ -4,14 +4,16 @@
     		<h1>Centre Hours</h1>
         	<h2>Regular Hours</h2>
         	<div class="rounded-corners">
-    			<div class="drop-down-row">
-        			<table width="100%" border="0">
-        				<tr>
-        					<td align="left" style="font-weight:bold">Sunday</td>
-        					<td align="right">12:00pm -  5:00pm</td>
-        				</tr>
-        			</table>
-        		</div>
+        	    <script id="hours_template" type="x-tmpl-mustache/text">
+        			<div class="drop-down-row">
+            			<table width="100%" border="0">
+            				<tr>
+            					<td align="left" style="font-weight:bold">Sunday</td>
+            					<td align="right">12:00pm -  5:00pm</td>
+            				</tr>
+            			</table>
+            		</div>
+        		</script>
         		<div class="drop-down-row">
         			<table width="100%" border="0">
         				<tr>
@@ -320,3 +322,15 @@
 		</div>
 	</div>
 </div>
+<script>
+    $(document).ready(function(e){
+        // init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        var hours = getPropertyHours();
+        renderHours('#hours_container','#hours_template', hours, 'reg_hours');
+        renderHours('#holiday_container','#holiday_template', hours, 'holiday_hours');    
+    }
+</script>
