@@ -34,7 +34,7 @@
             						    </tr>
             					    </table>    
             					</td>
-            					<td align="right">Closed</td>
+            					<td align="right"> {{ h }}</td>
             				</tr>
             			</table>
         		    </div>
