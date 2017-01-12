@@ -75,8 +75,8 @@
                 		
                     <!--</div>-->
             		
-	            </tr>
-            </table>
+	           <!-- </tr>-->
+            <!--</table>-->
     
             <div class="row-fluid">
 	            <div class="flexslider" id="home_banner">
