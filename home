@@ -165,7 +165,7 @@
     					    <table role="presentation" width="100%">
         						<tr>
         							<td>
-        								<div class="connect_with_us"><nobr>Connect with Us</nobr></div>
+        								<div class="connect_with_us hidden-sm"><nobr>Connect with Us</nobr></div>
         							</td>
         						</tr>
         						<tr>
