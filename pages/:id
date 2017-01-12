@@ -10,3 +10,26 @@
         
     </div>
 </div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        loadMallDataCached(renderPage);
+    })
+    
+    function renderPage(){
+        var pathArray = window.location.pathname.split( '/' );
+        var slug = pathArray[pathArray.length-1];
+        prefix = get_prefix();
+        $('#top_banner').addClass(slug)
+        var pages_json = prefix + "/pages/" + slug + ".json"
+        $.getJSON(pages_json).done(function(data) {
+            $('#mm_page_title').html(data.title);
+            $('#mm_page_content').html(data.body);
+        }).fail(function(jqXHR) {
+            if (jqXHR.status == 404) {
+                $("#404_msg").fadeIn("fast");
+            }
+        }); 
+        show_content();
+    }
+</script>
