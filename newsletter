@@ -149,6 +149,26 @@
             return true;
         }
     }
+    
+    function subscribe_email(){        
+        var data = {}
+        var contest = {}
+        contest["email"] = $("#subscribe_email").val();
+        contest["newsletter"] = true;
+        contest["property_id"] = 13;
+        data["contest"] = contest
+        $.ajax({
+            url: "/newsletter_no_captcha",
+        	type: "POST",
+            data: data,
+			success: function(response){
+    		    $("#success_subscribe").fadeIn();
+			},
+            error: function(xhr, ajaxOptions, thrownError){
+                alert("Please try again later.");
+			}
+        })
+    }
 </script>
 
 
