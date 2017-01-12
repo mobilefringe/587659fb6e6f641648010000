@@ -57,12 +57,14 @@
             </table>
     
             <div class="row-fluid">
-	            <div class="flexslider">
-            		<ul class="slides">
-            		    <li>
-            			    <img alt="Socialmedia-newyears2017-coverphoto" src="//www.sherwoodparkmall.com/system/primary_banner_images/13/original/SocialMedia-NewYears2017-CoverPhoto.png?1482963369" />
-            			</li>
-            		</ul>
+	            <div class="flexslider" id="home_banner">
+	                <script id="banner_template" type="x-tmpl-mustache/text">
+                		<ul class="slides">
+                		    <li>
+                			    <img alt="Socialmedia-newyears2017-coverphoto" src="//www.sherwoodparkmall.com/system/primary_banner_images/13/original/SocialMedia-NewYears2017-CoverPhoto.png?1482963369" />
+                			</li>
+                		</ul>
+            		</script>
 	            </div>
 
             </div>  
@@ -301,9 +303,9 @@
     })
     
     function renderPage(){
-        // var banners = getBanners();
+        var banners = getBanners();
         // var feature_items = getFeatureList();
-        // renderBanner('#banner_template','#home_banner',banners);
+        renderBanner('#banner_template','#home_banner',banners);
         // renderFeatureItems('#feature_container','#feature_template', feature_items);
         $('.flexslider').flexslider({
             animation: "fade",
