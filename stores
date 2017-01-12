@@ -1,0 +1,70 @@
+<div class="container-fluid">
+	<div class="row-fluid" id="special">
+		<div class="col-md-9 content_space">	
+		    <h1>Store Directory</h1>
+            <ul class="nav nav-tabs">
+                <li class="active tab_colour"><a href="#pane1" data-toggle="tab">A-Z</a></li>
+                <li><a href="#pane2" data-toggle="tab">Categories</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="pane1" class="pane1 tab-pane active"><div style="padding-left:4px">
+                    <button class="btn-secondary" onClick="parent.location='#A'">A</button>
+                    <button class="btn-secondary" onClick="parent.location='#B'">B</button>
+                    <button class="btn-secondary" onClick="parent.location='#C'">C</button>
+                    <button class="btn-secondary" onClick="parent.location='#D'">D</button>
+                    <button class="btn-secondary" onClick="parent.location='#E'">E</button>
+                    <button class="btn-secondary" onClick="parent.location='#F'">F</button>
+                    <button class="btn-secondary" onClick="parent.location='#G'">G</button>
+                    <button class="btn-secondary" onClick="parent.location='#H'">H</button>
+                    <button class="btn-secondary" onClick="parent.location='#I'">I</button>
+                    <button class="btn-secondary" onClick="parent.location='#J'">J</button>
+                    <button class="btn-secondary" onClick="parent.location='#K'">K</button>
+                    <button class="btn-secondary" onClick="parent.location='#L'">L</button>
+                    <button class="btn-secondary" onClick="parent.location='#M'">M</button>
+                    <button class="btn-secondary" onClick="parent.location='#N'">N</button>
+                    <button class="btn-secondary" onClick="parent.location='#O'">O</button>
+                    <button class="btn-secondary" onClick="parent.location='#P'">P</button>
+                    <button class="btn-secondary" onClick="parent.location='#Q'">Q</button>
+                    <button class="btn-secondary" onClick="parent.location='#R'">R</button>
+                    <button class="btn-secondary" onClick="parent.location='#S'">S</button>
+                    <button class="btn-secondary" onClick="parent.location='#T'">T</button>
+                    <button class="btn-secondary" onClick="parent.location='#U'">U</button>
+                    <button class="btn-secondary" onClick="parent.location='#V'">V</button>
+                    <button class="btn-secondary" onClick="parent.location='#W'">W</button>
+                    <button class="btn-secondary" onClick="parent.location='#X'">X</button>
+                    <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
+                    <button class="btn-secondary" onClick="parent.location='#Z'">Z</button></div>
+                    
+                    <table class="stores_table" width="100%">
+                        <th colspan='3' class='stores_table_headers'>
+            		    	<a name=A></a> A
+            			</th>
+            			<tr>
+            				<td class="stores_row store_row_name"><a href="/stores/sherwood-a-w">A &amp; W</a></td>
+            				<td class="stores_row">780-449-1571&nbsp;</td>
+            				<td class="stores_row  hidden-phone">Food Court</td>
+            			</tr>
+            		</table>
+            	</div>
+            	<div id="pane2" class="pane2 tab-pane">
+    	            <div style="padding-left:4px">
+		                <button class="btn-secondary" style="padding-left:10px;padding-right:10px" onClick="parent.location='#735'">Food Court</button>
+            		</div>
+            		
+            		<table class="stores_table">
+            			<th colspan='3' class='stores_table_headers'>
+            		    	<a name=735></a> Food Court
+            			</th>
+            			<tr>
+            				<td class="stores_row store_row_name"><a href="/stores/sherwood-a-w">A &amp; W</a></td>
+            				<td class="stores_row">780-449-1571&nbsp;</td>
+            				<td class="stores_row  hidden-phone">Food Court</td>
+            			</tr>
+            		</table>
+            	</div>
+            </div>
+        </div>
+        
+        
+    </div>
+</div>
