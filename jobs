@@ -1,6 +1,6 @@
 <div class="container-fluid">
     <div class="row-fluid" id="special">
-		<div class="span9 content_space">  
+		<div class="col-md-9 content_space">  
 		    <h1>Jobs</h1>
 	        <h2>Retailer Jobs</h2>
 	        <div class="bs-docs-example">
