@@ -8,8 +8,8 @@
         			<div class="drop-down-row">
             			<table width="100%" border="0">
             				<tr>
-            					<td align="left" style="font-weight:bold">{{ day }}</td>
-            					<td align="right">{{ h }}</td>
+            					<div class="pull-left" align="left" style="font-weight:bold">{{ day }}</div>
+            					<div class="right-right" align="right">{{ h }}</div>
             				</tr>
             			</table>
             		</div>
