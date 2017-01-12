@@ -1,3 +1,10 @@
+<style>
+    .view_hours {
+        padding: 5px; 
+        padding-bottom: 0px    
+    }
+</style>
+
 <div class="container-fluid">
     <div class="row-fluid">
 		<div class="col-md-12">
@@ -28,17 +35,14 @@
                         	    <h5 align="center" style="padding-bottom:8px;padding-top:8px">Centre Hours</h5>
                                 <li>
                     			    <div class="drop-down-row" style="margin-left:5px;margin-right:5px;" id="hours_container">
-                    			        
-                        			        <!--<table width="100%" role="presentation">-->
-                        			            <script id="hours_template" type="x-tmpl-mustache/text">
-                        			            <div align="left" style="font-weight:bold">{{ day }}</div><div align="right">{{ h }}</div>
-                        				        </script>
-                        				    <!--</table>-->
-                        
+                			            <script id="hours_template" type="x-tmpl-mustache/text">
+                    			            <div align="left" style="font-weight:bold">{{ day }}</div>
+                    			            <div align="right">{{ h }}</div>
+                				        </script>
                         			</div>
                         		</li>
                             
-                    	        <div style="padding:5px;padding-bottom:0px">
+                    	        <div class="view_hours" style="">
                     	            <button class="btn-prime" onClick="location.href='/hours'">View All Hours</button>
                     	        </div>
                             </ul>  
