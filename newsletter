@@ -80,7 +80,7 @@
         
     </div>
 </div>
-
+<script src='https://www.google.com/recaptcha/api.js'></script>
 <script>
     function validateForm() {
         if ($("#first_name_parent").val() == ""){
