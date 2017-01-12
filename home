@@ -25,7 +25,7 @@
             		<div class="col-md-6" valign='middle' width='50%'>
             			<div class="welcome_message">Welcome to Sherwood Park Mall</div>
             		</div>
-            		<div class="col-md-6 hidden-xs">
+            		<div class="col-md-6 hidden-xs" style="padding-top: 15px">
             		    <div class="row">
                 		    <div class="col-md-6 dropdown custom_dropdown">
                                 <button class="btn-3" data-toggle="dropdown" style="margin-bottom:4px">
