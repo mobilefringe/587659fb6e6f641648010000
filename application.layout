@@ -32,7 +32,7 @@
     
     <!-- Site data -->
     <script>
-        setEndPoint('//');
+        setEndPoint('//sherwood.mallmaverick.com/api/v3/sherwood/all.json');
     </script>
 </head>
 
