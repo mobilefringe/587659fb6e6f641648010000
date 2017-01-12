@@ -27,7 +27,7 @@
             		</div>
             		<div class="col-md-6 hidden-xs" style="padding-top: 15px">
             		    <div class="row">
-                		    <div class="col-md-6 dropdown custom_dropdown">
+                		    <div class="col-md-8 dropdown custom_dropdown">
                                 <button class="btn-3" data-toggle="dropdown" style="margin-bottom:4px">
             						<div class="hour_icon">
             						    <img alt="Icon_hours_semi_trans" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484159625000/icon_hours.png" />
@@ -57,7 +57,7 @@
                         	        </div>
                                 </ul>  
                             </div> 
-                            <div class="col-md-6" style='padding-left:6px;'>
+                            <div class="col-md-4" style='padding-left:6px;'>
                     			<button class="btn-3" style="margin-bottom:4px">
                     			<table role="presentation">
                     				<tr>
