@@ -325,7 +325,8 @@
 <script>
     $(document).ready(function(e){
         // init(e);
-        loadMallDataCached(renderPage);
+        // loadMallDataCached(renderPage);
+        renderPage();
     })
     
     function renderPage(){
