@@ -19,13 +19,14 @@
 <div class="container-fluid">
     <div class="row-fluid">
 		<div class="col-md-12">
-		    <table role="presentation" width='100%' border='0px'>
-            	<tr>
-            		<td valign='middle' width='50%'>
+		    <div class="row">
+		    <!--<table role="presentation" width='100%' border='0px'>-->
+      <!--      	<tr>-->
+            		<div class="col-md-6" valign='middle' width='50%'>
             			<div class="welcome_message">Welcome to Sherwood Park Mall</div>
-            		</td>
-            		<td class='hidden-xs' style='padding-right:6px;padding-top:24px;padding-bottom:24px' >
-                		<div class="dropdown custom_dropdown">
+            		</div>
+            		<div class="col-md-6 hidden-xs">
+            		    <div class="dropdown custom_dropdown">
                             <button class="btn-3" data-toggle="dropdown" style="margin-bottom:4px">
         						<div class="hour_icon">
         						    <img alt="Icon_hours_semi_trans" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484159625000/icon_hours.png" />
@@ -54,22 +55,26 @@
                     	            <button class="btn-prime" onClick="location.href='/hours'">View All Hours</button>
                     	        </div>
                             </ul>  
-                        </div>
-                    </td>
-            		<td class='hidden-xs' style='padding-left:6px;padding-top:24px;padding-bottom:24px'>
-            			<button class="btn-3" style="margin-bottom:4px">
-            			<table role="presentation">
-            				<tr>
-            					<td width="44px">
-            						<div><img alt="Icon_phone_semi_trans" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484159662000/icon_phone.png"/></div>
-            					</td>
-            					<td align="left" style="padding-top:3px;padding-right:8px">
-            						<nobr>780-467-7766</nobr>
-            					</td>
-            				</tr>
-            			</table>
-            			</button>
-            		</td>
+                        </div> 
+                        <div style='padding-left:6px;padding-top:24px;padding-bottom:24px'>
+                			<button class="btn-3" style="margin-bottom:4px">
+                			<table role="presentation">
+                				<tr>
+                					<td width="44px">
+                						<div><img alt="Icon_phone_semi_trans" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484159662000/icon_phone.png"/></div>
+                					</td>
+                					<td align="left" style="padding-top:3px;padding-right:8px">
+                						<nobr>780-467-7766</nobr>
+                					</td>
+                				</tr>
+                			</table>
+                			</button>
+            		    </div>
+            		</div>
+            		<!--<div class='hidden-xs' style='padding-right:6px;padding-top:24px;padding-bottom:24px' >-->
+                		
+                    <!--</div>-->
+            		
 	            </tr>
             </table>
     
