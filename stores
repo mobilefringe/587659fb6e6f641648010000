@@ -42,7 +42,7 @@
                 			</div>
                 			<div class="row-fluid">
                 				<span class="col-md-5 stores_row store_row_name"><a href="/stores/{{name}}">{{name}}</a></span>
-                				<span class="col-md-4 stores_row">{{phone}}&nbsp;</span>
+                				<span class="col-md-4 stores_row">{{phone}}</span>
                 				<span class="col-md-3 stores_row  hidden-phone">Category</span>
                 			</div>
             			</script>
