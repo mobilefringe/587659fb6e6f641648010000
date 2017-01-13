@@ -2,29 +2,32 @@
 	<div class="row-fluid" id="special">
 		<div class="col-md-9 content_space">  
 		    <h1>Promotions</h1>
-            <h2>Store Sales &amp; Promotions</h2>
-            <div class="media-list">
-                <div class="media" id="promo_container">
-                    <script id="promo_template" type="x-tmpl-mustache/text">
-                        <div class="row">
-                            <div class="col-sm-4 hidden-xs">
-                                <a href="{{ slug }}">
-                                    <img alt="Promotional Image" class="media-image media-object pull-left" src="{{ promo_image_url_abs }}"/>
-                                </a>
-                            </div>
-                            <div class="col-sm-8">
-                                <div class="media-body">
-                                    <h3><a href="/stores/{{ store_detail_btn }}">{{ store_name }}</a></h3>
-                                    <h3><a href="/promotions/{{ slug }}">{{ name }}</a></h3>
-                                    <h4>{{ dates }}</h4>
-                                    <p>{{ description }}</p>
+		    <p id="no_promos" class="hidden_now"></p>
+		    <div id="promos">
+		        <h2>Store Sales &amp; Promotions</h2>
+                <div class="media-list">
+                    <div class="media" id="promo_container">
+                        <script id="promo_template" type="x-tmpl-mustache/text">
+                            <div class="row">
+                                <div class="col-sm-4 hidden-xs">
+                                    <a href="{{ slug }}">
+                                        <img alt="Promotional Image" class="media-image media-object pull-left" src="{{ promo_image_url_abs }}"/>
+                                    </a>
+                                </div>
+                                <div class="col-sm-8">
+                                    <div class="media-body">
+                                        <h3><a href="/stores/{{ store_detail_btn }}">{{ store_name }}</a></h3>
+                                        <h3><a href="/promotions/{{ slug }}">{{ name }}</a></h3>
+                                        <h4>{{ dates }}</h4>
+                                        <p>{{ description }}</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="line_break">&nbsp;</div>
-                    </script>
-                </div>
-            </div>
+                            <div class="line_break">&nbsp;</div>
+                        </script>
+                    </div>
+                </div>    
+		    </div>
         </div>
         
         
@@ -40,5 +43,11 @@
     function renderPage(){
         var promos = getPromotionsList();
         renderPromotions("#promo_container","#promo_template", promos);
+        if(promos.length > 0){
+            renderPromotions("#promo_container","#promo_template", promos);
+            $("#promos").show();
+        } else { 
+            $('#no_promos').show();
+        }
     }
 </script>
