@@ -4,8 +4,8 @@
 		    <h1>Jobs</h1>
 		    <div id="prop_jobs">
     	        <h2>Mall Jobs</h2>
-    	        <div class="bs-docs-example" id="jobs_container">
-    	            <script id="jobs_template" type="x-tmpl-mustache/text">
+    	        <div class="bs-docs-example" id="mall_jobs_container">
+    	            <script id="mall_jobs_template" type="x-tmpl-mustache/text">
                         <div class="job_container">
                             <h3>{{ store_name }}</h3>
                             <h4><a href="/jobs/{{ slug}}">{{ name }}</a></h4>
@@ -15,8 +15,8 @@
             </div>
 		    <div id="retail_jobs">
     	        <h2>Retailer Jobs</h2>
-    	        <div class="bs-docs-example" id="jobs_container">
-    	            <script id="jobs_template" type="x-tmpl-mustache/text">
+    	        <div class="bs-docs-example" id="retailer_jobs_container">
+    	            <script id="retailer_jobs_template" type="x-tmpl-mustache/text">
                         <div class="job_container">
                             <h3><a href="/stores/{{ store_slug }}">{{ store_name }}</a></h3>
                             <h4><a href="/jobs/{{ slug }}">{{ name }}</a></h4>
@@ -39,19 +39,33 @@
         console.log(jobs);
         var published_jobs = [];
         $.each( jobs , function( key, val ){
-            today = moment();
-            webDate = moment(val.show_on_web_date);
-            if (today >= webDate) {
-                published_jobs.push(val)
+            if(val.jobable_type == "Property"){
+                today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                    mall_published_jobs.push(val);
+                }
+            } else {
+                today = moment();
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                    retailer_published_jobs.push(val);
+                }     
             } 
         });
-        if( published_jobs.length > 0){
-            renderJobs("#jobs_container","#jobs_template", published_jobs);
-            $('#no_jobs').hide()
+        if(mall_published_jobs.length > 0){
+            renderJobs("#mall_jobs_container","#mall_jobs_template", mall_published_jobs);
         }
         else{
-            $('#events_header').click();
-            $('#events_header').find('i').toggleClass('fa-chevron-down fa-chevron-up');
+            $("#prop_jobs").hide();
         }
+        if(retailer_published_jobs.length > 0){
+            renderJobs("#retailer_jobs_container","#retailer_jobs_template", retailer_published_promos);
+        }
+        else{
+            $("#retail_jobs").hide();
+        }
+        
+            
     }
 </script>
