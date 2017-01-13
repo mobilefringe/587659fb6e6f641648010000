@@ -404,28 +404,28 @@ function renderStoreList(container, template, collection, type){
             store_initial = current_initial;
             val.show = "display:block;";
         }
-        if(val.is_coming_soon_store == true){
-            val.coming_soon_store = "display:inline";
-        }
-        else{
-            val.coming_soon_store = "display:none";
-        }
-        if(val.is_new_store == true){
-            val.new_store = "display:inline";
-        }
-        else{
-            val.new_store = "display:none";
-        }
-        if (val.promotions.length > 0){
-            val.promotion_exist = "display:inline";
-            var store_promo = getPromotionsForIds(val.promotions).sortBy(function(o){ return o.start_date })[0];
-            if (store_promo != undefined){
-                val.promo_btn = "/promotions/" + store_promo.slug;
-            }
-        }
-        else{
-            val.promotion_exist = "display:none";
-        }
+        // if(val.is_coming_soon_store == true){
+        //     val.coming_soon_store = "display:inline";
+        // }
+        // else{
+        //     val.coming_soon_store = "display:none";
+        // }
+        // if(val.is_new_store == true){
+        //     val.new_store = "display:inline";
+        // }
+        // else{
+        //     val.new_store = "display:none";
+        // }
+        // if (val.promotions.length > 0){
+        //     val.promotion_exist = "display:inline";
+        //     var store_promo = getPromotionsForIds(val.promotions).sortBy(function(o){ return o.start_date })[0];
+        //     if (store_promo != undefined){
+        //         val.promo_btn = "/promotions/" + store_promo.slug;
+        //     }
+        // }
+        // else{
+        //     val.promotion_exist = "display:none";
+        // }
         if(val.phone.length < 1){
             val.phone_exist = "display:none";
         }
