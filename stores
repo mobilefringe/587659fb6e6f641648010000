@@ -35,7 +35,7 @@
                     <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
                     <button class="btn-secondary" onClick="parent.location='#Z'">Z</button></div>
                     
-                    <div class="stores_table">
+                    <div class="stores_table" id="store_list_container">
                         <script id="store_list_template" type="x-tmpl-mustache/text">
                             <div class="row-fluid stores_table_headers">
                 		    	<a name=A></a> {{initial}}
