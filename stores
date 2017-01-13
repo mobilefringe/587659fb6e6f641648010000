@@ -80,8 +80,8 @@
     function renderPage(){
         var stores = getStoresList();
         console.log(stores);
-        renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
-        renderStoreList('#store_list_container2','#store_list_template2', stores, "stores","M", "Z" );
+        renderStoreList('#store_list_container','#store_list_template', stores, "stores");
+        renderStoreList('#store_list_container2','#store_list_template2', stores, "stores");
         renderStoreList('#numbered_store_list_container','#numbered_store_list_template', stores, "stores","#", "#" );
         var categories = getStoreCategories();
         // renderGeneral('#category_container, #category_container2', '#category_template', categories);
