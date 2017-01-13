@@ -35,7 +35,7 @@
     function renderPage(){
         var events = getEventsList();
         console.log(events);
-        if(events.length > 0){
+        if(events.length > 10){
             renderEvents("#events_container","#events_template", events);
             $("#events").show();
         } else { 
