@@ -37,7 +37,7 @@
                     
                     <div class="stores_table">
                         <script id="store_list_template" type="x-tmpl-mustache/text">
-                            <div class="row "colspan='3' class='stores_table_headers'>
+                            <div class="row" class='stores_table_headers'>
                 		    	<a name=A></a> {{initial}}
                 			</div>
                 			<div class="row">
