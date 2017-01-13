@@ -365,3 +365,155 @@ function renderPromoDetails(container, template, collection){
     });
     $(container).html(item_rendered.join(''));
 }
+
+function renderStoreList(container, template, collection, type){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html);   // optional, speeds up future uses
+    var store_initial="";
+    $.each( collection , function( key, val ) {
+        if (type == "stores" || type == "category_stores"){
+            if(!val.store_front_url ||  val.store_front_url.indexOf('missing.png') > -1 || val.store_front_url.length === 0){
+                val.alt_store_front_url = "";
+            } else {
+                val.alt_store_front_url = getImageURL(val.store_front_url);    
+            }
+        }
+        //var categories = getStoreCategories();
+        var current_initial = val.name[0];
+        val.cat_list = val.categories.join(',')
+        if(store_initial.toLowerCase() == current_initial.toLowerCase()){
+            val.initial = "";
+            val.show = "display:none;";
+        }
+        else{
+            val.initial = current_initial;
+            store_initial = current_initial;
+            val.show = "display:block;";
+        }
+        if(val.is_coming_soon_store == true){
+            val.coming_soon_store = "display:inline";
+        }
+        else{
+            val.coming_soon_store = "display:none";
+        }
+        if(val.is_new_store == true){
+            val.new_store = "display:inline";
+        }
+        else{
+            val.new_store = "display:none";
+        }
+        if (val.promotions.length > 0){
+            val.promotion_exist = "display:inline";
+            var store_promo = getPromotionsForIds(val.promotions).sortBy(function(o){ return o.start_date })[0];
+            if (store_promo != undefined){
+                val.promo_btn = "/promotions/" + store_promo.slug;
+            }
+        }
+        else{
+            val.promotion_exist = "display:none";
+        }
+        if(val.phone.length < 1){
+            val.phone_exist = "display:none";
+        }
+        val.block = current_initial + '-block';
+        var rendered = Mustache.render(template_html,val);
+        var upper_current_initial = current_initial.toUpperCase();
+        item_rendered.push(rendered);
+    });
+    $(container).show();
+    $(container).html(item_rendered.join(''));
+}
+
+function renderStoreDetails(container, template, collection, slug){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html);   // optional, speeds up future uses
+    item_list.push(collection);
+    $.each( item_list , function( key, val ) {
+        if ((val.store_front_url).indexOf('missing.png') > -1){
+            val.alt_store_front_url = "//www.mallmaverick.com/photos/original/missing.png";
+        } else {
+            val.alt_store_front_url = getImageURL(val.store_front_url); 
+        }
+        val.category_list = getCategoriesNamesByStoreSlug(slug);
+        val.map_x_coordinate = val.x_coordinate - 19;
+        val.map_y_coordinate = val.y_coordinate - 58;
+        val.property_map = getPropertyDetails().mm_host + getPropertyDetails().map_url;
+        if (val.website != null && val.website.length > 0){
+            val.show = "display:inline-block";
+        }
+        else{
+            val.show = "display:none";
+        }
+        if (val.phone != null && val.phone.length > 0){
+            val.phone_show = "display:inline-block";
+        }
+        else{
+            val.phone_show = "display:none";
+        }
+        
+        if (val.twitter != null && val.twitter.length > 0){
+            val.twitter_show = "display:inline-block";
+        }
+        else{
+            val.twitter_show = "display:none";
+        }
+        
+        if (val.twitter_show == "display:none" && val.phone_show == "display:none" ){
+            val.show_line = "display:none";
+        }
+        else{
+            val.show_line = "display:block";
+        }
+        if((val.twitter == null || val.twitter == "") && (val.facebook == "" || val.facebook == null)){
+            val.hide_social = "display:none;";
+        }
+        if (val.facebook != null && val.facebook.length > 0){
+            val.facebook_show = "display:inline-block";
+        }
+        else{
+            val.facebook_show = "display:none";
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).show();
+    $(container).html(item_rendered.join(''));
+}
+
+function renderStoreListCatetories(container, template, category_list,stores){
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html);   // optional, speeds up future use
+    var initial_id = 0;
+    var category_index = 0;
+    $.each(category_list , function( key, category ) {
+        var category_id = parseInt(category.id);
+        var category_name = category.name;
+        var current_id = category.id;
+        var count = 0;
+        
+        $.each( stores , function( i, store ) {
+            var store_category = store.categories;
+            var a = store.categories.indexOf(category_id);
+            
+            if (a > -1){
+                if (count == 0){
+                    store.show  = "display:block"; 
+                }else{
+                    store.show  = "display:none"; 
+                }
+                store.header = category_name;
+                store.block = category.id;
+                var rendered = Mustache.render(template_html,store);
+                item_rendered.push(rendered);
+                count += 1;
+            }
+        });
+        category_index += 1;
+    });
+    $(container).html(item_rendered.join(''));
+}
