@@ -7,9 +7,11 @@
                 <div class="media" id="promo_container">
                     <script id="promo_template" type="x-tmpl-mustache/text">
                         <div class="row-fluid">
-                            <a href="{{ slug }}">
-                                <img alt="Promotional Image" class="media-image media-object pull-left hidden-xs" src="{{ promo_image_url_abs }}"/>
-                            </a>
+                            <div class="col-sm-4 hidden-xs">
+                                <a href="{{ slug }}">
+                                    <img alt="Promotional Image" class="media-image media-object pull-left" src="{{ promo_image_url_abs }}"/>
+                                </a>
+                            </div>
                             <div class="media-body">
                                 <h3><a href="/stores/{{ store_detail_btn }}">{{ store_name }}</a></h3>
                                 <h3><a href="/promotions/{{ slug }}">{{ name }}</a></h3>
