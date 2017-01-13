@@ -2,6 +2,7 @@
     <div class="row-fluid" id="special">
 		<div class="col-md-9 content_space">  
 		    <h1>Jobs</h1>
+		    <p id="no_jobs" class="hidden_now">There are currently no job postings available. Please check back later.</p>
 		    <div id="prop_jobs" class="hidden_now">
     	        <h2>Mall Jobs</h2>
     	        <div class="bs-docs-example" id="mall_jobs_container">
@@ -14,7 +15,7 @@
                 </div>
                 <div class="line_break">&nbsp;</div>
             </div>
-		    <div id="retail_jobs">
+		    <div id="retail_jobs" class="hidden_now">
     	        <h2>Retailer Jobs</h2>
     	        <div class="bs-docs-example" id="retailer_jobs_container">
     	            <script id="retailer_jobs_template" type="x-tmpl-mustache/text">
@@ -54,15 +55,16 @@
                 }     
             } 
         });
-        if(mall_published_jobs.length > 5){
+        if(mall_published_jobs.length > 0){
             renderJobs("#mall_jobs_container","#mall_jobs_template", mall_published_jobs);
             $("#prop_jobs").show();
         }
         if(retailer_published_jobs.length > 0){
             renderJobs("#retailer_jobs_container","#retailer_jobs_template", retailer_published_jobs);
+            $("#retail_jobs").show();
         }
-        else{
-            $("#retail_jobs").hide();
+        if (mall_published_jobs.length < 1 && retailer_published_jobs.length < 1) ){
+            $("#no_jobs").show();    
         }
         
             
