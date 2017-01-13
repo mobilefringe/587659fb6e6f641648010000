@@ -63,9 +63,9 @@
             renderJobs("#retailer_jobs_container","#retailer_jobs_template", retailer_published_jobs);
             $("#retail_jobs").show();
         }
-        if (mall_published_jobs.length < 1 && retailer_published_jobs.length < 1) ){
-            $("#no_jobs").show();    
-        }
+        // if (mall_published_jobs.length < 1 && retailer_published_jobs.length < 1) ){
+        //     $("#no_jobs").show();    
+        // }
         
             
     }
