@@ -40,11 +40,11 @@
                             <div colspan='3' class='stores_table_headers'>
                 		    	<a name=A></a> {{initial}}
                 			</div>
-                			<tr>
-                				<td class="stores_row store_row_name"><a href="/stores/sherwood-a-w">A &amp; W</a></td>
-                				<td class="stores_row">780-449-1571&nbsp;</td>
-                				<td class="stores_row  hidden-phone">Food Court</td>
-                			</tr>
+                			<div>
+                				<span class="stores_row store_row_name"><a href="/stores/{{name}}">{{name}}</a></span>
+                				<span class="stores_row">{{phone}}&nbsp;</span>
+                				<td class="stores_row  hidden-phone">{{}}</td>
+                			</div>
             			</script>
             		</div>
             		
