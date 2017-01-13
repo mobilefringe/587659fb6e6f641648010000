@@ -61,7 +61,7 @@
             $("#prop_jobs").hide();
         }
         if(retailer_published_jobs.length > 0){
-            renderJobs("#retailer_jobs_container","#retailer_jobs_template", retailer_published_promos);
+            renderJobs("#retailer_jobs_container","#retailer_jobs_template", retailer_published_jobs);
         }
         else{
             $("#retail_jobs").hide();
