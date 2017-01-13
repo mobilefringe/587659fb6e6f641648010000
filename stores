@@ -47,35 +47,6 @@
                 			</div>
             			</script>
             		</div>
-            		
-            		<div class="store_list" id="store_list_container">
-                        <script id="store_list_template" type="x-tmpl-mustache/text">
-                            <div class="store_list_content">
-                                <div class="stores_table_headers" style="{{show}}">
-                                    <a id="{{initial}}"></a>{{initial}}
-                                    <a href="#top" class="pull-right"><span class="arrow-up"></span>Go to Top</a>
-                                </div>
-                                <div class="stores_row store_row_name">
-                                    <a href="/stores/{{slug}}">{{name}}</a>
-                                </div>
-                                <div class="pull-right stores_row stores_row_phone">
-                                    <span style="{{promotion_exist}}">
-                                        <img alt="" src="//www.mallmaverick.com/system/site_images/photos/000/000/771/original/btn_promo.png?1381264332"/>
-                                    </span>
-                                    <span class="store_phone hidden-xs"><a href="tel:{{phone}}">{{phone}}</a></span>
-                                    <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
-                                        <img ALT="store.phone" src="//www.mallmaverick.com/system/site_images/photos/000/000/834/original/icon_call_stores.png?1381872730" />
-                                    </a></span>
-                                </div>
-                            </div>
-                        </script>
-                    </div>
-            		
-            		
-            		
-            		
-            		
-            		
             	</div>
             	<div id="pane2" class="pane2 tab-pane">
     	            <div style="padding-left:4px">
