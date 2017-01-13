@@ -2,40 +2,42 @@
 	<div class="row-fluid" id="special">
 		<div class="col-md-9 content_space">  
 		    <h1>What's On</h1>
-		    <ul class="media-list">
-                <li class="media">
-		  			<a href="/events/kildonanplace-happy-shopper-card">
-		  			    <img alt="Happy_shopper_logo" class="media-image media-object pull-left" src="/system/event_images/1967/original/Happy_Shopper_Logo.jpg?1458589269" />
-	  			    </a>
-			        <div class="media-body">
-			            <h3><a href="/events/kildonanplace-happy-shopper-card">Happy Shopper Card</a></h3>
-						<h4>Mar 21-Dec 31</h4>
-					    <h2>GET YOUR FREE HAPPY SHOPPER CARD TODAY AT GUEST SERVICES!</h2>
-
-                        <p><strong>Shop</strong>&nbsp;<br />
-                        on three monthly &#39;Happy Days&#39;.</p>
-                        
-                        <p><strong>Stop&nbsp;</strong><br />
-                        by Guest Services on these days,&nbsp;to get your card stamped!</p>
-                        
-                        <p><strong>&amp; Swap&nbsp;</strong><br />
-                        your card for a new one when you get three stamps, to enter for a chance to WIN&nbsp;a $250 Shopping Spree!</p>
-                        
-                        <p><strong>What&rsquo;s a Happy Day?</strong><br />
-                        Follow KP on Social Media or subscribe to our e-newsletter for monthly Happy Days, full of surprises and delights!</p>
-                        
-                        <p><strong>Introducing: Random Acts of Happiness</strong><br />
-                        More great offers throughout the year! &nbsp;Keep an eye out for store signage to find out these special perks.</p>
-                        
-                        <p><strong>Plus: Save Every Day in our Food Court!&nbsp;</strong><br />
-                        Your card also entitles you to 5% off regular menu items every day at A&amp;W and Subway.&nbsp;Plus, show your card at Arby&#39;s for Fryday Friday and get <strong>free</strong> curly fries every Friday!</p>
-                        
-                        <p><strong>Want more info?</strong><br />
-                        Ask the Happy Staff at Guest Services, they&rsquo;ll give you the details!</p>
-
-			        </div>
-			    </li>
-		    </ul>
+		    <div class="media-list" id="events_container">
+		        <script id="events_template" type="x-tmpl-mustache/text">
+                    <div class="media">
+    		  			<a href="/events/kildonanplace-happy-shopper-card">
+    		  			    <img alt="Happy_shopper_logo" class="media-image media-object pull-left" src="/system/event_images/1967/original/Happy_Shopper_Logo.jpg?1458589269" />
+    	  			    </a>
+    			        <div class="media-body">
+    			            <h3><a href="/events/kildonanplace-happy-shopper-card">Happy Shopper Card</a></h3>
+    						<h4>Mar 21-Dec 31</h4>
+    					    <h2>GET YOUR FREE HAPPY SHOPPER CARD TODAY AT GUEST SERVICES!</h2>
+    
+                            <p><strong>Shop</strong>&nbsp;<br />
+                            on three monthly &#39;Happy Days&#39;.</p>
+                            
+                            <p><strong>Stop&nbsp;</strong><br />
+                            by Guest Services on these days,&nbsp;to get your card stamped!</p>
+                            
+                            <p><strong>&amp; Swap&nbsp;</strong><br />
+                            your card for a new one when you get three stamps, to enter for a chance to WIN&nbsp;a $250 Shopping Spree!</p>
+                            
+                            <p><strong>What&rsquo;s a Happy Day?</strong><br />
+                            Follow KP on Social Media or subscribe to our e-newsletter for monthly Happy Days, full of surprises and delights!</p>
+                            
+                            <p><strong>Introducing: Random Acts of Happiness</strong><br />
+                            More great offers throughout the year! &nbsp;Keep an eye out for store signage to find out these special perks.</p>
+                            
+                            <p><strong>Plus: Save Every Day in our Food Court!&nbsp;</strong><br />
+                            Your card also entitles you to 5% off regular menu items every day at A&amp;W and Subway.&nbsp;Plus, show your card at Arby&#39;s for Fryday Friday and get <strong>free</strong> curly fries every Friday!</p>
+                            
+                            <p><strong>Want more info?</strong><br />
+                            Ask the Happy Staff at Guest Services, they&rsquo;ll give you the details!</p>
+    
+    			        </div>
+    			    </div>
+    		    </script>
+		    </div>
         </div>
         
         
@@ -50,6 +52,7 @@
 
     function renderPage(){
         var events = getEventsList();
-        renderPromotions("#promo_container","#promo_template", promos);
+        console.log(events);
+        renderEvents("#events_container","#events_template", events);
     }
 </script>
