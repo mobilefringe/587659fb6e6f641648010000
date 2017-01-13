@@ -57,7 +57,7 @@
             		
             		<div class="stores_table" id="category_list_container">
             			<script id="category_list_template" type="x-tmpl-mustache/text">
-                            <div class="row-fluid stores_table_headers">
+                            <div class="row-fluid stores_table_headers" style="{{show}}">
                 		    	<a name={{header}}></a>{{header}}
                 			</div>
                 			<div class="row-fluid">
