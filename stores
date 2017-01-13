@@ -40,10 +40,10 @@
                             <div colspan='3' class='stores_table_headers'>
                 		    	<a name=A></a> {{initial}}
                 			</div>
-                			<div>
-                				<span class="stores_row store_row_name"><a href="/stores/{{name}}">{{name}}</a></span>
-                				<span class="stores_row">{{phone}}&nbsp;</span>
-                				<span class="stores_row  hidden-phone">Category</span>
+                			<div class="row">
+                				<span class="col-md-6 stores_row store_row_name"><a href="/stores/{{name}}">{{name}}</a></span>
+                				<span class="col-md-2 stores_row">{{phone}}&nbsp;</span>
+                				<span class="col-md-4 stores_row  hidden-phone">Category</span>
                 			</div>
             			</script>
             		</div>
