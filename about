@@ -12,8 +12,9 @@
                     {{province_state}}</br>
                     {{country}}</br>
                     {{postal_code}}</br>
-                    
-                    <div class="hidden-phone">
+                </script>
+            </div>
+            <div class="hidden-phone">
                         <iframe title="mall map" width="100%" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="https://maps.google.nl/maps?q=2020 Sherwood Dr  Sherwood Park Canada AB T8A 3H9&amp;hl=en&amp;ie=UTF8&amp;t=v&amp;hnear=2020 Sherwood Dr  Sherwood Park Canada AB T8A 3H9&amp;z=13&amp;output=embed">Directions</iframe>
                             
                     </div>
@@ -21,9 +22,6 @@
                     	<a href="https://maps.google.ca?q=2020 Sherwood Dr  Sherwood Park Canada AB T8A 3H9" target="_blank">
                     	<img alt="map" src="https://maps.googleapis.com/maps/api/staticmap?center=2020 Sherwood Dr  Sherwood Park Canada AB T8A 3H9&amp;zoom=13&amp;size=600x500&amp;maptype=roadmap&amp;sensor=false&amp;markers=color:red%7Ccolor:red%7Clabel:%7C53.5314,-113.294"/></a>
                     </div>
-                </script>
-            </div>
-            
         </div>
         	
     </div>
