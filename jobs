@@ -38,7 +38,7 @@
         var jobs = getJobsList().sortBy(function(o){ return o.start_date});
         console.log(jobs);
         var mall_published_jobs = [];
-        var retailer_published_promos = [];
+        var retailer_published_jobs = [];
         $.each( jobs , function( key, val ){
             if(val.jobable_type == "Property"){
                 today = moment();
