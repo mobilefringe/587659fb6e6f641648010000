@@ -31,6 +31,89 @@ function renderBanner(banner_template,home_banner,banners){
     });
     $(home_banner).html(item_rendered.join(''));
 }
+function renderEvents(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    $.each( collection , function( key, val ) {
+        if (val.eventable_type == "Store") {
+            var store_details = getStoreDetailsByID(val.eventable_id);
+            val.store_detail_btn = store_details.slug ;
+            val.store_name = store_details.name;
+            val.event_image_url = store_details.store_front_url_abs;
+        }
+        else {
+            val.store_name = "Marlborough Mall";
+            // val.event_image_url = val.event_image_url_abs;
+        }
+        if(val.event_image_url.indexOf('missing.png') < 0){
+            val.event_image_url = val.logo;
+        }
+        else{
+            if(val.image_url.indexOf('missing.png') < 0){
+                val.logo = val.image_url;
+            }
+            else{
+                val.logo = "";
+            }
+        }
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
+        var end = moment(val.end_date).tz(getPropertyTimeZone());
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM D")
+        }
+        else{
+            val.dates = start.format("MMM D") + " - " + end.format("MMM D")
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+}
+
+function renderEventDetails(container, template, collection){
+    var item_list = [];
+    var item_rendered = [];
+    var template_html = $(template).html();
+    Mustache.parse(template_html); 
+    item_list.push(collection);
+    $.each( item_list , function( key, val ) {
+        if (val.eventable_type == "Store") {
+            var store_details = getStoreDetailsByID(val.eventable_id);
+            val.store_detail_btn = store_details.slug;
+            val.store_name = store_details.name;
+            if (store_details.store_front_url_abs.indexOf('missing.png') > -1){
+                val.image_url = "";
+            }
+            else{
+                val.image_url = store_details.store_front_url_abs;
+            }
+        }
+        else{
+            val.store_name = "Marlborough Mall";
+            val.image_url = "";
+        }
+        
+        if(val.event_image_url_abs.indexOf('missing.png') > -1){
+            val.promo_image_show="display:none";
+        }
+        
+        var show_date = moment(val.show_on_web_date);
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
+        var end = moment(val.end_date).tz(getPropertyTimeZone());
+        if (start.format("DMY") == end.format("DMY")){
+            val.dates = start.format("MMM D")
+        }
+        else{
+            val.dates = start.format("MMM D") + " - " + end.format("MMM D")
+        }
+        var rendered = Mustache.render(template_html,val);
+        item_rendered.push(rendered);
+    });
+    $(container).html(item_rendered.join(''));
+} 
 
 function renderFeatureItems(container, template, collection){
     var item_list = [];
