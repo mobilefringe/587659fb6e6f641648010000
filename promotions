@@ -6,7 +6,7 @@
             <div class="media-list">
                 <div class="media" id="promo_container">
                     <script id="promo_template" type="x-tmpl-mustache/text">
-                        <div class="row-fluid">
+                        <div class="row">
                             <div class="col-sm-4 hidden-xs">
                                 <a href="{{ slug }}">
                                     <img alt="Promotional Image" class="media-image media-object pull-left" src="{{ promo_image_url_abs }}"/>
