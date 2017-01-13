@@ -5,16 +5,18 @@
 		    <p id="no_events" class="hidden_now">There are currently no events available. Please check back again soon.</p>
 		    <div class="media-list" id="events_container">
 		        <script id="events_template" type="x-tmpl-mustache/text">
-                    <div class="media">
-    		  			<a href="/events/{{slug}}">
-    		  			    <img alt="{{name}}" class="media-image media-object pull-left" src="{{event_image_url_abs}}" />
-    	  			    </a>
-    			        <div class="media-body">
-    			            <h3><a href="/events/{{slug}}">{{name}}</a></h3>
-    						<h4>{{dates}}</h4>
-                            <p>{{{rich_description}}}</p>
-    			        </div>
-    			    </div>
+		            <div class="row">
+                        <div class="media">
+        		  			<a href="/events/{{slug}}">
+        		  			    <img alt="{{name}}" class="media-image media-object pull-left" src="{{event_image_url_abs}}" />
+        	  			    </a>
+        			        <div class="media-body">
+        			            <h3><a href="/events/{{slug}}">{{name}}</a></h3>
+        						<h4>{{dates}}</h4>
+                                <p>{{{rich_description}}}</p>
+        			        </div>
+        			    </div>
+        	        </div>
     		    </script>
 		    </div>
         </div>
