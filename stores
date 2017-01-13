@@ -37,7 +37,7 @@
                     
                     <div class="stores_table">
                         <script id="store_list_template" type="x-tmpl-mustache/text">
-                            <div class="row-fluid" class='stores_table_headers'>
+                            <div class="row-fluid stores_table_headers">
                 		    	<a name=A></a> {{initial}}
                 			</div>
                 			<div class="row-fluid">
