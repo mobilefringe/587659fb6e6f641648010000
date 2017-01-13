@@ -49,8 +49,10 @@
             		</div>
             	</div>
             	<div id="pane2" class="pane2 tab-pane">
-    	            <div style="padding-left:4px">
-		                <button class="btn-secondary" style="padding-left:10px;padding-right:10px" onClick="parent.location='#735'">Food Court</button>
+    	            <div style="padding-left:4px" id="categories_container">
+    	                <script id="categories_template" type="x-tmpl-mustache/text">
+		                    <button class="btn-secondary" style="padding-left:10px;padding-right:10px" onClick="parent.location='#735'">Food Court</button>
+		                </script>
             		</div>
             		
             		<div class="stores_table" id="category_list_container">
@@ -89,6 +91,6 @@
         renderStoreList('#store_list_container','#store_list_template', stores, "stores");
         // renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores");
         renderStoreListCatetories('#category_list_container','#category_list_template', categories, stores);
-        // renderGeneral('#categories_container', '#categories_template', categories, stores);
+        renderGeneral('#categories_container', '#categories_template', categories);
     }
 </script>
