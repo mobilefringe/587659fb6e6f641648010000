@@ -2,6 +2,7 @@
 	<div class="row-fluid" id="special">
 		<div class="col-md-9 content_space">  
 		    <h1>What's On</h1>
+		    <p id="no_events" class="hidden_now">There are currently no events available. Please check back again soon.</p>
 		    <div class="media-list" id="events_container">
 		        <script id="events_template" type="x-tmpl-mustache/text">
                     <div class="media">
