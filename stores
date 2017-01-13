@@ -90,7 +90,7 @@
         console.log(categories);
         renderStoreList('#store_list_container','#store_list_template', stores, "stores");
         // renderStoreList('#store_list_container_right','#store_list_template_right', stores, "stores");
-        renderStoreListCatetories('#category_list_container','#category_list_template', categories, stores);
+        renderStoreListCatetories('#category_list_container','#category_list_template', stores, categories );
         renderGeneral('#categories_container', '#categories_template', categories);
     }
 </script>
