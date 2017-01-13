@@ -2,7 +2,6 @@
 	<div class="row-fluid" id="special">
 		<div class="col-md-9 content_space">  
 		    <h1>What's On</h1>
-		    
 		    <ul class="media-list">
                 <li class="media">
 		  			<a href="/events/kildonanplace-happy-shopper-card">
@@ -43,3 +42,14 @@
         
     </div>
 </div>
+<script>
+    $(document).ready(function(e){
+        // init(e);
+        loadMallDataCached(renderPage);
+    })
+
+    function renderPage(){
+        var events = getEventsList();
+        renderPromotions("#promo_container","#promo_template", promos);
+    }
+</script>
