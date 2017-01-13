@@ -7,13 +7,7 @@
     	        <script id="address_template" type="x-tmpl-mustache/text">
                     <h3>Address</h3>
                     <h4>{{name}}</h4>
-                    <div>
-                        <p>{{address1}}</br>
-                        {{city}},
-                        {{province_state}}</br>
-                        {{country}}</br>
-                        {{postal_code}}</p></br>
-                    </div>
+                    
                 </script>
             </div>
             <div class="hidden-phone">
