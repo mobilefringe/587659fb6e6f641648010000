@@ -2,7 +2,7 @@
 	<div class="row-fluid" id="special">
 		<div class="col-md-9 content_space">  
 		    <h1>Promotions</h1>
-		    <p id="no_promos" class="hidden_now">There are no promotions available. Please check back again soon.</p>
+		    <p id="no_promos" class="hidden_now">There are currently no promotions available. Please check back again soon.</p>
 		    <div id="promos" class="hidden_now">
 		        <h2>Store Sales &amp; Promotions</h2>
                 <div class="media-list">
