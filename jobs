@@ -13,6 +13,7 @@
                     </script>
                 </div>
             </div>
+            <div class="line_break">&nbsp;</div>
 		    <div id="retail_jobs">
     	        <h2>Retailer Jobs</h2>
     	        <div class="bs-docs-example" id="retailer_jobs_container">
