@@ -3,7 +3,7 @@
 		<div class="col-md-9 content_space">  
 		    <h1>Promotions</h1>
 		    <p id="no_promos" class="hidden_now"></p>
-		    <div id="promos">
+		    <div id="promos" class="hidden_now">
 		        <h2>Store Sales &amp; Promotions</h2>
                 <div class="media-list">
                     <div class="media" id="promo_container">
@@ -42,7 +42,7 @@
 
     function renderPage(){
         var promos = getPromotionsList();
-        renderPromotions("#promo_container","#promo_template", promos);
+        // renderPromotions("#promo_container","#promo_template", promos);
         if(promos.length > 0){
             renderPromotions("#promo_container","#promo_template", promos);
             $("#promos").show();
