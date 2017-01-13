@@ -294,6 +294,7 @@ function renderPromotions(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
+    var mall_name = getPropertyDetails().name;
     Mustache.parse(template_html); 
     $.each( collection , function( key, val ) {
         if (val.promotionable_type == "Store") {
@@ -303,7 +304,7 @@ function renderPromotions(container, template, collection){
             val.image_url = store_details.store_front_url_abs;
         }
         else{
-            val.store_name = "Marlborough Mall";
+            val.store_name = mall_name;
             // val.image_url = "";
         }
         if(val.promo_image_url_abs.indexOf('missing.png') > 0){
