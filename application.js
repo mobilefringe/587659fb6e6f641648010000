@@ -310,7 +310,6 @@ function renderPromotions(container, template, collection){
         if(val.promo_image_url_abs.indexOf('missing.png') > 0){
             val.promo_image_url_abs  = "//www.mallmaverick.com/system/sites/logo_images/000/000/040/original/marlborough_logo.jpg?1399497653";
         }
-        
         var show_date = moment(val.show_on_web_date);
         var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
@@ -320,7 +319,6 @@ function renderPromotions(container, template, collection){
         else{
             val.dates = start.format("MMM D") + " - " + end.format("MMM D")
         }
-        
         var rendered = Mustache.render(template_html,val);
         item_rendered.push(rendered);
     });
