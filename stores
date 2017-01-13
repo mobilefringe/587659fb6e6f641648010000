@@ -68,3 +68,22 @@
         
     </div>
 </div>
+<script>
+    $(document).ready(function(e){
+        // init(e);
+        loadMallDataCached(renderPage);
+        // $('#category_container, #category_container2').prepend('<li href="#" class="show_all_stores">All</li>');
+    })
+    
+    function renderPage(){
+        var stores = getStoresList();
+        console.log(stores);
+        renderStoreList('#store_list_container','#store_list_template', stores, "stores", "A", "M");
+        renderStoreList('#store_list_container2','#store_list_template2', stores, "stores","M", "Z" );
+        renderStoreList('#numbered_store_list_container','#numbered_store_list_template', stores, "stores","#", "#" );
+        var categories = getStoreCategories();
+        renderGeneral('#category_container, #category_container2', '#category_template', categories);
+        show_content();
+        show_cat_stores();
+    }
+</script>
