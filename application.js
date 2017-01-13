@@ -179,6 +179,7 @@ function renderJobDetails(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
+    var mall_name = getPropertyDetails().name;
     Mustache.parse(template_html); 
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
@@ -188,10 +189,9 @@ function renderJobDetails(container, template, collection){
             val.store_name = store_details.name;
         }
         else{
-            val.store_name = "Marlborough Mall";
+            val.store_name = mall_name;
             
         }
-        
         var show_date = moment(val.show_on_web_date);
         var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
