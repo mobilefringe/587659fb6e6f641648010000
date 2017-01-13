@@ -149,6 +149,7 @@ function renderJobs(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
+    var mall_name = getPropertyDetails().name;
     Mustache.parse(template_html); 
     $.each( collection , function( key, val ) {
         if(val.jobable_type == "Store"){
@@ -156,7 +157,7 @@ function renderJobs(container, template, collection){
             val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
         }
         else{
-            val.store_name = "Marlborough Mall";
+            val.store_name = mall_name;
         }
         var show_date = moment(val.show_on_web_date);
         var start = moment(val.start_date).tz(getPropertyTimeZone());
