@@ -43,7 +43,7 @@
                 			<div>
                 				<span class="stores_row store_row_name"><a href="/stores/{{name}}">{{name}}</a></span>
                 				<span class="stores_row">{{phone}}&nbsp;</span>
-                				<td class="stores_row  hidden-phone">{{}}</td>
+                				<td class="stores_row  hidden-phone">Category</td>
                 			</div>
             			</script>
             		</div>
