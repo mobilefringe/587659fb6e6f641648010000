@@ -6,9 +6,9 @@
     	    <div id="address_container">
     	        <script id="address_template" type="x-tmpl-mustache/text">
                     <h3>Address</h3>
-                    <h4>Sherwood Park</h4>
-                    	2020 Sherwood Dr</br>
-                    	Sherwood Park,
+                    <h4>{{name}}</h4>
+                    {{address1}}</br>
+                    {{city}},
                     	AB</br>
                     	Canada</br>
                     	T8A 3H9</br>
