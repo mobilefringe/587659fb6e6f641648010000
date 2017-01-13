@@ -51,7 +51,7 @@
             	<div id="pane2" class="pane2 tab-pane">
     	            <div style="padding-left:4px" id="categories_container">
     	                <script id="categories_template" type="x-tmpl-mustache/text">
-		                    <button class="btn-secondary" style="padding-left:10px;padding-right:10px" onClick="parent.location='#735'">Food Court</button>
+		                    <button class="btn-secondary" style="padding-left:10px;padding-right:10px" onClick="parent.location='#735'">{{name}}</button>
 		                </script>
             		</div>
             		
