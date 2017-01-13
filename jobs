@@ -7,8 +7,8 @@
     	        <div class="bs-docs-example" id="jobs_container">
     	            <script id="jobs_template" type="x-tmpl-mustache/text">
                         <div class="job_container">
-                            <h3><a href="/stores/sherwood-le-chateau">{{ store_name }}</a></h3>
-                            <h4><a href="/jobs/le-chateau-as-a-part-time-sales-associate--2">{{ name }}</a></h4>
+                            <h3>{{ store_name }}</h3>
+                            <h4><a href="/jobs/{{ slug}}">{{ name }}</a></h4>
                         </div>
                     </script>
                 </div>
@@ -18,8 +18,8 @@
     	        <div class="bs-docs-example" id="jobs_container">
     	            <script id="jobs_template" type="x-tmpl-mustache/text">
                         <div class="job_container">
-                            <h3><a href="/stores/sherwood-le-chateau">{{ store_name }}</a></h3>
-                            <h4><a href="/jobs/le-chateau-as-a-part-time-sales-associate--2">{{ name }}</a></h4>
+                            <h3><a href="/stores/{{ store_slug }}">{{ store_name }}</a></h3>
+                            <h4><a href="/jobs/{{ slug }}">{{ name }}</a></h4>
                         </div>
                     </script>
                 </div>
