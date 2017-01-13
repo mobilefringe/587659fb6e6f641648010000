@@ -43,7 +43,7 @@
     function renderPage(){
         var promos = getPromotionsList();
         // renderPromotions("#promo_container","#promo_template", promos);
-        if(promos.length > 0){
+        if(promos.length > 30){
             renderPromotions("#promo_container","#promo_template", promos);
             $("#promos").show();
         } else { 
