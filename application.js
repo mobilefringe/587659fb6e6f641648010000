@@ -35,6 +35,7 @@ function renderEvents(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
+    var mall_name = getPropertyDetails().name;
     Mustache.parse(template_html); 
     $.each( collection , function( key, val ) {
         if (val.eventable_type == "Store") {
@@ -44,7 +45,7 @@ function renderEvents(container, template, collection){
             val.event_image_url = store_details.store_front_url_abs;
         }
         else {
-            val.store_name = "Marlborough Mall";
+            val.store_name = mall_name;
             // val.event_image_url = val.event_image_url_abs;
         }
         if(val.event_image_url.indexOf('missing.png') < 0){
@@ -77,6 +78,7 @@ function renderEventDetails(container, template, collection){
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
+    var mall_name = getPropertyDetails().name;
     Mustache.parse(template_html); 
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
@@ -92,7 +94,7 @@ function renderEventDetails(container, template, collection){
             }
         }
         else{
-            val.store_name = "Marlborough Mall";
+            val.store_name = mall_name;
             val.image_url = "";
         }
         
