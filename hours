@@ -156,19 +156,17 @@
 						<tr>
 							<td>
 								<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
-                                	<table role="presentation" width="100%">
-                                		<tr>
-                                			<td width="44px">
-                            					<div>
+                                
+
+                            					<div style="width: 44px;">
                                  					<img alt="Icon_newsletter" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png" />
                             					</div>
-                                			</td>
-                                			<td align="left" style="padding-top:3px">
+                               
+                                			<div align="left" style="padding-top:3px">
                                 				<div class="visible-lg-block">Sign-up to Newsletter</div>
                                 				<div class="visible-md-block">Sign-up</div>
-                                			</td>
-                                		</tr>
-                                	</table>
+                                			</div>
+
                                 </button>
                                 <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
                                 	<div><img alt="Icon_newsletter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png" /></div>
