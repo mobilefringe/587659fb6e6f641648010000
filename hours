@@ -232,7 +232,7 @@
         renderFeatureItems('#feature_container','#feature_template', feature_items);
     }
     function todaysHours() {
-        var today = getTodaysHours();
+        var today = getTodaysHours().day_of_week;
         console.log(today);
         var hours_list = getPropertyHours();
         console.log(hours_list);
