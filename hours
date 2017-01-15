@@ -158,7 +158,7 @@
                     		</div>
                 		</script>
                 	</div>
-                	<div class="holiday_container hours_day hours_day_link"><a href="/hours">View all hours</a></div>
+                	<div class="hour_container hours_day hours_day_link"><a href="/hours">View all hours</a></div>
                 </div>
     		</div>
     	</div>    
