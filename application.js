@@ -172,6 +172,7 @@ function renderHomeHours(container, template, collection){
 }
 
 function renderHours(container, template, collection, type){
+    var today = getTodaysHours().day_of_week;
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
@@ -201,6 +202,9 @@ function renderHours(container, template, collection, type){
                     case 6:
                         val.day = "Saturday";
                         break;
+                }
+                if (today === val.day_of_week){
+                    console.log(YAY!); 
                 }
                 if (val.open_time && val.close_time && val.is_closed == false){
                     var open_time = moment(val.open_time).tz(getPropertyTimeZone());
