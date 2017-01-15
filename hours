@@ -38,7 +38,7 @@
         </div>	
 	    <!--<div class="line_break">&nbsp;</div>-->
 
-	    <div class="col-md-3 ">
+	        <div class="col-md-3 ">
         	<div class="thumbnails">
         		<div id="feature_container">
                     <script id="feature_template" type="x-tmpl-mustache/text">
@@ -133,11 +133,10 @@
         		</div>
         	</div>
         </div>
+        </div>
     </div>
 </div>
-</div>
-</div>
-</div>
+
 
 <div class="hours_bottom_nav hidden-xs">
 	<div class="container-fluid trim_screen">
