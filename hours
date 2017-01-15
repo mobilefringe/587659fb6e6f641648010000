@@ -38,105 +38,104 @@
         </div>	
 	    <!--<div class="line_break">&nbsp;</div>-->
 
-        <div class="col-md-3 ">
-        	<div class="thumbnails">
-        		<div id="feature_container">
-                    <script id="feature_template" type="x-tmpl-mustache/text">
-        			    <div class="feature_item col-sm-4 col-md-12 hidden-xs">
-        					<a href='{{ url }}'>
-                                <div class="thumbnail">
-                                    <img alt="Websitegraphics-giftcards" src="{{ image_url }}" />
-                                    <div class="caption">
-                                        <div class="feature_item_name">{{ name }}</div>
-                                        <div class="feature_item_description">{{ description }}</div>
-                                        <div class="read_more">Read More</div>
+            <div class="col-md-3 ">
+            	<div class="thumbnails">
+            		<div id="feature_container">
+                        <script id="feature_template" type="x-tmpl-mustache/text">
+            			    <div class="feature_item col-sm-4 col-md-12 hidden-xs">
+            					<a href='{{ url }}'>
+                                    <div class="thumbnail">
+                                        <img alt="Websitegraphics-giftcards" src="{{ image_url }}" />
+                                        <div class="caption">
+                                            <div class="feature_item_name">{{ name }}</div>
+                                            <div class="feature_item_description">{{ description }}</div>
+                                            <div class="read_more">Read More</div>
+                                        </div>
                                     </div>
-                                </div>
-                            </a>
-        			    </div>
-        			</script>    
+                                </a>
+            			    </div>
+            			</script>    
+                    </div>
                 </div>
+                <div style="height:305px">
+            		<div>
+            			<div class="connect_with_us hidden-sm"><nobr>Connect with Us</nobr></div>
+            		</div>
+            		<div>
+            			<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
+            				<div class="pull-left" style="width: 44px; display: inline-block;">
+             					<img alt="Icon_facebook" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169250000/icon_facebook_grey.png"/>
+            				</div>
+                			<div class="pull-left" style="padding-top:3px; display:inline-block;">
+                				<span class="visible-lg-block">Like on Facebook</span>
+                				<span class="visible-md-block">Like</span>
+                			</div>
+                        </button>
+                        <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
+                        	<div><img alt="Icon_facebook_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169250000/icon_facebook_grey.png"/></div>
+                        </button>
+            		</div>
+            		<div>
+            			<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('https://twitter.com/SherwoodPkMall')">
+            				<div class="pull-left" style="width: 44px; display: inline-block;">
+            					    <img alt="Icon_twitter" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169234000/icon_twitter_grey.png" />
+            				</div>
+                			<div class="pull-left" style="padding-top:3px; display: inline-block;">
+                				<span class="visible-lg-block">Follow on Twitter</span>
+                				<span class="visible-md-block">Follow</span>
+                			</div>
+                        </button>
+                        <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('https://twitter.com/SherwoodPkMall')">
+                        	<div><img alt="Icon_twitter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169234000/icon_twitter_grey.png" /></div>
+                        </button>
+            		</div>
+            		<div>
+            			<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
+            				<div class="pull-left" style="width: 44px; display: inline-block;">
+             					<img alt="Pinterest" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169222000/icon_pinterest_grey.png"/>
+            				</div>
+                			<div class="pull-left" style="padding-top:3px; display: inline-block;">
+                				<span class="visible-lg-block">Follow on Pinterest</span>
+                				<span class="visible-md-block">Pinterest</span>
+                			</div>
+                        </button>
+                        <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
+                        	<div><img alt="Icon_pinterest_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169222000/icon_pinterest_grey.png"/></div>
+                        </button>
+            		</div>
+            		<div>
+            			<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
+            				<div class="pull-left" style="width: 44px; display: inline-block;">
+             					<img alt="Icon_instagram" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169275000/icon_instagram_grey.png"/>
+            				</div>
+                			<div class="pull-left" style="padding-top:3px; display: inline-block;">
+                				<span class="visible-lg-block">Follow on Instagram</span>
+                				<span class="visible-md-block">Instagram</span>
+                			</div>
+                        </button>
+                        <button class="btn-social visible-xs" style="margin-bottom:4px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
+                        	<div><img alt="Icon_instagram_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169275000/icon_instagram_grey.png"/></div>
+                        </button>
+            		</div>
+            		<div>
+            			<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
+            				<div class="pull-left" style="width: 44px; display: inline-block;">
+             					<img alt="Icon_newsletter" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png" />
+            				</div>
+                			<div class="pull-left" style="padding-top:3px; display: inline-block;">
+                				<span class="visible-lg-block">Sign-up to Newsletter</span>
+                				<span class="visible-md-block">Sign-up</span>
+                			</div>
+                        </button>
+                        <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
+                        	<div><img alt="Icon_newsletter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png"/></div>
+                        </button>
+            		</div>
+            	</div>
             </div>
-            <div style="height:305px">
-        		<div>
-        			<div class="connect_with_us hidden-sm"><nobr>Connect with Us</nobr></div>
-        		</div>
-        		<div>
-        			<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
-        				<div class="pull-left" style="width: 44px; display: inline-block;">
-         					<img alt="Icon_facebook" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169250000/icon_facebook_grey.png"/>
-        				</div>
-            			<div class="pull-left" style="padding-top:3px; display:inline-block;">
-            				<span class="visible-lg-block">Like on Facebook</span>
-            				<span class="visible-md-block">Like</span>
-            			</div>
-                    </button>
-                    <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
-                    	<div><img alt="Icon_facebook_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169250000/icon_facebook_grey.png"/></div>
-                    </button>
-        		</div>
-        		<div>
-        			<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('https://twitter.com/SherwoodPkMall')">
-        				<div class="pull-left" style="width: 44px; display: inline-block;">
-        					    <img alt="Icon_twitter" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169234000/icon_twitter_grey.png" />
-        				</div>
-            			<div class="pull-left" style="padding-top:3px; display: inline-block;">
-            				<span class="visible-lg-block">Follow on Twitter</span>
-            				<span class="visible-md-block">Follow</span>
-            			</div>
-                    </button>
-                    <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('https://twitter.com/SherwoodPkMall')">
-                    	<div><img alt="Icon_twitter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169234000/icon_twitter_grey.png" /></div>
-                    </button>
-        		</div>
-        		<div>
-        			<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
-        				<div class="pull-left" style="width: 44px; display: inline-block;">
-         					<img alt="Pinterest" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169222000/icon_pinterest_grey.png"/>
-        				</div>
-            			<div class="pull-left" style="padding-top:3px; display: inline-block;">
-            				<span class="visible-lg-block">Follow on Pinterest</span>
-            				<span class="visible-md-block">Pinterest</span>
-            			</div>
-                    </button>
-                    <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('http://www.pinterest.com/sherwoodpkmall/')">
-                    	<div><img alt="Icon_pinterest_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169222000/icon_pinterest_grey.png"/></div>
-                    </button>
-        		</div>
-        		<div>
-        			<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
-        				<div class="pull-left" style="width: 44px; display: inline-block;">
-         					<img alt="Icon_instagram" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169275000/icon_instagram_grey.png"/>
-        				</div>
-            			<div class="pull-left" style="padding-top:3px; display: inline-block;">
-            				<span class="visible-lg-block">Follow on Instagram</span>
-            				<span class="visible-md-block">Instagram</span>
-            			</div>
-                    </button>
-                    <button class="btn-social visible-xs" style="margin-bottom:4px" onClick="openURL('http://instagram.com/sherwoodparkmall')">
-                    	<div><img alt="Icon_instagram_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169275000/icon_instagram_grey.png"/></div>
-                    </button>
-        		</div>
-        		<div>
-        			<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
-        				<div class="pull-left" style="width: 44px; display: inline-block;">
-         					<img alt="Icon_newsletter" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png" />
-        				</div>
-            			<div class="pull-left" style="padding-top:3px; display: inline-block;">
-            				<span class="visible-lg-block">Sign-up to Newsletter</span>
-            				<span class="visible-md-block">Sign-up</span>
-            			</div>
-                    </button>
-                    <button class="btn-social visible-xs-block" style="margin-bottom:4px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
-                    	<div><img alt="Icon_newsletter_grey" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png"/></div>
-                    </button>
-        		</div>
-        	</div>
-        </div>
         </div>
     </div>
 </div>
-
 
 <div class="hours_bottom_nav hidden-xs">
 	<div class="container-fluid trim_screen">
