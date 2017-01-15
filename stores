@@ -38,7 +38,7 @@
                     <div class="stores_table" id="store_list_container">
                         <script id="store_list_template" type="x-tmpl-mustache/text">
                             <div class="stores_table_headers" style="{{show}}">
-                		    	<a name={{initial}}></a> <p>{{initial}}</p>
+                		    	<a name={{initial}}></a> {{initial}}
                 			</div>
                 			<div class="">
                 				<span class="col-md-5 stores_row store_row_name"><a href="/stores/{{slug}}">{{name}}</a></span>
