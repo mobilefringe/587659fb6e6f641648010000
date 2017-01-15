@@ -41,9 +41,9 @@
                 		    	<a name={{initial}}></a> {{initial}}
                 			</div>
                 			<div class="row">
-                				<span class="col-md-5 stores_row store_row_name"><a href="/stores/{{slug}}">{{name}}</a></span>
-                				<span class="col-md-4 stores_row">{{phone}}</span>
-                				<span class="col-md-3 stores_row  hidden-xs">{{header}}</span>
+                				<span class="col-sm-5 stores_row store_row_name"><a href="/stores/{{slug}}">{{name}}</a></span>
+                				<span class="col-sm-4 stores_row">{{phone}}</span>
+                				<span class="col-sm-3 stores_row  hidden-xs">{{header}}</span>
                 			</div>
             			</script>
             		</div>
@@ -61,9 +61,9 @@
                 		    	<a name={{header}}></a>{{header}}
                 			</div>
                 			<div class="row">
-                				<span class="col-md-5 stores_row store_row_name"><a href="/stores/{{slug}}">{{name}}</a></span>
-                				<span class="col-md-3 stores_row">{{phone}}</span>
-                				<span class="col-md-4 stores_row  hidden-phone">{{header}}</span>
+                				<span class="col-sm-5 stores_row store_row_name"><a href="/stores/{{slug}}">{{name}}</a></span>
+                				<span class="col-sm-3 stores_row">{{phone}}</span>
+                				<span class="col-sm-4 stores_row  hidden-phone">{{header}}</span>
                 			</div>
             			</script>
             		</div>
