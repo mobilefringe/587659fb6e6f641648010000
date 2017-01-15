@@ -59,7 +59,7 @@
                 </div>
                 <div>
             		<div>
-            			<div class="connect_with_us hidden-sm"><nobr>Connect with Us</nobr></div>
+            			<div class="connect_with_us hidden-xs hidden-sm"><nobr>Connect with Us</nobr></div>
             		</div>
             		<div class="social_btn_container">
             			<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('https://www.facebook.com/sherwoodparkmall')">
