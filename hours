@@ -162,7 +162,7 @@
                                  					<img alt="Icon_newsletter" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png" />
                             					</div>
                                
-                                			<div align="left" style="padding-top:3px; display: inline-block; ">
+                                			<div class="pull-left" style="padding-top:3px; display: inline-block; ">
                                 				<span class="visible-lg-block">Sign-up to Newsletter</span>
                                 				<span class="visible-md-block">Sign-up</span>
                                 			</div>
