@@ -41,8 +41,8 @@
                 		    	<a name={{initial}}></a> {{initial}}
                 			</div>
                 			<div class="row">
-                				<span class="col-sm-5 stores_row store_row_name"><a href="/stores/{{slug}}">{{name}}</a></span>
-                				<span class="col-sm-4 stores_row">{{phone}}</span>
+                				<span class="col-xs-6 col-sm-5 stores_row store_row_name"><a href="/stores/{{slug}}">{{name}}</a></span>
+                				<span class="col-xs-6 col-sm-4 stores_row">{{phone}}</span>
                 				<span class="col-sm-3 stores_row  hidden-xs">{{header}}</span>
                 			</div>
             			</script>
