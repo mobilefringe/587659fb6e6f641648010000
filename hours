@@ -221,7 +221,7 @@
         renderHours('#hours_menu_container','#hours_menu_template', hours, 'reg_hours');
         
         var holiday_hour = getPropertyHours();
-        renderHours('#next_holiday_container','#next_holiday_template', holiday_hours, 'holiday_hours');
+        // renderHours('#next_holiday_container','#next_holiday_template', holiday_hours, 'holiday_hours');
         
         var feature_items = getFeatureList().slice(0,3);
         renderFeatureItems('#feature_container','#feature_template', feature_items);
