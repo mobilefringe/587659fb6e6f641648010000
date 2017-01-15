@@ -6,7 +6,7 @@
         	<div class="rounded-corners" id="hours_container">
         	    <script id="hours_template" type="x-tmpl-mustache/text">
         			<div class="drop-down-row">
-    					<div class="pull-left" align="left" style="font-weight:bold">{{ day }}</div>
+    					<div class="pull-left" align="left" style="font-weight:bold {{today}}">{{ day }}</div>
     					<div class="right-right" align="right">{{ h }}</div>
             		</div>
         		</script>
