@@ -209,6 +209,7 @@
 <script>
     $(document).ready(function(e){
         // init(e);
+        holidayHours();
         loadMallDataCached(renderPage);
     })
     // drop-down-row-today
@@ -229,5 +230,20 @@
         
         var feature_items = getFeatureList().slice(0,3);
         renderFeatureItems('#feature_container','#feature_template', feature_items);
+    }
+    function holidayHours(){
+        var holiday_hours = getPropertyHours();
+        console.log(holiday_hours);
+        var holidays = [];
+        $.each(holiday_hours, function(key, val){
+            if (type == "holiday_hours"){
+                today = moment();
+                console.log(today);
+                webDate = moment(val.show_on_web_date)
+                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                    holidays.push(val);
+                }
+            }
+        });
     }
 </script>
