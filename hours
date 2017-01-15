@@ -142,7 +142,7 @@
         <div class="container-fluid">
     		<div class="row-fluid">
     			<div class="footer_hours">
-    			    <div id="hours_menu_container">
+    			    <div class="hour_container" id="hours_menu_container">
                 	    <script id="hours_menu_template" type="x-tmpl-mustache/text">
                 			<div>
             					<div class="hours_day"><a href="/hours">{{ day }}</a></div>
