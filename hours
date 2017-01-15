@@ -150,7 +150,7 @@
                     		</div>
                 		</script>
                 	</div>
-                	<div id="next_holiday_container">
+                	<div class="hour_container" id="next_holiday_container">
                 	    <script id="next_holiday_template" type="x-tmpl-mustache/text">
                 			<div>
             					<div class="hours_day"><a href="/hours">{{ holiday_name }}</a></div>
@@ -158,7 +158,7 @@
                     		</div>
                 		</script>
                 	</div>
-                	<div class="hours_day hours_day_link"><a href="/hours">View all hours</a></div>
+                	<div class="holiday_container hours_day hours_day_link"><a href="/hours">View all hours</a></div>
                 </div>
     		</div>
     	</div>    
