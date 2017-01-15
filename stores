@@ -57,10 +57,10 @@
             		
             		<div class="stores_table" id="category_list_container">
             			<script id="category_list_template" type="x-tmpl-mustache/text">
-                            <div class="row-fluid stores_table_headers" style="{{show}}">
+                            <div class="row stores_table_headers" style="{{show}}">
                 		    	<a name={{header}}></a>{{header}}
                 			</div>
-                			<div class="row-fluid">
+                			<div class="row">
                 				<span class="col-md-5 stores_row store_row_name"><a href="/stores/{{slug}}">{{name}}</a></span>
                 				<span class="col-md-3 stores_row">{{phone}}</span>
                 				<span class="col-md-4 stores_row  hidden-phone">{{header}}</span>
