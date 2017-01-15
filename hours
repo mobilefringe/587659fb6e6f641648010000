@@ -222,7 +222,7 @@
         
         var holiday_hour = getPropertyHours();
         var today = moment();
-        if(val.holiday_date > today) {
+        if(holiday_hour.holiday_date > today) {
              renderHours('#next_holiday_container','#next_holiday_template', holiday_hours, 'holiday_hours');    
         }
        
