@@ -158,11 +158,11 @@
 								<button class="btn-social hidden-xs" style="margin-bottom:4px;min-width:90px" onClick="openURL('http://sherwoodparkmall.com/newsletter')">
                                 
 
-                            					<div style="width: 44px; display: inline-block;">
+                            					<div class="pull-left" style="width: 44px; display: inline-block;">
                                  					<img alt="Icon_newsletter" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png" />
                             					</div>
                                
-                                			<div class="pull-left" style="padding-top:3px; display: inline-block; ">
+                                			<div style="padding-top:3px; display: inline-block; ">
                                 				<span class="visible-lg-block">Sign-up to Newsletter</span>
                                 				<span class="visible-md-block">Sign-up</span>
                                 			</div>
