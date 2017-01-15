@@ -163,8 +163,8 @@
                             					</div>
                                
                                 			<div align="left" style="padding-top:3px">
-                                				<div class="visible-lg-block">Sign-up to Newsletter</div>
-                                				<div class="visible-md-block">Sign-up</div>
+                                				<span class="visible-lg-block">Sign-up to Newsletter</span>
+                                				<span class="visible-md-block">Sign-up</span>
                                 			</div>
 
                                 </button>
