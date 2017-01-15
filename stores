@@ -43,7 +43,7 @@
                 			<div class="row">
                 				<span class="col-xs-6 col-sm-5 stores_row store_row_name"><a href="/stores/{{slug}}">{{name}}</a></span>
                 				<span class="col-xs-6 col-sm-4 stores_row">{{phone}}</span>
-                				<span class="col-sm-3 stores_row  hidden-xs">{{header}}</span>
+                				<span class="hidden-xs col-sm-3 stores_row">{{header}}</span>
                 			</div>
             			</script>
             		</div>
