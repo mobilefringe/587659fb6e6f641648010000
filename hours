@@ -218,7 +218,7 @@
         renderHours('#hours_container','#hours_template', hours, 'reg_hours');
         renderHours('#holiday_container','#holiday_template', hours, 'holiday_hours'); 
         
-        // renderHolidayHours('#next_holiday_container','#next_holiday_template', hours, 'holiday_hours');
+        renderHours('#hours_menu_container','#hours_menu_template', hours, 'reg_hours');
         
         var feature_items = getFeatureList().slice(0,3);
         renderFeatureItems('#feature_container','#feature_template', feature_items);
