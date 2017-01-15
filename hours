@@ -236,7 +236,9 @@
         console.log(today);
         var hours_list = getPropertyHours().day_of_week;
         console.log(hours_list);
-        if(today === hours_list )
+        if(today === hours_list ){
+            console.log("yay");
+        }
         
     }
 </script>
