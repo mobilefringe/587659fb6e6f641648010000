@@ -230,4 +230,11 @@
         var feature_items = getFeatureList().slice(0,3);
         renderFeatureItems('#feature_container','#feature_template', feature_items);
     }
+    function todaysHours() {
+        var today = getTodaysHours();
+        console.log(today);
+        var hours_list = getPropertyHours();
+        console.log(hours_list);
+        
+    }
 </script>
