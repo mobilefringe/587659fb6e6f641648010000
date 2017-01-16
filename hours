@@ -67,7 +67,7 @@
              					<img alt="Icon_facebook" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169250000/icon_facebook_grey.png"/>
             				</div>
                 			<div class="pull-left" style="padding-top:3px; display:inline-block;">
-                				<span class="visible-md-block">Like on Facebook</span>
+                				<span class="visible-lg-block">Like on Facebook</span>
                 				<span class="visible-sm-block">Like</span>
                 			</div>
                         </button>
@@ -81,7 +81,7 @@
             					    <img alt="Icon_twitter" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169234000/icon_twitter_grey.png" />
             				</div>
                 			<div class="pull-left" style="padding-top:3px; display: inline-block;">
-                				<span class="visible-md-block">Follow on Twitter</span>
+                				<span class="visible-lg-block">Follow on Twitter</span>
                 				<span class="visible-sm-block">Follow</span>
                 			</div>
                         </button>
@@ -95,7 +95,7 @@
              					<img alt="Pinterest" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169222000/icon_pinterest_grey.png"/>
             				</div>
                 			<div class="pull-left" style="padding-top:3px; display: inline-block;">
-                				<span class="visible-md-block">Follow on Pinterest</span>
+                				<span class="visible-lg-block">Follow on Pinterest</span>
                 				<span class="visible-sm-block">Pinterest</span>
                 			</div>
                         </button>
@@ -109,7 +109,7 @@
              					<img alt="Icon_instagram" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169275000/icon_instagram_grey.png"/>
             				</div>
                 			<div class="pull-left" style="padding-top:3px; display: inline-block;">
-                				<span class="visible-md-block">Follow on Instagram</span>
+                				<span class="visible-lg-block">Follow on Instagram</span>
                 				<span class="visible-sm-block">Instagram</span>
                 			</div>
                         </button>
@@ -123,7 +123,7 @@
              					<img alt="Icon_newsletter" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484169294000/icon_newsletter_grey.png" />
             				</div>
                 			<div class="pull-left" style="padding-top:3px; display: inline-block;">
-                				<span class="visible-md-block">Sign-up to Newsletter</span>
+                				<span class="visible-lg-block">Sign-up to Newsletter</span>
                 				<span class="visible-sm-block">Sign-up</span>
                 			</div>
                         </button>
