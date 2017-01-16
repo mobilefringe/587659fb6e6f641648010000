@@ -3,24 +3,24 @@ function init() {
 }
 
 function nextHoliday() {
-        var holidays = getPropertyHours();
-        console.log(holidays);
-        var upcoming_holidays = [];
-        $.each(holidays, function(key, val){
-            if (val.is_holiday === true) {
-                today = moment();
-                holiday_date = moment(val.holiday_date);
-                if(today.tz(getPropertyTimeZone()) <= holiday_date.tz(getPropertyTimeZone())){
-                    upcoming_holidays.push(val);
-                }
+    var holidays = getPropertyHours();
+    console.log(holidays);
+    var upcoming_holidays = [];
+    $.each(holidays, function(key, val){
+        if (val.is_holiday === true) {
+            today = moment();
+            holiday_date = moment(val.holiday_date);
+            if(today.tz(getPropertyTimeZone()) <= holiday_date.tz(getPropertyTimeZone())){
+                upcoming_holidays.push(val);
             }
-        });
-        if(upcoming_holidays.length > 0){
-            var next_holiday = upcoming_holidays.slice(0,1);
-            console.log(upcoming_holidays);
-            renderHours('#next_holiday_container','#next_holiday_template', next_holiday, 'holiday_hours');
         }
+    });
+    if(upcoming_holidays.length > 0){
+        var next_holiday = upcoming_holidays.slice(0,1);
+        console.log(upcoming_holidays);
+        renderHours('#next_holiday_container','#next_holiday_template', next_holiday, 'holiday_hours');
     }
+}
     
 function renderBanner(banner_template,home_banner,banners){
     var item_list = [];
@@ -228,6 +228,11 @@ function renderHours(container, template, collection, type){
     Mustache.parse(template_html);   // optional, speeds up future uses
     if (type == "reg_hours") {
         $.each( collection , function( key, val ) {
+            var current_day = getTodaysHours().day_of_week;
+            var day_of_week = val.day_of_week;
+            if(current_day === day_of_week) {
+                $('.drop-down-row').addClass('.drop-down-row-today');
+            }
             if (!val.store_id && val.is_holiday == false) {
                 switch(val.day_of_week) {
                     case 0:
