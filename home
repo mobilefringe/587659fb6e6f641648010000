@@ -42,21 +42,21 @@
             						<span class="caret"></span>
             					</div>
                             </button>
-                            <ul class="dropdown-menu bottom" style="position:absolute;width:100%;left:0%;">  
+                            <div class="dropdown-menu bottom" style="position:absolute;width:100%;left:0%;">  
                         	    <div class="arrow"></div>
                         	    <h5 class="hours_title" align="center">Centre Hours</h5>
-                                <li id="hours_container">
+                                <div id="hours_container">
                                     <script id="hours_template" type="x-tmpl-mustache/text">
                     			        <div class="drop-down-row" style="margin-left:5px;margin-right:5px;" >
                     			            <div class="dropdown_day" align="left" style="font-weight:bold">{{day}}</div>
                     			            <div class="dropdown_hour pull-right" align="right">{{h}}</div>
                         			    </div>
                     			    </script>
-                        		</li>
+                        		</div>
                     	        <div class="view_hours">
                     	            <button class="btn-prime" onClick="location.href='/hours'">View All Hours</button>
                     	        </div>
-                            </ul>  
+                            </div>  
                         </div> 
                         <div class="col-md-5" style='padding-left:6px;'>
                 			<button class="btn-3 pull-right" align="center">
