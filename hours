@@ -153,8 +153,8 @@
                 	<div class="hour_container" id="next_holiday_container">
                 	    <script id="next_holiday_template" type="x-tmpl-mustache/text">
                 			<div>
-            					<div class="hours_day"><a href="/hours">{{ holiday_name }}</a></div>
-            					<div class="hours_hour"><a href="/hours">{{ formatted_date }}</a></div>
+            					<div class="hours_day"><a href="/hours">{{holiday_name}}</a></div>
+            					<div class="hours_hour"><a href="/hours">{{h}}</a></div>
                     		</div>
                 		</script>
                 	</div>
