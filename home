@@ -10,7 +10,7 @@
     button div {
         display: inline;
     }
-    .hour_icon {
+    .hour_icon, .phone_icon {
         padding-right: 5px;
         width: 44px;
     }
