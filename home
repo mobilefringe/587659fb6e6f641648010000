@@ -45,7 +45,7 @@
             						<span class="caret"></span>
             					</div>
                             </button>
-                            <div class="dropdown-menu bottom" style="position:absolute;width:100%;left:0%;">  
+                            <div class="dropdown-menu bottom">  
                         	    <div class="arrow"></div>
                         	    <h5 class="hours_title" align="center">Centre Hours</h5>
                                 <div id="hours_container">
