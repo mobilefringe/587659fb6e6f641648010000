@@ -1,4 +1,6 @@
 function init() {
+    var feature_items = getFeatureList().slice(0,3);
+    renderFeatureItems('#feature_container','#feature_template', feature_items);
     var hours = getPropertyHours();
     renderHours('#hours_menu_container','#hours_menu_template', hours, 'reg_hours');
     nextHoliday();
