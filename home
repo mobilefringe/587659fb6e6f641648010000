@@ -9,6 +9,8 @@
     }
     .dropdown-menu {
         width: 280px;
+        position: absolute;
+        left: 0%;
     }
     .dropdown_day, .dropdown_hour {
         display: inline-block;
