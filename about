@@ -55,20 +55,20 @@
         // });
         $(container).html(item_rendered.join(''));
     }
-    function renderAddress(header_container, header_template, post_details){
-            var item_list = [];
-            var item_rendered = [];
-            var template_html = $(header_template).html();
+    // function renderAddress(header_container, header_template, post_details){
+    //         var item_list = [];
+    //         var item_rendered = [];
+    //         var template_html = $(header_template).html();
             
-            if (post_details.title.length > 0){
-                title = post_details.title;
-            }
-            if (post_details.author.length > 0){
-                author = post_details.author;
-            }
-            var rendered = Mustache.render(template_html, post_details);
-            item_rendered.push(rendered);
+    //         if (post_details.title.length > 0){
+    //             title = post_details.title;
+    //         }
+    //         if (post_details.author.length > 0){
+    //             author = post_details.author;
+    //         }
+    //         var rendered = Mustache.render(template_html, post_details);
+    //         item_rendered.push(rendered);
            
-            $(header_container).html(item_rendered.join(''));
-        }
+    //         $(header_container).html(item_rendered.join(''));
+    //     }
 </script>
