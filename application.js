@@ -2,23 +2,7 @@ function init() {
     nextHoliday();
 }
 
-function nextHoliday() {
-    var holidays = getPropertyHours();
-    var upcoming_holidays = [];
-    $.each(holidays, function(key, val){
-        if (val.is_holiday === true) {
-            today = moment();
-            holiday_date = moment(val.holiday_date);
-            if(today.tz(getPropertyTimeZone()) <= holiday_date.tz(getPropertyTimeZone())){
-                upcoming_holidays.push(val);
-            }
-        }
-    });
-    if(upcoming_holidays.length > 0){
-        var next_holiday = upcoming_holidays.slice(0,1);
-        renderHours('#next_holiday_container','#next_holiday_template', next_holiday, 'holiday_hours');
-    }
-}
+
     
 function renderBanner(banner_template,home_banner,banners){
     var item_list = [];
@@ -294,35 +278,35 @@ function renderHours(container, template, collection, type){
     $(container).html(item_rendered.join(''));
 }
 
-function renderHolidayHours(container, template, collection){
-    var item_list = [];
-    var item_rendered = [];
-    var template_html = $(template).html();
-    Mustache.parse(template_html);   // optional, speeds up future uses
-    $.each(collection, function(key, val) {
-        if (type == "holiday_hours") {
-            $.each( collection , function( key, val ) {
-                if (!val.store_id && val.is_holiday == true) {
-                    holiday = moment(val.holiday_date).tz(getPropertyTimeZone());
-                    val.formatted_date = holiday.format("MMM DD");
-                    if (val.open_time && val.close_time && val.is_closed == false){
-                        var open_time = moment(val.open_time).tz(getPropertyTimeZone());
-                        var close_time = moment(val.close_time).tz(getPropertyTimeZone());
-                        val.h = open_time.format("h:mma") + " - " + close_time.format("h:mma");   
-                    } else {
-                        val.h = "Closed";
-                    }
-                    item_list.push(val);
-                }
-            });
-            collection = [];
-            collection = item_list;
-        }
-        var repo_rendered = Mustache.render(template_html,val);
-        item_rendered.push(repo_rendered);
-    });
-    $(container).html(item_rendered.join(''));
-}
+// function renderHolidayHours(container, template, collection){
+//     var item_list = [];
+//     var item_rendered = [];
+//     var template_html = $(template).html();
+//     Mustache.parse(template_html);   // optional, speeds up future uses
+//     $.each(collection, function(key, val) {
+//         if (type == "holiday_hours") {
+//             $.each( collection , function( key, val ) {
+//                 if (!val.store_id && val.is_holiday == true) {
+//                     holiday = moment(val.holiday_date).tz(getPropertyTimeZone());
+//                     val.formatted_date = holiday.format("MMM DD");
+//                     if (val.open_time && val.close_time && val.is_closed == false){
+//                         var open_time = moment(val.open_time).tz(getPropertyTimeZone());
+//                         var close_time = moment(val.close_time).tz(getPropertyTimeZone());
+//                         val.h = open_time.format("h:mma") + " - " + close_time.format("h:mma");   
+//                     } else {
+//                         val.h = "Closed";
+//                     }
+//                     item_list.push(val);
+//                 }
+//             });
+//             collection = [];
+//             collection = item_list;
+//         }
+//         var repo_rendered = Mustache.render(template_html,val);
+//         item_rendered.push(repo_rendered);
+//     });
+//     $(container).html(item_rendered.join(''));
+// }
 
 function renderJobs(container, template, collection){
     var item_list = [];
@@ -384,6 +368,24 @@ function renderJobDetails(container, template, collection){
         item_rendered.push(rendered);
     });
     $(container).html(item_rendered.join(''));
+}
+
+function nextHoliday() {
+    var holidays = getPropertyHours();
+    var upcoming_holidays = [];
+    $.each(holidays, function(key, val){
+        if (val.is_holiday === true) {
+            today = moment();
+            holiday_date = moment(val.holiday_date);
+            if(today.tz(getPropertyTimeZone()) <= holiday_date.tz(getPropertyTimeZone())){
+                upcoming_holidays.push(val);
+            }
+        }
+    });
+    if(upcoming_holidays.length > 0){
+        var next_holiday = upcoming_holidays.slice(0,1);
+        renderHours('#next_holiday_container','#next_holiday_template', next_holiday, 'holiday_hours');
+    }
 }
 
 function renderPromotions(container, template, collection){
