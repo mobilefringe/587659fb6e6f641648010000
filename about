@@ -49,26 +49,10 @@
         var item_rendered = [];
         var template_html = $(template).html();
         Mustache.parse(template_html); 
-        // $.each(prop_details , function( key, val ) {
-            var repo_rendered = Mustache.render(template_html, collection);
-            item_rendered.push(repo_rendered);
-        // });
+        
+        var repo_rendered = Mustache.render(template_html, collection);
+        item_rendered.push(repo_rendered);
+
         $(container).html(item_rendered.join(''));
     }
-    // function renderAddress(header_container, header_template, post_details){
-    //         var item_list = [];
-    //         var item_rendered = [];
-    //         var template_html = $(header_template).html();
-            
-    //         if (post_details.title.length > 0){
-    //             title = post_details.title;
-    //         }
-    //         if (post_details.author.length > 0){
-    //             author = post_details.author;
-    //         }
-    //         var rendered = Mustache.render(template_html, post_details);
-    //         item_rendered.push(rendered);
-           
-    //         $(header_container).html(item_rendered.join(''));
-    //     }
 </script>
