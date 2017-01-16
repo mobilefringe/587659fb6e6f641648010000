@@ -204,14 +204,13 @@ function renderMobileHomeHours(container, template, collection){
 }
 
 function renderHours(container, template, collection, type){
-    var current_day = getTodaysHours().day_of_week;
-    console.log(current_day);
+    var todays_hours = getTodaysHours().day_of_week;
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
     if (type == "reg_hours") {
-        $.each(collection, function(key, val) 
+        $.each( collection , function( key, val ) {
             if (!val.store_id && val.is_holiday == false) {
                 switch(val.day_of_week) {
                     case 0:
