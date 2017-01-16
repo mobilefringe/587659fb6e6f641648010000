@@ -20,7 +20,7 @@
                     <div class="visible-xs-block">
                     	<iframe title="mall map" width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="https://maps.google.nl/maps?q={{address1}} {{city}} {{Country}} {{province_state}} {{postal_code}}&amp;hl=en&amp;ie=UTF8&amp;t=v&amp;hnear={{address1}} {{city}} {{Country}} {{province_state}} {{postal_code}}&amp;z=13&amp;output=embed">Directions</iframe>
                     </div>
-                </script>
+                
             </div>
             
             
@@ -55,6 +55,7 @@
                     </div>
                 </div>
             </div>
+            </script>
         </div>
         	
     </div>
