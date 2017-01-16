@@ -213,12 +213,13 @@ function renderHours(container, template, collection, type){
     if (type == "reg_hours") {
         $.each(collection, function(key, val) {
 
-            var day_of_week = val.day_of_week;
+            
+            if (!val.store_id && val.is_holiday == false) {
+                var day_of_week = val.day_of_week;
             console.log(day_of_week);
             if(current_day === day_of_week) {
                 $('.drop-down-row').addClass('.drop-down-row-today');
             }
-            if (!val.store_id && val.is_holiday == false) {
                 switch(val.day_of_week) {
                     case 0:
                         val.day = "Sunday";
