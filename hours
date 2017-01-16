@@ -194,7 +194,7 @@
     }
     
     function nextHoliday() {
-        var holidays = get PropertyHours();
+        var holidays = getPropertyHours();
         var upcoming_holidays = [];
         $.each(holidays, function(key, val){
             if (val. == "") {
