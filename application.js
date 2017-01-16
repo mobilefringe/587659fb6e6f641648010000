@@ -1,4 +1,5 @@
 function init() {
+    var hours = getPropertyHours();
     renderHours('#hours_menu_container','#hours_menu_template', hours, 'reg_hours');
     nextHoliday();
 }
