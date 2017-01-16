@@ -1,5 +1,8 @@
 function init() {
-    function nextHoliday() {
+    nextHoliday();
+}
+
+function nextHoliday() {
         var holidays = getPropertyHours();
         console.log(holidays);
         var upcoming_holidays = [];
@@ -18,7 +21,7 @@ function init() {
             renderHours('#next_holiday_container','#next_holiday_template', next_holiday, 'holiday_hours');
         }
     }
-}
+    
 function renderBanner(banner_template,home_banner,banners){
     var item_list = [];
     var item_rendered = [];
