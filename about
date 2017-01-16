@@ -47,7 +47,7 @@
             		                <img alt="Icon_website" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484238863000/icon_website_white.png" style="height:24px;padding-right:15px;padding-top:0px;padding-left:0px" />
             		            </span>
             		            <span style="padding-top:3px;">
-        						    <a href="{{website}}">Visit Website</a>
+        						    <a href="mailto:{{contact_email}}">Email Us</a>
         						</span>
             		        </button>
             		    </div>
