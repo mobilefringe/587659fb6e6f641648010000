@@ -174,7 +174,7 @@
     // drop-down-row-today
     function renderPage(){
         var hours = getPropertyHours();
-        // console.log(hours);
+        console.log(hours);
         renderHours('#hours_container','#hours_template', hours, 'reg_hours');
         renderHours('#holiday_container','#holiday_template', hours, 'holiday_hours'); 
         
