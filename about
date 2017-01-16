@@ -40,7 +40,7 @@
         						</span>
         				    </button>
             		    </div>
-            		    {{#website}}
+            		    {{#contact_email}}
             		    <div class="store_website">
             		        <button class="btn-prime" onClick="openURL('{{website}}')">
             		            <span style="width: 44px;">
@@ -51,7 +51,7 @@
         						</span>
             		        </button>
             		    </div>
-            		    {{/website}}
+            		    {{/contact_email}}
                     </div>
                 </div>
             </div>
