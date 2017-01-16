@@ -208,7 +208,7 @@
             console.log(upcoming_holidays);
             }
         });
-        if(upcoming_holiday.length > 0){
+        if(upcoming_holidays.length > 0){
             console.log(upcoming_holidays);
             // renderJobs("#mall_jobs_container","#mall_jobs_template", mall_published_jobs);
         
