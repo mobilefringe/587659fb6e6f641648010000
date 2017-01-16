@@ -138,7 +138,7 @@ function renderGeneral(container, template, collection){
     var item_rendered = [];
     var template_html = $(template).html();
     Mustache.parse(template_html); 
-    $.each(prop_details , function( key, val ) {
+    $.each(collection, function( key, val ) {
         var repo_rendered = Mustache.render(template_html,val);
         item_rendered.push(repo_rendered);
     });
