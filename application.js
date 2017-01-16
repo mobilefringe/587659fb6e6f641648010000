@@ -211,15 +211,8 @@ function renderHours(container, template, collection, type){
     var template_html = $(template).html();
     Mustache.parse(template_html);   // optional, speeds up future uses
     if (type == "reg_hours") {
-        $.each(collection, function(key, val) {
-
-            
+        $.each(collection, function(key, val) 
             if (!val.store_id && val.is_holiday == false) {
-                var day_of_week = val.day_of_week;
-            console.log(day_of_week);
-            if(current_day === day_of_week) {
-                $('.drop-down-row').addClass('.drop-down-row-today');
-            }
                 switch(val.day_of_week) {
                     case 0:
                         val.day = "Sunday";
