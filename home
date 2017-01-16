@@ -318,7 +318,7 @@
         var template_html = $(template).html();
         Mustache.parse(template_html); 
         
-            var repo_rendered = Mustache.render(template_html,val);
+            var repo_rendered = Mustache.render(template_html, collection);
             item_rendered.push(repo_rendered);
 
         $(container).html(item_rendered.join(''));
