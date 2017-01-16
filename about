@@ -41,7 +41,7 @@
     function renderPage(){
         var prop_details = getPropertyDetails();
         console.log(prop_details);
-        renderGeneral('#address_container', '#address_template', prop_details);
+        renderAddress('#address_container', '#address_template', prop_details);
     }
     
     function renderAddress(container, template, collection){
