@@ -199,7 +199,7 @@
         console.log(holidays);
         var upcoming_holidays = [];
         $.each(holidays, function(key, val){
-            if (val.is_holiday == true) {
+            if (val.is_holiday === true) {
                 today = moment();
                 holiday_date = moment(val.holiday_date);
                 if(today.tz(getPropertyTimeZone()) >= holiday_date.tz(getPropertyTimeZone())){
