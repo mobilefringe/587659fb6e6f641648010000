@@ -108,14 +108,14 @@
                     <ul class="dropdown-menu bottom" style="position:absolute;width:100%;left:0%;">  
                 	    <div class="arrow"></div>
                 	    <h5 class="hours_title" align="center">Centre Hours</h5>
-                        <li>
-            			    <div class="drop-down-row" style="margin-left:5px;margin-right:5px;" id="mobile_hours_container">
-        			            <script id="mobile_hours_template" type="x-tmpl-mustache/text">
+                        <div id="mobile_hours_container">
+                            <script id="mobile_hours_template" type="x-tmpl-mustache/text">
+            			        <div class="drop-down-row" style="margin-left:5px;margin-right:5px;" >
             			            <div align="left" style="font-weight:bold">{{day}}</div>
             			            <div align="right">{{h}}</div>
-        				        </script>
-                			</div>
-                		</li>
+                			    </div>
+            			    </script>
+                		</div>
             	        <div class="view_hours">
             	            <button class="btn-prime" onClick="location.href='/hours'">View All Hours</button>
             	        </div>
