@@ -203,9 +203,7 @@
                 holiday_date = moment(val.holiday_date);
                 if(today.tz(getPropertyTimeZone()) >= holiday_date.tz(getPropertyTimeZone())){
                     upcoming_holidays.push(val);
-                    
                 }
-            console.log(upcoming_holidays);
             }
         });
         if(upcoming_holidays.length > 0){
