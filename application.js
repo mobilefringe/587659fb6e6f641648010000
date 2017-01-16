@@ -215,9 +215,9 @@ function renderHours(container, template, collection, type){
 
             var day_of_week = val.day_of_week;
             console.log(day_of_week);
-            // if(current_day === day_of_week) {
-            //     $('.drop-down-row').addClass('.drop-down-row-today');
-            // }
+            if(current_day === day_of_week) {
+                $('.drop-down-row').addClass('.drop-down-row-today');
+            }
             if (!val.store_id && val.is_holiday == false) {
                 switch(val.day_of_week) {
                     case 0:
