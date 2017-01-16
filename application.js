@@ -204,6 +204,8 @@ function renderMobileHomeHours(container, template, collection){
 }
 
 function renderHours(container, template, collection, type){
+    var todays_hours = getTodaysHours().day_of_week;
+    console.log(todays_hours);
     var item_list = [];
     var item_rendered = [];
     var template_html = $(template).html();
