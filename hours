@@ -146,7 +146,7 @@
                 	    <script id="hours_menu_template" type="x-tmpl-mustache/text">
                 			<div>
             					<div class="hours_day"><a href="/hours">{{ day }}</a></div>
-            					<div class="hours_hour"><a href="/hours">{{ h }}</a></div>
+            					<div class="hours_hour pull-right"><a href="/hours">{{ h }}</a></div>
                     		</div>
                 		</script>
                 	</div>
@@ -154,7 +154,7 @@
                 	    <script id="next_holiday_template" type="x-tmpl-mustache/text">
                 			<div>
             					<div class="hours_day"><a href="/hours">{{holiday_name}}</a></div>
-            					<div class="hours_hour"><a href="/hours">{{h}}</a></div>
+            					<div class="hours_hour pull-right"><a href="/hours">{{h}}</a></div>
                     		</div>
                 		</script>
                 	</div>
