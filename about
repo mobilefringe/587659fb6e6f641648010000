@@ -36,7 +36,7 @@
     							    <img alt="Icon_phone" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484238747000/icon_phone_white.png" style="height:20px;padding-right:15px;padding-top:0px;padding-left:0px" />
     						    </span>
         						<span align="left" style="padding-top:3px; display:inline" id="prop_phone_container">
-        						    <a href="tel:{{phone}}">{{phone}}</a>
+        						    <a href="tel:{{contact_phone}}">{{contact_phone}}</a>
         						</span>
         				    </button>
             		    </div>
