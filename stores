@@ -74,6 +74,33 @@
         
     </div>
 </div>
+<div class="hours_bottom_nav hidden-xs">
+    <div class="trim_screen">
+        <div class="container-fluid">
+    		<div class="row-fluid">
+    			<div class="footer_hours">
+    			    <div class="hour_container" id="hours_menu_container">
+                	    <script id="hours_menu_template" type="x-tmpl-mustache/text">
+                			<div>
+            					<div class="hours_day"><a href="/hours">{{day}}</a></div>
+            					<div class="hours_hour pull-right"><a href="/hours">{{h}}</a></div>
+                    		</div>
+                		</script>
+                	</div>
+                	<div class="hour_container" id="next_holiday_container">
+                	    <script id="next_holiday_template" type="x-tmpl-mustache/text">
+                			<div>
+            					<div class="hours_day"><a href="/hours">{{holiday_name}}</a></div>
+            					<div class="hours_hour pull-right"><a href="/hours">{{h}}</a></div>
+                    		</div>
+                		</script>
+                	</div>
+                	<div class="hour_container hours_day hours_day_link"><a href="/hours">View all hours</a></div>
+                </div>
+    		</div>
+    	</div>    
+    </div>
+</div>
 <script>
     $(document).ready(function(e){
         // init(e);
