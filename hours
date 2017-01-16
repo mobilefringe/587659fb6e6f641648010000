@@ -57,7 +57,7 @@
             			</script>    
                     </div>
                 </div>
-                <div>
+                <div class="col-md-12">
             		<div>
             			<div class="connect_with_us hidden-xs hidden-sm"><nobr>Connect with Us</nobr></div>
             		</div>
