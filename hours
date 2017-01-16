@@ -168,13 +168,11 @@
 <script>
     $(document).ready(function(e){
         init(e);
-        // todaysHours();
         loadMallDataCached(renderPage);
     })
     // drop-down-row-today
     function renderPage(){
         var hours = getPropertyHours();
-        // console.log(hours);
         renderHours('#hours_container','#hours_template', hours, 'reg_hours');
         renderHours('#holiday_container','#holiday_template', hours, 'holiday_hours'); 
         
@@ -182,18 +180,4 @@
         var feature_items = getFeatureList().slice(0,3);
         renderFeatureItems('#feature_container','#feature_template', feature_items);
     }
-    // function todaysHours() {
-    //     var hours_list = getPropertyHours();
-    //     console.log(hours_list);
-    //     var regular_hours = [];
-    //     $.each(hours_list, function(key, val){
-    //         if(val.is_holiday === false) {
-    //             var current_day = getTodaysHours().day_of_week;
-    //             var day_of_week = val.day_of_week;
-    //             if(current_day === day_of_week) {
-    //                 $()
-    //             }
-                
-    //         }
-    //     }
 </script>
