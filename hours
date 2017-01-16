@@ -202,7 +202,7 @@
             if (val.is_holiday === true) {
                 today = moment();
                 holiday_date = moment(val.holiday_date);
-                if(today.tz(getPropertyTimeZone()) =< holiday_date.tz(getPropertyTimeZone())){
+                if(today.tz(getPropertyTimeZone()) <= holiday_date.tz(getPropertyTimeZone())){
                     upcoming_holidays.push(val);
                 }
             }
