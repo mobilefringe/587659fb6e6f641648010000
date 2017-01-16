@@ -57,7 +57,7 @@
                         </div> 
                         <div class="col-md-5" style='padding-left:6px;'>
                 			<button class="btn-3 pull-right" align="center">
-    							<div style="width: 44px;">
+    							<div class="phone_icon">
     							    <img alt="Icon_phone_semi_trans" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484159662000/icon_phone.png" />
     						    </div>
         						<div align="left" style="padding-top:3px" id="prop_phone_container">
