@@ -193,29 +193,20 @@
         
     }
     
-    // function nextHoliday() {
-    //     var holidays = getPropertyHours();
-    //     var upcoming_holidays = [];
-    //     $.each(holidays, function(key, val){
-    //         if (val. == "") {
-    //             today = moment();
-    //             holiday_date = moment(val.);
-    //         }
-    //     })
-    // }
-    // var jobs = getJobsList().sortBy(function(o){ return o.start_date});
-    //     console.log(jobs);
-    //     var mall_published_jobs = [];
-    //     var retailer_published_jobs = [];
-    //     $.each( jobs , function( key, val ){
-    //         if(val.jobable_type == "Property"){
-    //             today = moment();
-    //             webDate = moment(val.show_on_web_date)
-    //             if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
-    //                 mall_published_jobs.push(val);
-    //             }
-    
-    
-    
-    
+    function nextHoliday() {
+        var holidays = getPropertyHours();
+        var upcoming_holidays = [];
+        $.each(holidays, function(key, val){
+            if (val.is_holiday == true) {
+                today = moment();
+                holiday_date = moment(val.holiday_date);
+                if(today.tz(getPropertyTimeZone()) >= holiday_date.tz(getPropertyTimeZone())){
+                    upcoming_holidays.push(val);
+                    
+                }
+            console.log(upcoming_holidays);
+            }
+        })
+    }
+   
 </script>
