@@ -28,6 +28,33 @@
             <a name="contact"></a>
             <h1>Contact Us</h1>
             <div class="hidden-phone">
+                <div class="line_break">&nbsp;</div>
+                    <div class="row-fluid">
+                        <div class="store_phone">
+                			<button class="btn-prime">
+    							<span style="width: 44px;">
+    							    <img alt="Icon_phone" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484238747000/icon_phone_white.png" style="height:20px;padding-right:15px;padding-top:0px;padding-left:0px" />
+    						    </span>
+        						<span align="left" style="padding-top:3px; display:inline" id="prop_phone_container">
+        						    <a href="tel:{{phone}}">{{phone}}</a>
+        						</span>
+        				    </button>
+            		    </div>
+            		    {{#website}}
+            		    <div class="store_website">
+            		        <button class="btn-prime" onClick="openURL('{{website}}')">
+            		            <span style="width: 44px;">
+            		                <img alt="Icon_website" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484238863000/icon_website_white.png" style="height:24px;padding-right:15px;padding-top:0px;padding-left:0px" />
+            		            </span>
+            		            <span style="padding-top:3px;">
+        						    <a href="{{website}}">Visit Website</a>
+        						</span>
+            		        </button>
+            		    </div>
+            		    {{/website}}
+                    </div>
+                </div>
+            </div>
         </div>
         	
     </div>
