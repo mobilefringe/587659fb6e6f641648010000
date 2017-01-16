@@ -127,7 +127,7 @@
     		    </div>
             </div>
             
-            <div class="row-fluid visible-desktop" >
+            <div class="row visible-desktop" >
                 <div class="thumbnails">
                     <div id="feature_container">
                         <script id="feature_template" type="x-tmpl-mustache/text">
