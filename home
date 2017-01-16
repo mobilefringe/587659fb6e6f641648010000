@@ -118,8 +118,8 @@
 						<div class="phone_icon">
 						    <img alt="Icon_phone_semi_trans" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484159662000/icon_phone.png" />
 					    </div>
-						<div align="left" style="padding-top:3px" id="prop_phone_container">
-						    <script id="prop_phone_template" type="x-tmpl-mustache/text">
+						<div align="left" style="padding-top:3px" id="mobile_prop_phone_container">
+						    <script id="mobile_prop_phone_template" type="x-tmpl-mustache/text">
 							    <nobr><a href="tel:{{contact_phone}}">{{contact_phone}}</a></nobr>
 						    </script>
 						</div>
