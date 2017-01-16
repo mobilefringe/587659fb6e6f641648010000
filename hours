@@ -168,7 +168,7 @@
 <script>
     $(document).ready(function(e){
         // init(e);
-        // todaysHours();
+        todaysHours();
         loadMallDataCached(renderPage);
     })
     // drop-down-row-today
