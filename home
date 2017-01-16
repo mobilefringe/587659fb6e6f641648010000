@@ -101,8 +101,8 @@
                 	    <div class="arrow"></div>
                 	    <h5 class="hours_title" align="center">Centre Hours</h5>
                         <li>
-            			    <div class="drop-down-row" style="margin-left:5px;margin-right:5px;" id="hours_container">
-        			            <script id="hours_template" type="x-tmpl-mustache/text">
+            			    <div class="drop-down-row" style="margin-left:5px;margin-right:5px;" id="mobile_hours_container">
+        			            <script id="mobile_hours_template" type="x-tmpl-mustache/text">
             			            <div align="left" style="font-weight:bold">{{day}}</div>
             			            <div align="right">{{h}}</div>
         				        </script>
