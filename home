@@ -88,8 +88,8 @@
 						<div class="hour_icon">
 						    <img alt="Icon_hours_semi_trans" src="//codecloud.cdn.speedyrails.net/sites/587659fb6e6f641648010000/image/png/1484159625000/icon_hours.png" />
 					    </div>
-    					<div align="left" style="padding-top:3px" id="home_hours_container">
-    					    <script id="home_hours_template" type="x-tmpl-mustache/text">
+    					<div align="left" style="padding-top:3px" id="mobile_home_hours_container">
+    					    <script id="mobile_home_hours_template" type="x-tmpl-mustache/text">
     						    <nobr>Open today until {{close_time}}</nobr>
     						</script>
     					</div>
@@ -291,9 +291,11 @@
         renderPropertyPhone('#prop_phone_container', '#prop_phone_template', prop_details);
         
         renderHomeHours();
+        renderMobileHomeHours();
 
         var hours = getPropertyHours();
         renderHours('#hours_container','#hours_template', hours, 'reg_hours');
+        renderHours('#mobile_hours_container','#mobile_hours_template', hours, 'reg_hours');
         var banners = getBanners();
         renderBanner('#banner_template','#home_banner',banners);
         var feature_items = getFeatureList();
