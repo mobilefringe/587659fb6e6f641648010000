@@ -16,7 +16,6 @@ function init() {
             var next_holiday = upcoming_holidays.slice(0,1);
             console.log(upcoming_holidays);
             renderHours('#next_holiday_container','#next_holiday_template', next_holiday, 'holiday_hours');
-        
         }
     }
 }
