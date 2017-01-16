@@ -209,7 +209,7 @@
         });
         if(upcoming_holidays.length > 0){
             console.log(upcoming_holidays);
-            // renderJobs("#mall_jobs_container","#mall_jobs_template", mall_published_jobs);
+            renderHours('#next_holiday_container','#next_holiday_template', upcoming_holidays, 'holiday_hours');
         
         }
     }
