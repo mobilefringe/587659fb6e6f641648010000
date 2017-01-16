@@ -4,7 +4,6 @@ function init() {
 
 function nextHoliday() {
     var holidays = getPropertyHours();
-    console.log(holidays);
     var upcoming_holidays = [];
     $.each(holidays, function(key, val){
         if (val.is_holiday === true) {
@@ -17,7 +16,6 @@ function nextHoliday() {
     });
     if(upcoming_holidays.length > 0){
         var next_holiday = upcoming_holidays.slice(0,1);
-        console.log(upcoming_holidays);
         renderHours('#next_holiday_container','#next_holiday_template', next_holiday, 'holiday_hours');
     }
 }
