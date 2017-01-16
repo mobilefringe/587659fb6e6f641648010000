@@ -32,7 +32,7 @@
     						    </div>
             					<div align="left" style="padding-top:3px" id="home_hours_container">
             					    <script id="home_hours_template" type="x-tmpl-mustache/text">
-            						    <nobr>Open today until  {{ close_time }}</nobr>
+            						    <nobr>Open today until {{close_time}}</nobr>
             						</script>
             					</div>
             					<div class="pull-right" style="padding-right:10px">
@@ -45,8 +45,8 @@
                                 <li>
                     			    <div class="drop-down-row" style="margin-left:5px;margin-right:5px;" id="hours_container">
                 			            <script id="hours_template" type="x-tmpl-mustache/text">
-                    			            <div align="left" style="font-weight:bold">{{ day }}</div>
-                    			            <div align="right">{{ h }}</div>
+                    			            <div align="left" style="font-weight:bold">{{day}}</div>
+                    			            <div align="right">{{h}}</div>
                 				        </script>
                         			</div>
                         		</li>
@@ -62,7 +62,7 @@
     						    </div>
         						<div align="left" style="padding-top:3px" id="prop_phone_container">
         						    <script id="prop_phone_template" type="x-tmpl-mustache/text">
-        							    <nobr><a href="tel:{{  }}">{{ contact_phone }}</a></nobr>
+        							    <nobr><a href="tel:{{contact_phone}}">{{contact_phone}}</a></nobr>
         						    </script>
         						</div>
         				    </button>
@@ -295,7 +295,6 @@
     
     function renderPage(){
         var prop_details = getPropertyDetails();
-        console.log(prop_details);
         renderPropertyPhone('#prop_phone_container', '#prop_phone_template', prop_details);
         
         renderHomeHours();
@@ -318,8 +317,8 @@
         var template_html = $(template).html();
         Mustache.parse(template_html); 
         
-            var repo_rendered = Mustache.render(template_html, collection);
-            item_rendered.push(repo_rendered);
+        var repo_rendered = Mustache.render(template_html, collection);
+        item_rendered.push(repo_rendered);
 
         $(container).html(item_rendered.join(''));
     }
